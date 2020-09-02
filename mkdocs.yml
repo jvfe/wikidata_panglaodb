@@ -1,0 +1,13 @@
+site_name: wikidata_panglaodb
+site_description: Research compendium for the project 'Analysing the extent of cell type information present in Wikidata - A case study on PanglaoDB'.
+site_author: jvfe
+site_url: https://jvfe.github.io/wikidata_panglaodb/
+nav:
+    - Home: index.md
+    - Reference: reference.md
+repo_url: https://github.com/jvfe/wikidata_panglaodb
+theme:
+  name: "material"
+plugins:
+  - search
+  - mkdocstrings

@@ -1,0 +1,3 @@
+[submodule "manuscripts/manuscript_panglaodb"]
+	path = manuscripts/manuscript_panglaodb
+	url = https://github.com/jvfe/manuscript_panglaodb.git
