@@ -6,12 +6,12 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Research compendium for the project 'Analysing the extent of cell type information present in Wikidata - A case study on PanglaoDB'." name="description"/>
-<link href="https://jvfe.github.io/wikidata_panglaodb/" rel="canonical"/>
+<link href="https://jvfe.github.io/wikidata_panglaodb/reference/similarity/" rel="canonical"/>
 <meta content="jvfe" name="author"/>
-<link href="assets/images/favicon.png" rel="shortcut icon"/>
+<link href="../../assets/images/favicon.png" rel="shortcut icon"/>
 <meta content="mkdocs-1.1.2, mkdocs-material-5.5.12" name="generator"/>
-<title>wikidata_panglaodb</title>
-<link href="assets/stylesheets/main.4dd2dd8d.min.css" rel="stylesheet"/>
+<title>Similarity - wikidata_panglaodb</title>
+<link href="../../assets/stylesheets/main.4dd2dd8d.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&amp;display=fallback" rel="stylesheet"/>
 <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
@@ -21,7 +21,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#analysing-the-extent-of-cell-type-information-present-in-wikidata-a-case-study-on-panglaodb">
+<a class="md-skip" href="#similarity-module">
           Skip to content
         </a>
 </div>
@@ -42,7 +42,7 @@
           </span>
 <span class="md-header-nav__topic md-ellipsis">
             
-              Home
+              Similarity
             
           </span>
 </div>
@@ -111,50 +111,13 @@
 </a>
 </div>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
-        Home
-        <span class="md-nav__icon md-icon"></span>
-</label>
-<a class="md-nav__link md-nav__link--active" href="." title="Home">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../.." title="Home">
       Home
     </a>
-<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#repository-brief-descrition">
-    Repository brief descrition
-  </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#reproducing-and-developing">
-    Reproducing and developing
-  </a>
-<nav aria-label="Reproducing and developing" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#reproducing-the-analyses">
-    Reproducing the analyses
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#collaborating">
-    Collaborating
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" id="nav-2" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="nav-2" id="nav-2" type="checkbox"/>
 <label class="md-nav__link" for="nav-2">
       Reference
       <span class="md-nav__icon md-icon"></span>
@@ -166,25 +129,43 @@
       </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="reference/preprocessing/" title="Preprocessing">
+<a class="md-nav__link" href="../preprocessing/" title="Preprocessing">
       Preprocessing
     </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="reference/similarity/" title="Similarity">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+        Similarity
+        <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./" title="Similarity">
       Similarity
     </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wikidata_panglaodb.similarity.get_string_match">
+    wikidata_panglaodb.similarity.get_string_match
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="analysis_description/" title="Analysis description">
+<a class="md-nav__link" href="../../analysis_description/" title="Analysis description">
       Analysis description
     </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="log_book/" title="Log book">
+<a class="md-nav__link" href="../../log_book/" title="Log book">
       Log book
     </a>
 </li>
@@ -203,28 +184,9 @@
     </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#repository-brief-descrition">
-    Repository brief descrition
+<a class="md-nav__link" href="#wikidata_panglaodb.similarity.get_string_match">
+    wikidata_panglaodb.similarity.get_string_match
   </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#reproducing-and-developing">
-    Reproducing and developing
-  </a>
-<nav aria-label="Reproducing and developing" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#reproducing-the-analyses">
-    Reproducing the analyses
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#collaborating">
-    Collaborating
-  </a>
-</li>
-</ul>
-</nav>
 </li>
 </ul>
 </nav>
@@ -233,70 +195,102 @@
 </div>
 <div class="md-content">
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/jvfe/wikidata_panglaodb/edit/master/docs/index.md" title="Edit this page">
+<a class="md-content__button md-icon" href="https://github.com/jvfe/wikidata_panglaodb/edit/master/docs/reference/similarity.md" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"></path></svg>
 </a>
-<!-- badges start -->
-<p><a href="https://github.com/jvfe/wikidata_panglaodb/blob/master/LICENSE"><img alt="license" src="https://img.shields.io/badge/license-BSD%202--Clause-green"/></a>
-<a href="https://github.com/jvfe/wikidata_panglaodb/actions"><img alt="pytest status" src="https://github.com/jvfe/wikidata_panglaodb/workflows/wikidata_panglaodb/badge.svg"/></a>
-<!-- badges end --></p>
-<h1 id="analysing-the-extent-of-cell-type-information-present-in-wikidata-a-case-study-on-panglaodb">Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB</h1>
-<p>Research compendium for the project "Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB".</p>
-<h2 id="repository-brief-descrition">Repository brief descrition</h2>
-<p>Research-related directories:</p>
-<ul>
-<li>
-<p><strong>analysis</strong>: Scripts and notebooks used for the main analysis. It also includes the subdirectories:</p>
-<ul>
-<li><strong>data</strong>: Raw data from PanglaoDB and Wikidata is stored here.</li>
-<li><strong>results</strong>: Processed data is stored here.</li>
-</ul>
-</li>
-<li>
-<p><strong>manuscripts</strong>: Manuscripts for this research project, each manuscript is a submodule of a GitHub repository that uses 
-    <a href="https://github.com/manubot/manubot">Manubot</a>.</p>
-</li>
-</ul>
-<p>Software-related directories, they are structured similarly to a Python package:</p>
-<ul>
-<li><strong>wikidata_panglaodb</strong>: This is the source code for all author-defined functions used in the analysis.</li>
-<li><strong>tests</strong>: These are the unit tests for the wikidata_panglaodb "package" functions.</li>
-<li><strong>docs</strong>: This is a directory containing documentation for the wikidata_panglaodb functions, it is served as
-    a <a href="http://jvfe.github.io/wikidata_panglaodb">live website</a> in our github pages branch.</li>
-</ul>
-<h2 id="reproducing-and-developing">Reproducing and developing</h2>
-<h3 id="reproducing-the-analyses">Reproducing the analyses</h3>
-<p>Pre-requisites:</p>
-<ul>
-<li>Python&gt;=3.7</li>
-<li>A unix based terminal interface.</li>
-</ul>
-<p>Download the <a href="https://github.com/jvfe/wikidata_panglaodb/archive/master.zip">repository's zip file</a> or clone it using:</p>
-<pre><code class="bash">git clone --recurse-submodules https://github.com/jvfe/wikidata_panglaodb
+<h1 id="similarity-module">Similarity module</h1>
+<p><strong>get_string_match()</strong></p>
+<div class="doc doc-object doc-function">
+<h2 class="hidden-toc" href="#wikidata_panglaodb.similarity.get_string_match" id="wikidata_panglaodb.similarity.get_string_match" style="visibility: hidden; width: 0; height: 0;">
+</h2>
+<div class="doc doc-contents first">
+<p>Checks if the stemmed version of two strings is the same</p>
+<p>Sometimes matches from the reconciliation service return as false since 
+the item has few statements or no statements at all. To take care of those 
+cases we'll perform a simple string similarity check, using the stemmed version
+of both strings.</p>
+<p><strong>Parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>string1</code></td>
+<td><code>str</code></td>
+<td>
+<p>A string to compare.</p>
+</td>
+<td><em>required</em></td>
+</tr>
+<tr>
+<td><code>string2</code></td>
+<td><code>str</code></td>
+<td>
+<p>A string to compare.</p>
+</td>
+<td><em>required</em></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>bool</code></td>
+<td>
+<p>If they match, return True, else return False.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<details class="quote">
+<summary>Source code in <code>wikidata_panglaodb/similarity.py</code></summary>
+<div class="highlight">
+<pre><span></span><code><span class="k">def</span> <span class="nf">get_string_match</span><span class="p">(</span><span class="n">string1</span><span class="p">,</span> <span class="n">string2</span><span class="p">):</span>
+    <span class="sd">"""Checks if the stemmed version of two strings is the same</span>
+
+<span class="sd">    Sometimes matches from the reconciliation service return as false since </span>
+<span class="sd">    the item has few statements or no statements at all. To take care of those </span>
+<span class="sd">    cases we'll perform a simple string similarity check, using the stemmed version</span>
+<span class="sd">    of both strings.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        string1 (str): A string to compare.</span>
+<span class="sd">        string2 (str): A string to compare.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        bool: If they match, return True, else return False.</span>
+
+<span class="sd">    """</span>
+
+    <span class="n">tokenized1</span> <span class="o">=</span> <span class="n">word_tokenize</span><span class="p">(</span><span class="n">string1</span><span class="p">)</span>
+    <span class="n">tokenized2</span> <span class="o">=</span> <span class="n">word_tokenize</span><span class="p">(</span><span class="n">string2</span><span class="p">)</span>
+
+    <span class="n">ps</span> <span class="o">=</span> <span class="n">PorterStemmer</span><span class="p">()</span>
+    <span class="n">stemmed1</span> <span class="o">=</span> <span class="p">[</span><span class="n">ps</span><span class="o">.</span><span class="n">stem</span><span class="p">(</span><span class="n">w</span><span class="p">)</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">tokenized1</span><span class="p">]</span>
+    <span class="n">stemmed2</span> <span class="o">=</span> <span class="p">[</span><span class="n">ps</span><span class="o">.</span><span class="n">stem</span><span class="p">(</span><span class="n">w</span><span class="p">)</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">tokenized2</span><span class="p">]</span>
+
+    <span class="k">if</span> <span class="n">stemmed1</span> <span class="o">==</span> <span class="n">stemmed2</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">False</span>
 </code></pre>
-<p>Then, at the project's root directory (wikidata_panglaodb/):</p>
-<pre><code class="bash">pip install .
-</code></pre>
-<p>And then run the scripts in the analysis/ subdirectory.</p>
-<h3 id="collaborating">Collaborating</h3>
-<p>Pre-requisites:</p>
-<ul>
-<li>Git</li>
-<li>A unix based terminal interface</li>
-<li><a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">Conda</a></li>
-</ul>
-<p>Initiate the environment:</p>
-<pre><code class="bash">conda env create -f environment.yaml
-conda activate wdt_panglaodb
-</code></pre>
-<p>Download the base package in editable mode:</p>
-<pre><code class="bash">pip install -e .
-</code></pre>
-<p><strong>If you've already collaborated before but changes have been made to the conda enviroment/repository, run:</strong></p>
-<pre><code class="bash">git pull origin master
-conda activate wdt_panglaodb
-conda env update --file environment.yaml
-</code></pre>
+</div>
+</details>
+</div>
+</div>
 </article>
 </div>
 </div>
@@ -304,13 +298,26 @@ conda env update --file environment.yaml
 <footer class="md-footer">
 <div class="md-footer-nav">
 <nav aria-label="Footer" class="md-footer-nav__inner md-grid">
-<a class="md-footer-nav__link md-footer-nav__link--next" href="reference/preprocessing/" rel="next" title="Preprocessing">
+<a class="md-footer-nav__link md-footer-nav__link--prev" href="../preprocessing/" rel="prev" title="Preprocessing">
+<div class="md-footer-nav__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</div>
+<div class="md-footer-nav__title">
+<div class="md-ellipsis">
+<span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Preprocessing
+              </div>
+</div>
+</a>
+<a class="md-footer-nav__link md-footer-nav__link--next" href="../../analysis_description/" rel="next" title="Analysis description">
 <div class="md-footer-nav__title">
 <div class="md-ellipsis">
 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Preprocessing
+                Analysis description
               </div>
 </div>
 <div class="md-footer-nav__button md-icon">
@@ -332,14 +339,14 @@ conda env update --file environment.yaml
 </div>
 </footer>
 </div>
-<script src="assets/javascripts/vendor.3636a4ec.min.js"></script>
-<script src="assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+<script src="../../assets/javascripts/vendor.3636a4ec.min.js"></script>
+<script src="../../assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
 <script>
         app = initialize({
-          base: ".",
+          base: "../..",
           features: [],
           search: Object.assign({
-            worker: "assets/javascripts/worker/search.5eca75d3.min.js"
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
