@@ -1,0 +1,299 @@
+id,match,name,score,type,type_id,input_value
+Q2464312,False,Albert Einstein's brain,48.0,human brain,Q492038,Brain
+Q94489,False,n-gram,16.5,[],,\N
+Q180544,False,prism,16.5,[],,\N
+Q175943,False,photodiode,9.0,[],,\N
+Q66505125,False,immune system,50.0,[],,Immune system
+Q5327158,False,Earth immune system,40.5,[],,Immune system
+Q17081105,False,Avian immune system,40.5,[],,Immune system
+Q1645075,False,adaptive immune system,37.0,[],,Immune system
+Q5172465,False,Corporate immune system,36.0,[],,Immune system
+Q64732757,False,immune system phenomenon,36.0,[],,Immune system
+Q2518735,False,artificial immune system,35.0,[],,Immune system
+Q4880726,False,behavioral immune system,35.0,[],,Immune system
+Q55785867,False,rare genetic immune disease,27.5,[],,Immune system
+Q21686041,False,immune checkpoint,25.0,[],,Immune system
+Q73510037,False,immunological model,22.0,[],,Immune system
+Q5630120,False,HLA-B63,5.0,[],,Immune system
+Q170145,False,zygote,50.0,[],,Zygote
+Q11498334,False,Zygote,50.0,[],,Zygote
+Q66569968,False,zygote,50.0,[],,Zygote
+Q8075903,False,Zygote intrafallopian transfer,16.5,[],,Zygote
+Q193527,False,vomer,67.0,bone,Q265868,Bone
+Q38155,False,nasal bone,62.0,flat bone,Q928150,Bone
+Q16295,False,frontal bone,50.0,flat bone,Q928150,Bone
+Q16370,False,human mandible,47.0,bone,Q265868,Bone
+Q6140833,False,Kidney,50.0,[],,Kidney
+Q178623,False,kidney stone,33.5,[],,Kidney
+Q202301,False,renal dialysis,22.0,[],,Kidney
+Q25339734,False,chronic kidney disease-mineral and bone disorder,15.5,[],,Kidney
+Q66597896,False,Vasculature of rib,38.0,[],,Vasculature
+Q66571892,False,vasculature of organ,35.5,[],,Vasculature
+Q66596232,False,Vasculature of long bone,31.5,[],,Vasculature
+Q66571893,False,vasculature of organ part,30.5,[],,Vasculature
+Q66594279,False,Vasculature of bone organ,30.5,[],,Vasculature
+Q66531252,False,vasculature of organ system,29.0,[],,Vasculature
+Q66596233,False,Vasculature of carpal bone,29.5,[],,Vasculature
+Q66596401,False,Vasculature of tarsal bone,29.5,[],,Vasculature
+Q66531265,False,vasculature of lumbar vertebra,27.0,[],,Vasculature
+Q66571992,False,vasculature of region of trunk,27.0,[],,Vasculature
+Q66571999,False,vasculature of region of limb,27.5,[],,Vasculature
+Q66594857,False,Vasculature of metacarpal bone,27.0,[],,Vasculature
+Q66595650,False,Vasculature of metatarsal bone,27.0,[],,Vasculature
+Q66596026,False,Vasculature of phalanx of toe,27.5,[],,Vasculature
+Q66601026,False,Vasculature of skeletal system,27.0,[],,Vasculature
+Q66592886,False,Vasculature of lobe of prostate,26.0,[],,Vasculature
+Q66603426,False,Vasculature of bony part of rib,26.0,[],,Vasculature
+Q66531264,False,vasculature of thoracic vertebra,25.5,[],,Vasculature
+Q66531283,False,vasculature of cervical vertebra,25.5,[],,Vasculature
+Q66595331,False,Vasculature of phalanx of finger,25.5,[],,Vasculature
+Q66594283,False,Vasculature of bony part of long bone,23.0,[],,Vasculature
+Q66594285,False,Vasculature of bony part of flat bone,23.0,[],,Vasculature
+Q66600738,False,Vasculature of anatomical compartment,23.0,[],,Vasculature
+Q66597157,False,Vasculature of bony part of carpal bone,22.0,[],,Vasculature
+Q66597818,False,Vasculature of bony part of tarsal bone,22.0,[],,Vasculature
+Q25615,False,connective tissue,50.0,[],,Connective tissue
+Q11893325,False,Connective tissue,50.0,[],,Connective tissue
+Q66560187,False,connective tissue cell,43.5,[],,Connective tissue
+Q3312266,False,loose connective tissue,42.5,[],,Connective tissue
+Q66511544,False,regular connective tissue,40.5,[],,Connective tissue
+Q66560229,False,areolar connective tissue,40.5,[],,Connective tissue
+Q66572767,False,fibrous connective tissue,40.5,[],,Connective tissue
+Q3268002,False,reticular connective tissue,38.5,[],,Connective tissue
+Q66590181,False,fibroelastic connective tissue,36.0,[],,Connective tissue
+Q66590182,False,fibrocollagenous connective tissue,33.5,[],,Connective tissue
+Q54943763,False,skin and connective tissue diseases,32.5,[],,Connective tissue
+Q55788704,False,undifferentiated connective tissue syndrome,29.5,[],,Connective tissue
+Q66602902,False,Areolar connective tissue of sulcal connective tissue of fibrous ring of tricuspid valve,16.0,[],,Connective tissue
+Q66602905,False,Areolar connective tissue of intersulcal connective tissue of fibrous ring of mitral valve,16.0,[],,Connective tissue
+Q66602903,False,Areolar connective tissue of intersulcal connective tissue of fibrous ring of tricuspid valve,15.5,[],,Connective tissue
+Q66602904,False,Areolar connective tissue of sulcal connective tissue of fibrous ring of mitral valve anulus,15.5,[],,Connective tissue
+Q7873,False,blood,50.0,[],,Blood
+Q494268,False,blood,50.0,[],,Blood
+Q110084,False,serum,33.5,[],,Blood
+Q79749,False,blood plasma,31.0,[],,Blood
+Q183134,False,sepsis,26.5,[],,Blood
+Q183605,False,blood transfusion,23.5,[],,Blood
+Q221694,False,blood–brain barrier,21.0,[],,Blood
+Q5064096,False,cerebral blood flow,21.0,[],,Blood
+Q1931577,False,thrombolysis,17.5,[],,Blood
+Q9655,False,artery,16.5,[],,Blood
+Q55286710,False,thromboembolism,16.5,[],,Blood
+Q1642137,False,hemodynamics,13.5,[],,Blood
+Q1409015,False,heart,50.0,[],,Heart
+Q5691852,False,Heart,50.0,[],,Heart
+Q5937755,False,human error assessment and reduction technique,50.0,[],,Heart
+Q9655,False,artery,37.5,[],,Heart
+Q933954,False,heart rate variability,25.0,[],,Heart
+Q216933,False,echocardiography,23.0,[],,Heart
+Q492905,False,diastole,16.5,[],,Heart
+Q496359,False,systole,16.5,[],,Heart
+Q6140977,False,Liver,50.0,[],,Liver
+Q67873858,False,beef liver,33.5,[],,Liver
+Q68487022,False,human liver,31.0,[],,Liver
+Q1349821,False,hepatotoxicity,29.5,[],,Liver
+Q6658207,False,liver injury,29.5,[],,Liver
+Q2335423,False,steatohepatitis,13.0,[],,Liver
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+,False,,,,,GI tract
+Q1048687,False,skeletal striated muscle,50.0,[],,Skeletal muscle
+Q66589779,False,skeletal muscle fiber proper,41.5,[],,Skeletal muscle
+Q78189009,False,Skeletal Muscle Myosins,39.5,[],,Skeletal muscle
+Q66563657,False,skeletal muscle fasciculus,36.5,[],,Skeletal muscle
+Q70079710,False,skeletal muscle satellite cells,33.5,[],,Skeletal muscle
+Q208453,False,smooth muscle tissue,50.0,[],,Smooth muscle
+Q66508979,False,smooth muscle cell,42.0,[],,Smooth muscle
+Q92577199,False,smooth muscle layer,40.5,[],,Smooth muscle
+Q55779988,False,benign smooth muscle neoplasm,33.5,[],,Smooth muscle
+Q1155702,False,skin,50.0,[],,Skin
+Q97671426,False,Skin,50.0,[],,Skin
+Q286,False,leather,30.0,[],,Skin
+Q170518,False,burn,28.5,[],,Skin
+Q988594,False,eczema,27.5,[],,Skin
+Q43616,False,mummy,25.0,[],,Skin
+Q349185,False,wrinkle,25.0,[],,Skin
+Q79785,False,electrocardiography,23.0,[],,Skin
+Q226697,False,parchment,23.0,[],,Skin
+Q7886,False,lung,50.0,[],,Lungs
+Q85782674,False,Lungs,50.0,[],,Lungs
+Q1682965,False,Pulmonary contusion,26.5,[],,Lungs
+Q552304,False,cardiopulmonary bypass,25.0,[],,Lungs
+Q337247,False,mediastinum,22.0,[],,Lungs
+Q31810173,False,Lungsud sa Malangas,21.0,[],,Lungs
+Q2990558,False,pulmonary compliance,20.0,[],,Lungs
+Q552461,False,hand washing,19.0,[],,Lungs
+Q754447,False,respiratory tract infection,18.0,[],,Lungs
+Q7075805,False,occupational lung disease,16.0,[],,Lungs
+Q927148,False,bronchoalveolar lavage,12.5,[],,Lungs
+Q91060086,False,respirable dust,10.0,[],,Lungs
+Q942537,False,compound eye,50.0,eye,Q7364,Eye
+Q67208213,False,Thymus,50.0,[],,Thymus
+Q76500953,False,thymus extracts,30.0,[],,Thymus
+Q55789706,False,benign neoplasm of thymus,24.0,[],,Thymus
+Q96756123,False,pig's bladder,64.0,urinary bladder,Q9382,Urinary bladder
+Q9355635,False,Thyroid,50.0,[],,Thyroid
+Q422106,False,thyroid hormone,46.0,[],,Thyroid
+Q55779989,False,benign thyroid gland neoplasm,26.0,[],,Thyroid
+Q56013685,False,rare thyroid disease,26.0,[],,Thyroid
+Q3658382,False,Anaplastic thyroid cancer,22.0,[],,Thyroid
+Q55785856,False,rare genetic thyroid disease,20.0,[],,Thyroid
+Q56013722,False,differentiated thyroid carcinoma,19.5,[],,Thyroid
+Q41301,False,epithelium,50.0,[],,Epithelium
+Q3052544,False,olfactory epithelium,34.5,[],,Epithelium
+Q1779259,False,transitional epithelium,33.5,[],,Epithelium
+Q2346242,False,retinal pigment epithelium,28.0,[],,Epithelium
+Q66560055,False,epithelium of zone of stomach,25.5,[],,Epithelium
+Q66571746,False,epithelium of lactiferous duct,25.0,[],,Epithelium
+Q862867,False,taste buds,23.5,[],,Epithelium
+Q66508131,False,epithelium of region of large intestine,20.5,[],,Epithelium
+Q5563113,False,Gingival margin,12.0,[],,Epithelium
+Q842083,False,male reproductive system,67.0,anatomical structure,Q4936952,Reproductive
+Q844342,False,female reproductive system,63.0,anatomical structure,Q4936952,Reproductive
+Q1377980,False,germ,50.0,[],,Embryo
+Q63177917,False,human embryo,50.0,[],,Embryo
+Q96377210,False,Embryo,50.0,[],,Embryo
+Q28962,False,embryogenesis,35.5,[],,Embryo
+Q1335221,False,inner cell mass,35.5,[],,Embryo
+Q237118,False,embryo transfer,30.0,[],,Embryo
+Q55436720,False,embryotoxicity,30.0,[],,Embryo
+Q28627,False,gestation,27.5,[],,Embryo
+Q30062554,False,embryonic structure,26.5,[],,Embryo
+Q1151519,False,embryonic stem cell,25.0,[],,Embryo
+Q690632,False,morula,23.0,[],,Embryo
+Q1427600,False,somite,21.5,[],,Embryo
+Q302169,False,balut,20.0,[],,Embryo
+Q323438,False,mesoderm,20.0,[],,Embryo
+Q376172,False,cleavage,20.0,[],,Embryo
+Q815547,False,morphogenesis,19.0,[],,Embryo
+Q189961,False,mammary gland,50.0,[],,Mammary gland
+Q66554652,False,left mammary gland,42.0,[],,Mammary gland
+Q66058110,False,human mammary gland,40.5,[],,Mammary gland
+Q66554648,False,right mammary gland,40.5,[],,Mammary gland
+Q1212935,True,placenta,100.0,organ,Q712378,Placenta
+Q65426278,False,Olfactory system,50.0,[],,Olfactory system
+Q66502822,False,olfactory system,50.0,[],,Olfactory system
+Q65353801,False,Sensory Systems/Olfactory System,33.5,[],,Olfactory system
+Q460276,False,olfactory receptor neuron,30.0,[],,Olfactory system
+Q471455,False,olfactory system dysfunction of Parkinson's disease,24.0,[],,Olfactory system
+Q17156866,False,University of Pennsylvania Smell Identification Test,14.5,[],,Olfactory system
+Q27042858,False,cavity of mouth,50.0,[],,Oral cavity
+Q66511687,False,subdivision of oral cavity,29.5,[],,Oral cavity
+Q69953343,False,oral pathology,16.0,[],,Oral cavity
+Q25324191,False,X-linked recessive hypoparathyroidism,37.5,[],,Parathyroid glands
+Q66569369,False,set of accessory parathyroid glands,34.0,[],,Parathyroid glands
+Q66603424,False,Set of adrenal glands,40.0,[],,Adrenal glands
+Q55789705,False,benign neoplasm of adrenal gland,32.5,[],,Adrenal glands
+Q182228,False,brain stem,71.0,anatomical structure,Q4936952,Brain
+Q130983,False,cerebellum,62.0,brain region,Q1620186,Brain
+Q822050,False,white matter,50.0,anatomical structure,Q4936952,Brain
+Q2464312,False,Albert Einstein's brain,48.0,human brain,Q492038,Brain
+Q1319792,False,corpus striatum,43.0,brain region,Q1620186,Brain
+Q1476178,False,nucleus accumbens,42.0,brain region,Q1620186,Brain
+Q502961,False,astrocyte,40.0,cell type,Q189118,Brain
+Q1622829,False,microglia,30.0,cell type,Q189118,Brain
+Q94489,False,n-gram,16.5,[],,\N
+Q180544,False,prism,16.5,[],,\N
+Q175943,False,photodiode,9.0,[],,\N
+Q1059,True,immune system,100.0,organ system,Q188193,Immune system
+Q170145,False,zygote,50.0,[],,Zygote
+Q11498334,False,Zygote,50.0,[],,Zygote
+Q66569968,False,zygote,50.0,[],,Zygote
+Q8075903,False,Zygote intrafallopian transfer,16.5,[],,Zygote
+Q265868,True,bone,100.0,anatomical structure,Q4936952,Bone
+Q7881,False,skeleton,89.0,anatomical structure,Q4936952,Bone
+Q193527,False,vomer,67.0,bone,Q265868,Bone
+Q38155,False,nasal bone,62.0,flat bone,Q928150,Bone
+Q1059724,False,tarsal bones,57.0,anatomical structure,Q4936952,Bone
+Q232377,False,carpal bone,53.0,anatomical structure,Q4936952,Bone
+Q546523,False,bone marrow,53.0,tissue,Q40397,Bone
+Q16295,False,frontal bone,50.0,flat bone,Q928150,Bone
+Q16370,False,human mandible,47.0,bone,Q265868,Bone
+Q237229,False,metacarpal bones,46.0,anatomical structure,Q4936952,Bone
+Q917177,False,osteoblast,40.0,cell type,Q189118,Bone
+Q9377,True,kidney,100.0,anatomical structure,Q4936952,Kidney
+Q955020,False,renal pelvis,63.0,anatomical structure,Q4936952,Kidney
+Q909882,False,glomerulus,52.0,anatomical structure,Q4936952,Kidney
+Q66566650,True,vasculature,100.0,anatomical structure,Q4936952,Vasculature
+Q25615,False,connective tissue,50.0,[],,Connective tissue
+Q11893325,False,Connective tissue,50.0,[],,Connective tissue
+Q66560187,False,connective tissue cell,43.5,[],,Connective tissue
+Q3312266,False,loose connective tissue,42.5,[],,Connective tissue
+Q66511544,False,regular connective tissue,40.5,[],,Connective tissue
+Q66560229,False,areolar connective tissue,40.5,[],,Connective tissue
+Q66572767,False,fibrous connective tissue,40.5,[],,Connective tissue
+Q3268002,False,reticular connective tissue,38.5,[],,Connective tissue
+Q66590181,False,fibroelastic connective tissue,36.0,[],,Connective tissue
+Q66590182,False,fibrocollagenous connective tissue,33.5,[],,Connective tissue
+Q54943763,False,skin and connective tissue diseases,32.5,[],,Connective tissue
+Q55788704,False,undifferentiated connective tissue syndrome,29.5,[],,Connective tissue
+Q66602902,False,Areolar connective tissue of sulcal connective tissue of fibrous ring of tricuspid valve,16.0,[],,Connective tissue
+Q66602905,False,Areolar connective tissue of intersulcal connective tissue of fibrous ring of mitral valve,16.0,[],,Connective tissue
+Q66602903,False,Areolar connective tissue of intersulcal connective tissue of fibrous ring of tricuspid valve,15.5,[],,Connective tissue
+Q66602904,False,Areolar connective tissue of sulcal connective tissue of fibrous ring of mitral valve anulus,15.5,[],,Connective tissue
+Q988343,False,blood vessel,73.0,anatomical structure,Q4936952,Blood
+Q11068,False,circulatory system,62.0,organ system,Q188193,Blood
+Q37187,False,red blood cell,59.0,cell type,Q189118,Blood
+Q9609,False,veins,55.0,anatomical structure,Q4936952,Blood
+Q715347,False,lymphocyte,46.0,cell type,Q189118,Blood
+Q184204,False,macrophage,44.0,cell type,Q189118,Blood
+Q111140,False,endothelium,40.0,tissue,Q40397,Blood
+Q1072,True,heart,100.0,anatomical structure,Q4936952,Heart
+Q1074839,False,atrium,62.0,anatomical structure,Q4936952,Heart
+Q2002035,False,ventricle,57.0,anatomical structure,Q4936952,Heart
+Q9368,True,liver,100.0,anatomical structure,Q4936952,Liver
+Q827450,False,hepatocyte,53.0,cell type,Q189118,Liver
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q728309,False,islet of Langerhans,64.0,anatomical structure,Q4936952,Pancreas
+Q50265665,False,insulin,38.0,protein complex,Q420927,Pancreas
+Q11829360,True,gastrointestinal tract,100.0,anatomical structure,Q4936952,GI tract
+Q22329129,False,skeletal muscle myofibril,75.0,cellular component,Q5058355,Skeletal muscle
+Q22327562,False,neuromuscular junction of skeletal muscle fiber,48.0,cellular component,Q5058355,Skeletal muscle
+Q14878848,False,smooth muscle contractile fiber,81.0,cellular component,Q5058355,Smooth muscle
+Q1074,True,skin,100.0,anatomical structure,Q4936952,Skin
+Q212743,False,epidermis,50.0,anatomical structure,Q4936952,Skin
+Q535352,False,pulmonary vein,67.0,veins,Q9609,Lungs
+Q175449,False,trachea,55.0,anatomical structure,Q4936952,Lungs
+Q7364,True,eye,100.0,anatomical structure,Q4936952,Eye
+Q27777837,False,yellow,57.0,eye color,Q23786,Eye
+Q17122854,False,green,55.0,eye color,Q23786,Eye
+Q17126729,False,red,55.0,eye color,Q23786,Eye
+Q178748,False,iris,50.0,anatomical structure,Q4936952,Eye
+Q942537,False,compound eye,50.0,eye,Q7364,Eye
+Q17122740,False,hazel,50.0,eye color,Q23786,Eye
+Q17122834,False,blue,50.0,eye color,Q23786,Eye
+Q17244465,False,black,50.0,eye color,Q23786,Eye
+Q17122705,False,brown,46.0,eye color,Q23786,Eye
+Q173318,False,pupil,40.0,anatomical structure,Q4936952,Eye
+Q17244894,False,dark brown,33.0,eye color,Q23786,Eye
+Q163987,True,thymus,100.0,anatomical structure,Q4936952,Thymus
+Q9382,True,urinary bladder,100.0,anatomical structure,Q4936952,Urinary bladder
+Q96756123,False,pig's bladder,64.0,urinary bladder,Q9382,Urinary bladder
+Q16399,True,thyroid gland,100.0,anatomical structure,Q4936952,Thyroid
+Q2040445,False,corneal epithelium,71.0,tissue,Q40397,Epithelium
+Q29578543,False,columnar epithelium,69.0,tissue,Q40397,Epithelium
+Q6707417,False,stratified epithelium,65.0,tissue,Q40397,Epithelium
+Q1428754,False,respiratory epithelium,62.0,tissue,Q40397,Epithelium
+Q3267446,False,pseudostratified columnar epithelium,57.0,tissue,Q40397,Epithelium
+Q213456,False,gonad,80.0,anatomical structure,Q4936952,Reproductive
+Q7895,False,reproductive system,77.0,anatomical structure,Q4936952,Reproductive
+Q842083,False,male reproductive system,67.0,anatomical structure,Q4936952,Reproductive
+Q844342,False,female reproductive system,63.0,anatomical structure,Q4936952,Reproductive
+Q1233836,False,fallopian tube,53.0,anatomical structure,Q4936952,Reproductive
+Q4712977,False,genitourinary system,50.0,anatomical structure,Q4936952,Reproductive
+Q5880,False,vagina,44.0,anatomical structure,Q4936952,Reproductive
+Q172563,False,umbilical cord,46.0,anatomical structure,Q4936952,Embryo
+Q1956694,False,myoblast,44.0,cell type,Q189118,Embryo
+Q189961,False,mammary gland,50.0,[],,Mammary gland
+Q66554652,False,left mammary gland,42.0,[],,Mammary gland
+Q66058110,False,human mammary gland,40.5,[],,Mammary gland
+Q66554648,False,right mammary gland,40.5,[],,Mammary gland
+Q1120914,False,placenta,100.0,plant structure,Q20011319,Placenta
+Q1212935,False,placenta,100.0,organ,Q712378,Placenta
+Q172563,False,umbilical cord,50.0,anatomical structure,Q4936952,Placenta
+Q1054094,True,olfactory system,100.0,organ system,Q188193,Olfactory system
+Q27042858,False,cavity of mouth,50.0,[],,Oral cavity
+Q66511687,False,subdivision of oral cavity,29.5,[],,Oral cavity
+Q69953343,False,oral pathology,16.0,[],,Oral cavity
+Q25324191,False,X-linked recessive hypoparathyroidism,37.5,[],,Parathyroid glands
+Q66569369,False,set of accessory parathyroid glands,34.0,[],,Parathyroid glands
+Q712294,True,adrenal gland,100.0,anatomical structure,Q4936952,Adrenal glands

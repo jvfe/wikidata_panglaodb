@@ -1,8 +1,6 @@
 """Preprocessing and download functions"""
 
 from reconciler import reconcile
-from wikidata2df import wikidata2df
-from wikidataintegrator import wdi_core
 import pandas as pd
 import numpy as np
 
@@ -43,7 +41,7 @@ def downloads_panglao(data_urls):
     return tissues, genes, cells_organs_germlayers, cells_w_descriptions
 
 
-def reconcile_and_filter(dataframe_column, type_qids):
+def reconcile_more_types(dataframe_column, type_qids):
     """Reconcile dataframe column against one type QID or more
 
     This functions loops through all qids given in the type_qids list and reconciles the pandas
@@ -71,3 +69,28 @@ def reconcile_and_filter(dataframe_column, type_qids):
         pass
     else:
         return full_df_matches
+
+
+def chunk_dataframe(df, base_size):
+    """Splits a dataframe into many chunks of length base_size
+    
+    This is useful to reconcile large dataframes, since the requests will 
+    be lighter and you'll have the capacity to space them out.
+
+    Args:
+        df (DataFrame): A large dataframe to split.
+        base_size (int): The number of rows of each chunk.
+
+    Returns:
+        list(DataFrame): A list of DataFrames, each of length base_size.
+    """
+
+    length_of_list = int(len(df) / base_size)
+
+    chunks = [
+        df.iloc[i * base_size : (i + 1) * base_size].copy()
+        for i in range(length_of_list + 1)
+    ]
+
+    return chunks
+

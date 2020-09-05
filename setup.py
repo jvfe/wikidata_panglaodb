@@ -6,10 +6,10 @@ with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
 install_requirements = [
+    "nltk",
     "pandas",
     "reconciler",
     "wikidata2df",
-    "wikidataintegrator",
 ]
 
 test_requirements = [

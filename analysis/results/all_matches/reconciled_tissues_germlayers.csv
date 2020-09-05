@@ -1,0 +1,1324 @@
+id,match,name,score,type,input_value,type_id
+Q6821207,False,mesenteric cyst,40.0,[],Mesenteric,
+Q18343968,False,Mesenteric organ,38.5,[],Mesenteric,
+Q6821212,False,Mesenteric lymph nodes,37.0,[],Mesenteric,
+Q66507573,False,mesenteric lymph node,32.5,[],Mesenteric,
+Q6029373,False,Inferior mesenteric plexus,28.0,[],Mesenteric,
+Q1493499,False,Superior mesenteric ganglion,26.5,[],Mesenteric,
+Q6029368,False,Inferior mesenteric ganglion,26.5,[],Mesenteric,
+Q25385236,False,Superior mesenteric vein syndrome,23.5,[],Mesenteric,
+Q66511973,False,tributary of superior mesenteric vein,22.0,[],Mesenteric,
+Q17993338,False,idiopathic mesenteric phlebosclerosis,21.5,[],Mesenteric,
+Q66568445,False,subdivision of superior mesenteric artery,21.5,[],Mesenteric,
+Q66600617,False,Renal subcortex,37.5,[],Subcortex,
+Q66599012,False,Cerebral subcortex,33.5,[],Subcortex,
+Q66599011,False,Left cerebral subcortex,28.0,[],Subcortex,
+Q66599010,False,Right cerebral subcortex,27.5,[],Subcortex,
+Q66600619,False,Subcortex of left kidney,27.5,[],Subcortex,
+Q66600618,False,Subcortex of right kidney,26.5,[],Subcortex,
+Q66599014,False,region of cerebral subcortex,24.5,[],Subcortex,
+,False,,,,Cd14+ monocytes,
+Q7543099,False,Small intestine,50.0,[],Small intestine,
+Q55777151,False,"small intestine neuroendocrine tumor, well differentiated, low or intermediate grade",43.0,[],Small intestine,
+Q2852245,False,small-intestine disease,39.5,[],Small intestine,
+Q55780164,False,small intestinal mucosa-associated lymphoid tissue lymphoma,39.5,[],Small intestine,
+Q55789570,False,adenoma of small intestine,39.5,[],Small intestine,
+Q55998645,False,atresia of small intestine,39.5,[],Small intestine,
+Q66508992,False,zone of small intestine,39.5,[],Small intestine,
+Q66511035,False,mucosa of small intestine,37.5,[],Small intestine,
+Q55780865,False,hemangiomas of small intestine,36.5,[],Small intestine,
+Q66512945,False,orifice of small intestine,36.5,[],Small intestine,
+Q66714004,False,Surface of small intestine,36.5,[],Small intestine,
+Q55789697,False,benign neoplasm of small intestine,35.0,[],Small intestine,
+Q66511038,False,submucosa of small intestine,35.0,[],Small intestine,
+Q55788133,False,rare tumor of small intestine,34.0,[],Small intestine,
+Q66558184,False,epithelium of small intestine,34.0,[],Small intestine,
+Q55780159,False,small intestinal Burkitt lymphoma,32.0,[],Small intestine,
+Q25326552,False,intestine transplantation,30.0,[],Small intestine,
+Q55788136,False,squamous cell carcinoma of the small intestine,28.0,[],Small intestine,
+Q55788262,False,hereditary neuroendocrine tumor of small intestine,23.0,[],Small intestine,
+Q2442277,False,tubal tonsil,67.0,lymphatic tissue,Tonsil,Q3529455
+,False,,,,Cultured embryonic stem cells,
+Q2346577,False,cortex,50.0,[],Cortex,
+Q5173237,False,cortex,50.0,[],Cortex,
+Q5173240,False,cortex,50.0,[],Cortex,
+Q1422654,False,insula,35.5,[],Cortex,
+Q1892702,False,cingulate gyrus,26.0,[],Cortex,
+Q7134910,False,Paralimbic cortex,26.0,[],Cortex,
+Q47011259,False,cortical thickness,21.0,[],Cortex,
+Q2998088,False,posterior cingulate,19.0,[],Cortex,
+Q19468049,False,gyrification,11.0,[],Cortex,
+,False,,,,Lung progenitors,
+,False,,,,Embryonic kidney cortex,
+,False,,,,Ventral midbrain,
+Q1128050,False,hematopoietic stem cell transplantation,32.0,[],Bone marrow stem cells,
+,False,,,,Caudal ganglionic eminence,
+,False,,,,Cervical and lumbar spinal cord,
+Q1475019,False,colon,50.0,[],Colon,
+Q18816500,False,colon,50.0,[],Colon,
+Q133156,False,colony,45.5,[],Colon,
+Q840387,False,colonoscopy,31.0,[],Colon,
+,False,,,,Medial ganglionic eminence,
+,False,,,,Lung mesenchyme,
+,False,,,,Kidney cortex,
+,False,,,,Aortic leukocytes,
+Q937403,False,Subventricular zone,50.0,[],Subventricular zone,
+,False,,,,Trigeminal neurons,
+Q546523,True,bone marrow,100.0,tissue,Bone marrow,Q40397
+,False,,,,Alveolar rhabdomyosarcoma,
+,False,,,,Peripheral blood mononuclear cells,
+Q189961,False,mammary gland,50.0,[],Mammary gland,
+Q66554652,False,left mammary gland,42.0,[],Mammary gland,
+Q66058110,False,human mammary gland,40.5,[],Mammary gland,
+Q66554648,False,right mammary gland,40.5,[],Mammary gland,
+Q1377980,False,germ,50.0,[],Embryo,
+Q63177917,False,human embryo,50.0,[],Embryo,
+Q96377210,False,Embryo,50.0,[],Embryo,
+Q28962,False,embryogenesis,35.5,[],Embryo,
+Q1335221,False,inner cell mass,35.5,[],Embryo,
+Q237118,False,embryo transfer,30.0,[],Embryo,
+Q55436720,False,embryotoxicity,30.0,[],Embryo,
+Q28627,False,gestation,27.5,[],Embryo,
+Q30062554,False,embryonic structure,26.5,[],Embryo,
+Q1151519,False,embryonic stem cell,25.0,[],Embryo,
+Q690632,False,morula,23.0,[],Embryo,
+Q1427600,False,somite,21.5,[],Embryo,
+Q323438,False,mesoderm,20.0,[],Embryo,
+Q376172,False,cleavage,20.0,[],Embryo,
+Q815547,False,morphogenesis,19.0,[],Embryo,
+Q206732,False,swim bladder,39.0,[],Bladder,
+Q6808346,False,Megacystis,39.0,[],Bladder,
+Q55758248,False,pig bladder,39.0,[],Bladder,
+Q5507136,False,fuel bladder,37.0,[],Bladder,
+Q5518904,False,gallbladder polyp,29.0,[],Bladder,
+Q56014509,False,gallbladder neoplasm,29.0,[],Bladder,
+Q55789923,False,childhood bladder carcinoma,22.5,[],Bladder,
+Q1619419,False,Hinman syndrome,21.0,[],Bladder,
+Q1366695,False,urinary retention,19.0,[],Bladder,
+Q5113967,False,Chronic disease in China,9.5,[],Bladder,
+Q1073,False,brain,50.0,[],Brain,
+Q719458,False,brain,50.0,[],Brain,
+Q223867,False,brain death,33.5,[],Brain,
+Q492038,False,human brain,31.0,[],Brain,
+Q551875,False,neuroimaging,28.0,[],Brain,
+Q618076,False,deep brain stimulation,25.0,[],Brain,
+Q646150,False,grey matter,25.0,[],Brain,
+Q1995526,False,traumatic brain injury,25.0,[],Brain,
+Q849491,False,neuroplasticity,24.0,[],Brain,
+Q326921,False,concussion,22.0,[],Brain,
+Q221694,False,blood–brain barrier,21.5,[],Brain,
+Q11695458,False,neurocysticercosis,21.0,[],Brain,
+Q384188,False,magnetoencephalography,15.0,[],Brain,
+Q7060553,False,muscular system,92.0,soft tissue,Muscle,Q1458306
+Q111140,False,endothelium,40.0,tissue,Blood,Q40397
+Q196672,False,rib,50.0,[],Rib,
+Q290066,False,routing table,50.0,[],Rib,
+Q2281500,False,Rib,50.0,[],Rib,
+Q79897361,False,Rwanda Investigation Bureau,50.0,[],Rib,
+Q5454239,False,first rib,37.5,[],Rib,
+Q6918773,False,ribbon,37.5,[],Rib,
+Q12068630,False,second rib,37.5,[],Rib,
+Q12480676,False,Rib eye steak,37.5,[],Rib,
+Q51077755,False,third rib,37.5,[],Rib,
+Q51077998,False,fourth rib,37.5,[],Rib,
+Q51078062,False,fifth rib,37.5,[],Rib,
+Q51078161,False,sixth rib,37.5,[],Rib,
+Q51079017,False,seventh rib,37.5,[],Rib,
+Q51093562,False,eighth rib,37.5,[],Rib,
+Q51094520,False,ninth rib,37.5,[],Rib,
+Q749499,False,Standing rib roast,33.5,[],Rib,
+Q7700897,False,tenth rib,33.5,[],Rib,
+Q7857568,False,twelfth rib,33.5,[],Rib,
+Q16335923,False,rib steak,33.5,[],Rib,
+Q51095284,False,eleventh rib,33.5,[],Rib,
+Q205858,False,ribozyme,30.0,[],Rib,
+Q3772305,False,false rib,25.0,[],Rib,
+Q215980,False,ribosomal RNA,21.5,[],Rib,
+Q1974017,False,rib fracture,21.5,[],Rib,
+Q196939,False,witness,50.0,[],Testis,
+Q2709123,False,rete testis,35.5,[],Testis,
+Q1433253,False,appendix of testis,30.0,[],Testis,
+Q3301793,False,Hydrocele testis,28.5,[],Testis,
+Q6806168,False,mediastinum testis,25.0,[],Testis,
+Q1737948,False,gubernaculum testis,24.0,[],Testis,
+Q55789630,False,benign neoplasm of testis,21.5,[],Testis,
+Q76928921,False,Testicular Hormones,20.0,[],Testis,
+Q3714500,False,Efferent ducts,19.0,[],Testis,
+Q55789552,False,malignant teratoma of testis,19.5,[],Testis,
+Q56014695,False,childhood testicular neoplasm,17.5,[],Testis,
+Q55790240,False,fetal brain disruption sequence,26.0,[],Fetal brain,
+Q67208213,False,Thymus,50.0,[],Thymus,
+Q76500953,False,thymus extracts,30.0,[],Thymus,
+Q55789706,False,benign neoplasm of thymus,24.0,[],Thymus,
+Q66560269,False,placenta,50.0,[],Placenta,
+Q29849244,False,placental hormone,36.5,[],Placenta,
+Q55789528,False,placenta neoplasm,36.5,[],Placenta,
+Q914952,False,cord blood,33.5,[],Placenta,
+Q16670318,False,bi-partite placenta,33.5,[],Placenta,
+Q7316626,False,retained placenta,32.0,[],Placenta,
+Q7200295,False,Placental cotyledon,29.5,[],Placenta,
+Q5121779,False,Circumvallate placenta,28.5,[],Placenta,
+Q55789693,False,benign neoplasm of placenta,27.5,[],Placenta,
+Q7886,False,lung,50.0,[],Lung,
+Q6704252,False,Lung,50.0,[],Lung,
+Q6704255,False,Lung,50.0,[],Lung,
+Q1637912,False,lung transplant,25.0,[],Lung,
+Q552304,False,cardiopulmonary bypass,21.0,[],Lung,
+Q2990558,False,pulmonary compliance,21.0,[],Lung,
+Q4677935,False,Acute lung injury,19.0,[],Lung,
+Q7075805,False,occupational lung disease,14.0,[],Lung,
+,False,,,,Fetal kidney,
+Q613203,False,calvaria,50.0,[],Calvaria,
+Q66574017,False,external table of calvaria,25.0,[],Calvaria,
+Q66574019,False,internal table of calvaria,25.0,[],Calvaria,
+Q66543234,False,internal surface of calvaria,22.0,[],Calvaria,
+Q66543235,False,external surface of calvaria,22.0,[],Calvaria,
+Q6140833,False,Kidney,50.0,[],Kidney,
+Q178623,False,kidney stone,33.5,[],Kidney,
+Q202301,False,renal dialysis,22.0,[],Kidney,
+Q25339734,False,chronic kidney disease-mineral and bone disorder,15.5,[],Kidney,
+Q1754920,False,Baudelairian spleen,50.0,[],Spleen,
+Q7578442,False,spleen,50.0,[],Spleen,
+Q1129625,False,accessory spleen,35.5,[],Spleen,
+Q7578547,False,splenic tumor,33.5,[],Spleen,
+Q1550623,False,ruptured spleen,28.5,[],Spleen,
+Q7259571,False,pulp,27.5,[],Spleen,
+Q1093858,False,red pulp,23.5,[],Spleen,
+Q55789695,False,benign neoplasm of spleen,21.5,[],Spleen,
+Q626936,False,white pulp,20.0,[],Spleen,
+Q1935984,False,Milzwurst,14.0,[],Spleen,
+Q585140,False,Pancreas divisum,33.5,[],Pancreas,
+Q518159,False,pancreas transplantation,32.0,[],Pancreas,
+Q66737704,False,pancreatic surgery,31.0,[],Pancreas,
+Q55789654,False,benign neoplasm of pancreas,27.5,[],Pancreas,
+Q1266423,False,pancreaticoduodenectomy,24.0,[],Pancreas,
+Q55789625,False,benign neoplasm of exocrine pancreas,21.0,[],Pancreas,
+Q55788144,False,squamous cell carcinoma of pancreas,20.0,[],Pancreas,
+,False,,,,Fetal intestine,
+,False,,,,Fetal stomach,
+Q6140977,False,Liver,50.0,[],Liver,
+Q67873858,False,beef liver,33.5,[],Liver,
+Q68487022,False,human liver,31.0,[],Liver,
+Q1349821,False,hepatotoxicity,29.5,[],Liver,
+Q6658207,False,liver injury,29.5,[],Liver,
+Q2335423,False,steatohepatitis,13.0,[],Liver,
+Q55786967,False,well-differentiated fetal adenocarcinoma of the lung,28.5,[],Fetal lung,
+Q7618690,False,Stomach,50.0,[],Stomach,
+Q1615371,False,stomacher,44.0,[],Stomach,
+Q846270,False,gastric acid,37.0,[],Stomach,
+Q24727896,False,Stomach Lock,37.0,[],Stomach,
+Q55789620,False,lipoma of stomach,33.5,[],Stomach,
+Q1755116,False,gastric lavage,32.0,[],Stomach,
+Q211669,False,swallowing,25.0,[],Stomach,
+Q55789631,False,benign neoplasm of stomach,25.0,[],Stomach,
+Q357503,False,bariatric surgery,22.5,[],Stomach,
+Q274083,False,antacid,21.5,[],Stomach,
+Q6151460,False,human gastrointestinal tract,21.5,[],Stomach,
+Q2357631,False,greater curvature of the stomach,18.0,[],Stomach,
+Q55789562,False,carcinoma in situ of gastric body,17.5,[],Stomach,
+Q55789561,False,carcinoma in situ of fundus of stomach,16.5,[],Stomach,
+Q55789563,False,carcinoma in situ of gastric cardia,16.5,[],Stomach,
+Q21234647,False,autodigestion,15.0,[],Stomach,
+Q522817,False,larvicide,12.5,[],Stomach,
+Q67591222,False,mesenchymal stem cell transplantation,36.0,[],Mesenchymal stem cell,
+,False,,,,Fetal gonad,
+Q1155702,False,skin,50.0,[],Skin,
+Q97671426,False,Skin,50.0,[],Skin,
+Q286,False,leather,30.0,[],Skin,
+Q170518,False,burn,28.5,[],Skin,
+Q988594,False,eczema,27.5,[],Skin,
+Q43616,False,mummy,25.0,[],Skin,
+Q349185,False,wrinkle,25.0,[],Skin,
+Q79785,False,electrocardiography,23.0,[],Skin,
+Q226697,False,parchment,23.0,[],Skin,
+,False,,,,Fetal liver,
+Q552233,False,ovarian torsion,22.0,[],Ovary,
+Q7853102,False,tunica albuginea of ovary,16.5,[],Ovary,
+Q1635319,False,Germinal epithelium,14.5,[],Ovary,
+Q1889778,False,trophoblasts,50.0,[],Trophoblast,
+Q66589800,False,trophoblast cell,40.5,[],Trophoblast,
+Q66592473,False,Villous trophoblast,36.5,[],Trophoblast,
+Q6047391,False,Intermediate trophoblast,31.5,[],Trophoblast,
+Q66592472,False,Intermediate trophoblast,31.5,[],Trophoblast,
+Q66592475,False,Intermediate trophoblast cell,27.5,[],Trophoblast,
+Q71371311,False,cerebellar neoplasm,38.5,[],Cerebellum,
+Q66563610,False,subdivision of cerebellum,37.0,[],Cerebellum,
+Q154709,False,cerebellar ataxia,31.0,[],Cerebellum,
+Q5064075,False,cerebellar hemisphere,31.0,[],Cerebellum,
+Q55789694,False,benign neoplasm of cerebellum,30.5,[],Cerebellum,
+Q29643762,False,cerebellar atrophy,29.0,[],Cerebellum,
+Q4752310,False,Anatomy of the cerebellum,28.5,[],Cerebellum,
+Q7243129,False,Primary fissure of cerebellum,25.5,[],Cerebellum,
+Q17000266,False,Horizontal fissure of cerebellum,24.0,[],Cerebellum,
+Q1570272,False,Purkinje cell,22.5,[],Cerebellum,
+Q4787738,False,arcuate uterus,33.5,[],Uterus,
+Q4937608,False,Boggy uterus,33.5,[],Uterus,
+Q17405790,False,Social uterus,31.5,[],Uterus,
+Q34581,False,childbirth,28.5,[],Uterus,
+Q5975885,False,uterus transplantation,28.5,[],Uterus,
+Q7884801,False,unicornuate uterus,28.5,[],Uterus,
+Q359859,False,adnexa of uterus,27.5,[],Uterus,
+Q7902650,False,Uterine incarceration,24.0,[],Uterus,
+Q839508,False,endometrium,21.0,[],Uterus,
+Q2562472,False,myometrium,19.0,[],Uterus,
+Q55789723,False,benign neoplasm of corpus uteri,16.5,[],Uterus,
+Q55786098,False,papillary carcinoma of the corpus uteri,15.0,[],Uterus,
+Q55786095,False,squamous cell carcinoma of the corpus uteri,13.5,[],Uterus,
+Q55786102,False,transitional cell carcinoma of the corpus uteri,12.5,[],Uterus,
+Q66568861,False,segment of medulla oblongata,41.5,[],Medulla oblongata,
+Q66540771,False,vein of medulla oblongata,40.5,[],Medulla oblongata,
+Q66572436,False,zone of medulla oblongata,40.5,[],Medulla oblongata,
+Q66600582,False,nucleus of medulla oblongata,39.5,[],Medulla oblongata,
+Q66603173,False,Surface of medulla oblongata,38.0,[],Medulla oblongata,
+Q66569305,False,set of veins of medulla oblongata,34.0,[],Medulla oblongata,
+Q66590446,False,gray matter of medulla oblongata,34.5,[],Medulla oblongata,
+Q66590464,False,white matter of medulla oblongata,34.0,[],Medulla oblongata,
+Q66570128,False,anterior horn of medulla oblongata,33.5,[],Medulla oblongata,
+Q66600562,False,Caudal segment of medulla oblongata,32.5,[],Medulla oblongata,
+Q66600563,False,Middle segment of medulla oblongata,32.5,[],Medulla oblongata,
+Q66600564,False,Rostral segment of medulla oblongata,32.0,[],Medulla oblongata,
+Q66575367,False,lateral funiculus of medulla oblongata,31.0,[],Medulla oblongata,
+Q66575407,False,set of raphe nuclei of medulla oblongata,30.0,[],Medulla oblongata,
+Q7234267,False,posterolateral sulcus of medulla oblongata,29.0,[],Medulla oblongata,
+Q66590374,False,retro-olivary sulcus of medulla oblongata,29.5,[],Medulla oblongata,
+Q7234220,False,posterior median sulcus of medulla oblongata,28.0,[],Medulla oblongata,
+Q66575410,False,set of reticular nuclei of medulla oblongata,28.0,[],Medulla oblongata,
+Q66599653,False,Right lateral funiculus of medulla oblongata,28.0,[],Medulla oblongata,
+Q66599654,False,Left lateral funiculus of medulla oblongata,28.5,[],Medulla oblongata,
+Q66599980,False,Segment of gray matter of medulla oblongata,28.5,[],Medulla oblongata,
+Q4771375,False,anterior median fissure of the medulla oblongata,26.0,[],Medulla oblongata,
+Q66572445,False,dorsal intermediate sulcus of medulla oblongata,26.5,[],Medulla oblongata,
+Q66599982,False,Marginal zone of gray matter of medulla oblongata,26.0,[],Medulla oblongata,
+Q66540660,False,tributary of inferior petrosal sinus from medulla oblongata,22.5,[],Medulla oblongata,
+Q66600566,False,Left thalamus,38.0,[],Thalamus,
+Q66599677,False,Nucleus of thalamus,36.5,[],Thalamus,
+Q66600565,False,Right thalamus,36.5,[],Thalamus,
+Q7674872,False,Taenia thalami,32.0,[],Thalamus,
+Q66563386,False,segment of thalamus,29.5,[],Thalamus,
+Q66603169,False,Surface of thalamus,29.5,[],Thalamus,
+Q66574486,False,radiation of thalamus,27.5,[],Thalamus,
+Q2004154,False,intralaminar nuclei of thalamus,23.5,[],Thalamus,
+Q4771382,False,Anterior nuclei of thalamus,23.0,[],Thalamus,
+Q66590429,False,stratum zonale of thalamus,23.5,[],Thalamus,
+Q66574492,False,inferior radiation of thalamus,21.0,[],Thalamus,
+Q1395415,False,dorsal root ganglion,50.0,[],Dorsal root ganglion,
+Q70219007,False,hippocampal CA2 region,27.5,[],Hippocampus,
+Q66575252,False,dorsal striatum,50.0,[],Dorsal striatum,
+,False,,,,Ventral striatum,
+Q66569932,False,hilus of dentate gyrus,37.0,[],Dentate gyrus,
+Q66590301,False,layer of dentate gyrus,37.0,[],Dentate gyrus,
+Q66590540,False,set of layers of dentate gyrus,30.0,[],Dentate gyrus,
+Q66589892,False,granular layer of dentate gyrus,29.5,[],Dentate gyrus,
+Q66589894,False,multiform layer of dentate gyrus,29.0,[],Dentate gyrus,
+Q66590300,False,molecular layer of dentate gyrus,29.0,[],Dentate gyrus,
+Q66570219,False,dentate gyrus of left hippocampus,28.5,[],Dentate gyrus,
+Q66570218,False,dentate gyrus of right hippocampus,27.5,[],Dentate gyrus,
+Q66570448,False,hilus of dentate gyrus of right hippocampus,23.0,[],Dentate gyrus,
+Q66570449,False,hilus of dentate gyrus of left hippocampus,23.5,[],Dentate gyrus,
+Q66603242,False,Surface of dentate gyrus of hippocampal formation,21.0,[],Dentate gyrus,
+Q55783526,False,"cataract, congenital, with mental impairment and Dentate gyrus atrophy",16.0,[],Dentate gyrus,
+,False,,,,Hippocampus (ca1),
+Q1977414,False,Neo Cortex,50.0,[],Neo-cortex,
+Q9606,True,spinal cord,100.0,anatomical structure,Spinal cord,Q4936952
+,False,,,,Pons,
+Q66600573,False,Zone of hypothalamus,37.5,[],Hypothalamus,
+Q70059591,False,anterior hypothalamus,36.5,[],Hypothalamus,
+Q70090517,False,posterior hypothalamus,35.5,[],Hypothalamus,
+Q66600578,False,Nucleus of hypothalamus,34.5,[],Hypothalamus,
+Q66590436,False,gray matter of hypothalamus,31.0,[],Hypothalamus,
+Q7240592,False,preoptic area,19.5,[],Hypothalamus,
+Q2093077,False,Ventrolateral preoptic nucleus,14.5,[],Hypothalamus,
+Q7168930,False,periventricular nucleus,13.0,[],Hypothalamus,
+Q6731828,False,Magnocellular neurosecretory cell,11.0,[],Hypothalamus,
+Q6806123,False,median preoptic nucleus,11.5,[],Hypothalamus,
+Q1337712,False,Median eminence,10.5,[],Hypothalamus,
+Q65065959,False,Amygdalotomy,35.0,[],Amygdala,
+Q66593629,False,Left olfactory bulb,42.5,[],Olfactory bulb?,
+Q66593628,False,Right olfactory bulb,41.0,[],Olfactory bulb?,
+Q24901777,False,Accessory olfactory bulb,37.0,[],Olfactory bulb?,
+Q66569663,False,set of dopaminergic cells in olfactory bulb [a15],23.0,[],Olfactory bulb?,
+Q1503804,False,Parinaud's syndrome,38.5,[],Dorsal midbrain,
+Q1422654,False,insula,31.5,[],Cortex 1,
+Q1892702,False,cingulate gyrus,28.0,[],Cortex 1,
+,False,,,,Mesencephalon?,
+Q66593629,False,Left olfactory bulb,42.5,[],Olfactory bulb,
+Q66593628,False,Right olfactory bulb,41.0,[],Olfactory bulb,
+Q24901777,False,Accessory olfactory bulb,37.0,[],Olfactory bulb,
+Q66569663,False,set of dopaminergic cells in olfactory bulb [a15],23.0,[],Olfactory bulb,
+,False,,,,Cortex 3,
+Q1422654,False,insula,31.5,[],Cortex 2,
+Q64926247,False,somatosensory cortex,50.0,[],Somatosensory cortex,
+Q30587611,False,primary somatosensory cortex,42.0,[],Somatosensory cortex,
+Q13217355,False,secondary somatosensory cortex,40.0,[],Somatosensory cortex,
+,False,,,,Enteric nervous system,
+Q66561826,False,subdivision of sympathetic nervous system,39.0,[],Sympathetic nervous system,
+Q66578792,False,somatic part of sympathetic nervous system,38.0,[],Sympathetic nervous system,
+Q66578795,False,central part of sympathetic nervous system,38.0,[],Sympathetic nervous system,
+Q66578794,False,visceral part of sympathetic nervous system,37.5,[],Sympathetic nervous system,
+Q66578796,False,peripheral part of sympathetic nervous system,36.5,[],Sympathetic nervous system,
+Q3554908,False,Sympathetic ganglion,30.5,[],Sympathetic nervous system,
+,False,,,,"Cortex, hippocampus and subventricular zone",
+Q43283,False,biological neural network,37.5,[],Neurons,
+Q162657,False,neurotransmitter,35.0,[],Neurons,
+Q309082,False,mirror neuron,33.5,[],Neurons,
+Q2384084,False,spindle neuron,33.5,[],Neurons,
+Q1534415,False,neurite,31.0,[],Neurons,
+Q419968,False,neuropeptides,30.0,[],Neurons,
+Q1570272,False,Purkinje cell,30.5,[],Neurons,
+Q863495,False,grid cell,28.0,[],Neurons,
+,False,,,,Mammary epithelial cells,
+Q361480,False,Double inlet left ventricle,40.0,[],Left Ventricle,
+Q66504994,False,wall of left ventricle,39.0,[],Left Ventricle,
+Q66589741,False,blood in left ventricle,38.0,[],Left Ventricle,
+Q66504921,False,cavity of left ventricle,37.0,[],Left Ventricle,
+Q66594551,False,Region of left ventricle,37.0,[],Left Ventricle,
+Q66507963,False,surface of left ventricle,36.0,[],Left Ventricle,
+Q66504995,False,epicardium of left ventricle,33.5,[],Left Ventricle,
+Q66504996,False,myocardium of left ventricle,33.5,[],Left Ventricle,
+Q66504997,False,endocardium of left ventricle,32.5,[],Left Ventricle,
+Q66505002,False,inflow part of left ventricle,32.5,[],Left Ventricle,
+Q66504826,False,chorda tendinea of left ventricle,30.0,[],Left Ventricle,
+Q66591792,False,region of wall of left ventricle,30.5,[],Left Ventricle,
+Q66504827,False,papillary muscle of left ventricle,29.0,[],Left Ventricle,
+Q66504825,False,subaortic curtain of left ventricle,28.5,[],Left Ventricle,
+Q66508797,False,conducting system of left ventricle,28.5,[],Left Ventricle,
+Q66591802,False,T7 left lateral wall of left ventricle,27.0,[],Left Ventricle,
+Q66591815,False,T8 left lateral wall of left ventricle,27.0,[],Left Ventricle,
+Q66591824,False,T9 left lateral wall of left ventricle,27.0,[],Left Ventricle,
+Q66504790,False,diaphragmatic surface of left ventricle,26.5,[],Left Ventricle,
+Q66591798,False,T7 left anterior wall of left ventricle,26.5,[],Left Ventricle,
+Q66591806,False,T7 left posterior wall of left ventricle,26.0,[],Left Ventricle,
+Q66591808,False,T8 left anterior wall of left ventricle,26.5,[],Left Ventricle,
+Q66591817,False,T8 left posterior wall of left ventricle,26.0,[],Left Ventricle,
+Q66591820,False,T9 left anterior wall of left ventricle,26.5,[],Left Ventricle,
+Q66591828,False,T9 left posterior wall of left ventricle,26.0,[],Left Ventricle,
+Q63100844,False,microglial inhibitor,31.0,[],Microglia,
+,False,,,,Intestinal crypt epithelium,
+,False,,,,Human embryo forebrain,
+,False,,,,Neonatal mouse stomach explants,
+,False,,,,Neonatal mouse stomach organoid,
+,False,,,,Airway submucosal glandular epithelial cells,
+,False,,,,Epithelial cells in airway luminal surface,
+,False,,,,Stomach organoid,
+,False,,,,Arcuate-median eminence,
+,False,,,,Lks+ hematopoietic stem cells,
+,False,,,,Mammary gland epithelium cell,
+,False,,,,Lsk cells from bone marrow,
+,False,,,,Hepatocellular carcinoma,
+Q736033,False,Peripheral blood mononuclear cell,50.0,[],Peripheral blood mononuclear cell,
+Q66592623,False,Peripheral blood mononuclear cell,50.0,[],Peripheral blood mononuclear cell,
+,False,,,,Pulmonary alveolar type i cells,
+,False,,,,Kidney organoids,
+Q340695,False,axillary lymph node,69.0,lymph node,Lymph node,Q170758
+Q776290,False,Sentinel lymph node,69.0,lymph node,Lymph node,Q170758
+Q4982430,False,Buccinator lymph node,65.0,lymph node,Lymph node,Q170758
+Q7643295,False,superficial lymph node,62.0,lymph node,Lymph node,Q170758
+,False,,,,Pulmonary alveolar type ii cells,
+,False,,,,Melanoma,
+Q58689109,False,Pre-B Cell receptors,26.0,[],B cells,
+Q55785921,False,borderline epithelial tumor of ovary,27.5,[],Ovarian tumor,
+Q17144533,False,International Ovarian Tumor Analysis trial,23.5,[],Ovarian tumor,
+Q66574057,False,renal cortex corticis,36.5,[],Renal cortex,
+,False,,,,Embryonic kidney,
+,False,,,,Whole kidney,
+Q10385444,False,heart neoplasm,31.0,[],Tumor,
+Q1737977,False,germ cell tumor,29.5,[],Tumor,
+Q23058136,False,cancer cell line,29.5,[],Tumor,
+Q422445,False,tumor suppressor gene,28.0,[],Tumor,
+Q1637543,False,carcinogenesis,28.0,[],Tumor,
+Q66205818,False,tumor biomarkers,25.0,[],Tumor,
+Q4271422,False,mediastinal neoplasm,22.5,[],Tumor,
+Q1409015,False,heart,50.0,[],Heart,
+Q5691852,False,Heart,50.0,[],Heart,
+Q5937755,False,human error assessment and reduction technique,50.0,[],Heart,
+Q9655,False,artery,37.5,[],Heart,
+Q933954,False,heart rate variability,25.0,[],Heart,
+Q216933,False,echocardiography,23.0,[],Heart,
+Q492905,False,diastole,16.5,[],Heart,
+Q496359,False,systole,16.5,[],Heart,
+Q3384920,False,Embryoid body,50.0,[],Embryoid body,
+Q1151519,False,embryonic stem cell,50.0,[],Embryonic stem cell,
+Q59626782,False,human embryonic stem cell,43.0,[],Embryonic stem cell,
+Q70060965,False,mouse embryonic stem cells,43.0,[],Embryonic stem cell,
+Q5370240,False,Embryonic Stem Cell Research Oversight Committees,28.0,[],Embryonic stem cell,
+Q66555576,False,left lacrimal gland,42.5,[],Lacrimal gland,
+Q56014496,False,lacrimal gland neoplasm,41.0,[],Lacrimal gland,
+Q66555575,False,right lacrimal gland,41.0,[],Lacrimal gland,
+Q55789195,False,secretory apparatus of the lacrimal system anomaly,39.0,[],Lacrimal gland,
+Q66555832,False,zone of lacrimal gland,39.0,[],Lacrimal gland,
+Q718591,False,fossa for lacrimal gland,37.0,[],Lacrimal gland,
+Q66555952,False,lobule of lacrimal gland,37.0,[],Lacrimal gland,
+Q66591624,False,acinus of lacrimal gland,37.0,[],Lacrimal gland,
+Q66556341,False,surface of lacrimal gland,36.0,[],Lacrimal gland,
+Q66554141,False,fossa for right lacrimal gland,32.0,[],Lacrimal gland,
+Q66554143,False,fossa for left lacrimal gland,32.5,[],Lacrimal gland,
+Q66555833,False,orbital part of lacrimal gland,32.0,[],Lacrimal gland,
+Q66555953,False,lobule of right lacrimal gland,32.0,[],Lacrimal gland,
+Q66555954,False,lobule of left lacrimal gland,32.5,[],Lacrimal gland,
+Q66576354,False,surface of left lacrimal gland,32.0,[],Lacrimal gland,
+Q66591625,False,acinus of right lacrimal gland,32.0,[],Lacrimal gland,
+Q66591626,False,acinus of left lacrimal gland,32.5,[],Lacrimal gland,
+Q66576352,False,surface of right lacrimal gland,31.0,[],Lacrimal gland,
+Q66555834,False,palpebral part of lacrimal gland,30.5,[],Lacrimal gland,
+Q66555955,False,excretory duct of lacrimal gland,30.5,[],Lacrimal gland,
+Q66555836,False,palpebral part of left lacrimal gland,27.5,[],Lacrimal gland,
+,False,,,,Umbilical vein endothelial cells,
+,False,,,,Breast epithelium,
+Q56014503,False,retina neoplasm,33.5,[],Retina,
+Q864951,False,retina bipolar cells,24.0,[],Retina,
+,False,,,,Medial amygdala,
+Q193583,False,adipose tissue,83.0,tissue,Adipose,Q40397
+,False,,,,Lateral ganglionic eminence,
+Q94489,False,n-gram,16.5,[],\N,
+Q180544,False,prism,16.5,[],\N,
+Q175943,False,photodiode,9.0,[],\N,
+Q16918965,False,aortic rupture,28.0,[],Aorta,
+Q2142075,False,Overriding aorta,26.5,[],Aorta,
+Q731569,False,annuloaortic ectasia,25.0,[],Aorta,
+Q60791928,False,Hemodynamics of the aorta,16.5,[],Aorta,
+,False,,,,Neuronal epithelium,
+Q11394395,False,endothelial cells,50.0,[],Endothelial cells,
+Q5376430,False,Endothelial stem cell,42.0,[],Endothelial cells,
+Q1340830,False,endothelial progenitor cells,38.0,[],Endothelial cells,
+Q5692514,False,heart valve repair,38.0,[],Heart valve,
+Q26695943,False,heart valve prolapse,35.5,[],Heart valve,
+Q17305059,False,Bileaflet valve,34.5,[],Heart valve,
+Q282454,False,artificial heart valve,33.5,[],Heart valve,
+Q7168385,False,Pericardial heart valves,31.5,[],Heart valve,
+Q65091723,False,Tissue engineering of heart valves,24.5,[],Heart valve,
+Q67270196,False,heart valve prosthesis implantation,24.0,[],Heart valve,
+Q67264434,False,cardiac valve annuloplasty,21.5,[],Heart valve,
+Q5558489,False,Giant retinal ganglion cells,44.0,[],Retinal ganglion cells,
+Q10263076,False,Intrinsically photosensitive retinal ganglion cells,39.0,[],Retinal ganglion cells,
+,False,,,,Substantia nigra-ventral tegmental area,
+,False,,,,Breast cancer cell line,
+Q66573831,False,set of pancreatic islets,41.5,[],Pancreatic islets,
+,False,,,,Embryonic fibroblasts,
+Q6731824,False,Magnocellular cell,20.5,[],Lateral geniculate nucleus,
+,False,,,,Circulating tumor cells in hepatocellular carcinoma,
+,False,,,,Lung distal alveolar stromal cells,
+,False,,,,Oligodendrocyte cultures,
+,False,,,,CD34+ cord blood cells,
+Q224930,False,natural killer T cell,44.0,[],NK cells,
+Q49000020,False,Adaptive NK cells,32.0,[],NK cells,
+Q55779842,False,neoplasm of mature T-cells or NK-cells,21.0,[],NK cells,
+,False,,,,ES-derived embryoid body,
+,False,,,,Lung proximal airway stromal cells,
+,False,,,,Neural stem cells from subventricular zone,
+,False,,,,Embryonic mouse mammary gland,
+,False,,,,Cortex CA1,
+,False,,,,Mammary epithelium,
+Q66590303,False,striatum of neuraxis,28.5,[],Striatum,
+Q66601542,False,Striatum of right cerebral hemisphere,18.0,[],Striatum,
+Q66601544,False,Striatum of left cerebral hemisphere,18.0,[],Striatum,
+Q505531,False,dermis,50.0,[],Dermis,
+Q5262664,False,DermIS,50.0,[],Dermis,
+Q66568845,False,subdivision of dermis,31.5,[],Dermis,
+Q3023837,False,papillary dermis,30.0,[],Dermis,
+Q55788597,False,dermis disorder,28.5,[],Dermis,
+Q3023838,False,reticular dermis,27.5,[],Dermis,
+Q66568850,False,surface of dermis,26.0,[],Dermis,
+Q55788599,False,mixed dermis disorder,22.0,[],Dermis,
+Q55788600,False,other dermis disorder,22.0,[],Dermis,
+Q66568851,False,primary groove of dermis,20.0,[],Dermis,
+Q66568855,False,primary ridge of dermis,20.5,[],Dermis,
+Q66568852,False,secondary groove of dermis,19.0,[],Dermis,
+Q66568856,False,secondary ridge of dermis,19.5,[],Dermis,
+Q66569203,False,set of papillae of dermis,19.5,[],Dermis,
+Q5196857,False,Cutis,18.0,[],Dermis,
+Q55788349,False,other genetic dermis disorder,17.0,[],Dermis,
+Q55788598,False,dermis elastic tissue disorder,16.5,[],Dermis,
+Q66590522,False,free nerve ending innervating dermis,14.5,[],Dermis,
+Q55786219,False,acquired dermis elastic tissue disorder,13.5,[],Dermis,
+Q66568853,False,subdivision of papillary layer of dermis,13.5,[],Dermis,
+Q66601575,False,Fibroblast of papillary layer of dermis,13.5,[],Dermis,
+,False,,,,Nasal airway epithelium,
+Q654528,False,white adipose tissue,50.0,[],White adipose tissue,
+Q70307426,False,beige adipose tissue,35.0,[],White adipose tissue,
+,False,,,,Cardiac progenitor cells,
+,False,,,,Leukocytes from aortas,
+,False,,,,Cortical organoids,
+,False,,,,Lung airway epithelial cells,
+,False,,,,Foam cells from aortas,
+Q10334846,False,cardiac muscle,40.0,[],Cardiac tissue,
+Q66590639,False,fibrocollagenous sheath of cardiac muscle tissue,22.5,[],Cardiac tissue,
+Q224930,False,natural killer T cell,40.0,[],T cells,
+Q15220362,False,myeloid-derived suppressor cells,21.0,[],T cells,
+,False,,,,Subcutaneous innate lymphoid cells,
+,False,,,,Dermal innate lymphoid cells,
+,False,,,,Epidermal innate lymphoid cells,
+Q7130382,False,Pancolitis,34.5,[],Colon (Ulcerative Colitis),
+,False,,,,Skeletal muscle macrophages from hindlimb,
+,False,,,,Hepatocyte-derived liver progenitor-like cells,
+,False,,,,Hippocampus (injury),
+,False,,,,Hippocampus (24h Sham surgery),
+,False,,,,Merkel Cell Carcinoma,
+Q736033,True,Peripheral blood mononuclear cell,50.0,[],PBMC,
+,False,,,,Embryonic skin,
+Q3052544,False,olfactory epithelium,50.0,[],Olfactory epithelium,
+Q11788632,False,Olfactory epithelium,50.0,[],Olfactory epithelium,
+Q66558580,False,basal cell of olfactory epithelium,37.0,[],Olfactory epithelium,
+Q66563543,False,globose cell of olfactory epithelium,35.5,[],Olfactory epithelium,
+Q66558578,False,supporting cell of olfactory epithelium,34.0,[],Olfactory epithelium,
+Q66558582,False,basal proper cell of olfactory epithelium,33.0,[],Olfactory epithelium,
+,False,,,,NK cells from spleen,
+,False,,,,NK cells from blood,
+,False,,,,Bone marrow from melanoma tumor-bearing mice,
+Q914952,False,cord blood,50.0,[],Umbilical cord blood,
+Q4232791,False,percutaneous umbilical cord blood sampling,36.0,[],Umbilical cord blood,
+,False,,,,Immortalized gonadotrope cells,
+,False,,,,Splenocytes enriched for B cells,
+Q4120169,False,hypophysitis,44.0,[],Pituitary gland,
+Q70079512,False,intermediate pituitary gland,35.0,[],Pituitary gland,
+Q56014377,False,growth hormone-producing pituitary gland neoplasm,32.5,[],Pituitary gland,
+Q55950138,False,prolactin-producing pituitary gland carcinoma,28.5,[],Pituitary gland,
+,False,,,,SVZ-derived neural stem cells,
+,False,,,,CD45+ cells,
+Q4778753,False,Aortic body,35.5,[],Aortic cells,
+,False,,,,Testicular cells,
+Q12965091,False,Itlog ng bayag,50.0,[],Testicle,
+Q58929,False,castration,33.5,[],Testicle,
+Q66574875,False,parenchyma of testis,29.5,[],Testicle,
+Q26878302,False,monkey gland transplantation,17.0,[],Testicle,
+Q2531387,False,Decidua,50.0,[],Decidua,
+Q66591851,False,decidua,50.0,[],Decidua,
+,False,,,,Intestinal organoid epithelial cells,
+,False,,,,CD24+ CD45- neuronal cells,
+Q66556218,False,left submandibular gland,44.0,[],Submandibular Gland,
+Q66556217,False,right submandibular gland,43.0,[],Submandibular Gland,
+Q66556431,False,lobe of submandibular gland,41.5,[],Submandibular Gland,
+Q66592106,False,Zone of submandibular gland,41.5,[],Submandibular Gland,
+Q66592154,False,Segment of submandibular gland,39.0,[],Submandibular Gland,
+Q66592226,False,Stroma of submandibular gland,39.5,[],Submandibular Gland,
+Q66592232,False,Lobule of submandibular gland,39.5,[],Submandibular Gland,
+Q66556336,False,deep part of submandibular gland,37.5,[],Submandibular Gland,
+Q66556433,False,lobe of left submandibular gland,37.5,[],Submandibular Gland,
+Q66556432,False,lobe of right submandibular gland,36.5,[],Submandibular Gland,
+Q66556338,False,deep part of left submandibular gland,34.0,[],Submandibular Gland,
+Q66592236,False,Mucous acinus of submandibular gland,34.5,[],Submandibular Gland,
+Q66592238,False,Serous acinus of submandibular gland,34.5,[],Submandibular Gland,
+Q66556335,False,superficial part of submandibular gland,33.0,[],Submandibular Gland,
+Q66556337,False,deep part of right submandibular gland,33.5,[],Submandibular Gland,
+Q66592248,False,Stroma of lobule of submandibular gland,33.0,[],Submandibular Gland,
+Q66556342,False,surface of region of submandibular gland,32.0,[],Submandibular Gland,
+Q66592242,False,Seromucous acinus of submandibular gland,32.0,[],Submandibular Gland,
+Q66556340,False,superficial part of left submandibular gland,30.0,[],Submandibular Gland,
+Q66556339,False,superficial part of right submandibular gland,29.5,[],Submandibular Gland,
+Q66592246,False,Lobular duct tree of right submandibular gland,29.0,[],Submandibular Gland,
+Q66592247,False,Lobular duct tree of left submandibular gland,29.5,[],Submandibular Gland,
+,False,,,,Mouse embryonic fibroblasts,
+,False,,,,Yolk sack,
+Q66556568,False,left cochlea,37.0,[],Cochlea,
+Q66556567,False,right cochlea,35.0,[],Cochlea,
+Q724965,False,cochlear implant,32.0,[],Cochlea,
+Q66572772,False,apex of cochlea,32.0,[],Cochlea,
+Q6889453,False,modiolus,29.0,[],Cochlea,
+Q66557598,False,subdivision of cochlea,24.0,[],Cochlea,
+Q66572836,False,pillar cell of cochlea,24.0,[],Cochlea,
+Q25303857,False,Evolution of the cochlea,22.5,[],Cochlea,
+Q66578490,False,supporting cell of cochlea,21.0,[],Cochlea,
+Q66572821,False,basilar membrane of cochlea,20.5,[],Cochlea,
+Q66575343,False,zone of modiolus of cochlea,20.5,[],Cochlea,
+,False,,,,Intraembryonic tissues,
+,False,,,,Whole heart,
+,False,,,,Cortical cells,
+,False,,,,Blood CD8+ T lymphocytes,
+Q7240592,False,preoptic area,28.0,[],Preoptic region of the hypothalamus,
+Q7643652,False,Superior mesenteric lymph nodes,83.0,lymph node,Mesenteric lymph nodes,Q170758
+Q16989580,False,Inferior mesenteric lymph nodes,83.0,lymph node,Mesenteric lymph nodes,Q170758
+Q7133679,False,Paraaortic lymph node,88.0,lymph node,Periaortic lymph nodes,Q170758
+Q19001246,False,peripheral lymph node tuberculosis,38.0,[],Peripheral lymph node,
+Q66557635,False,skin of auricle of ear,28.5,[],Ear skin,
+Q66557638,False,skin of auricle of left ear,24.0,[],Ear skin,
+Q66557637,False,skin of auricle of right ear,23.5,[],Ear skin,
+,False,,,,Heart macrophages and dendritic cells,
+Q66558754,False,ansa of diencephalon,37.5,[],Diencephalon,
+Q66572128,False,zone of diencephalon,37.5,[],Diencephalon,
+Q66558749,False,tract of diencephalon,36.5,[],Diencephalon,
+Q66558752,False,lamina of diencephalon,35.5,[],Diencephalon,
+Q66558176,False,segment of diencephalon,34.5,[],Diencephalon,
+Q66558751,False,capsule of diencephalon,34.5,[],Diencephalon,
+Q66599523,False,Surface of diencephalon,34.5,[],Diencephalon,
+Q66558744,False,peduncle of diencephalon,33.5,[],Diencephalon,
+Q66558746,False,commissure of diencephalon,31.5,[],Diencephalon,
+Q66558747,False,decussation of diencephalon,31.0,[],Diencephalon,
+Q66590433,False,gray matter of diencephalon,31.0,[],Diencephalon,
+Q66590451,False,white matter of diencephalon,30.0,[],Diencephalon,
+Q66572129,False,anterior tubercle of diencephalon,26.5,[],Diencephalon,
+Q66599525,False,Surface of segment of diencephalon,26.0,[],Diencephalon,
+Q66558207,False,white matter structure of diencephalon,24.0,[],Diencephalon,
+Q66600574,False,Segment of white matter of diencephalon,23.5,[],Diencephalon,
+Q2995031,False,alpha cell,47.5,[],Alpha cells,
+Q77939856,False,"Receptors, Pancreatic Hormone",15.5,[],Alpha cells,
+Q5376385,False,Endoplasmic Reticulum Stress in Beta Cells,19.0,[],Beta cells,
+,False,,,,Pancreatic progenitor cells,
+Q504940,False,Invertebrate trachea,50.0,[],Trachea,
+Q1340889,False,Tracheal tube,37.0,[],Trachea,
+Q55789712,False,benign neoplasm of trachea,26.0,[],Trachea,
+Q1361748,False,syrinx,14.5,[],Trachea,
+Q546523,False,bone marrow,71.0,tissue,Marrow,Q40397
+Q842392,False,French kiss,38.5,[],Tongue,
+Q2406037,False,ice tongue,37.5,[],Tongue,
+Q3521240,False,Tongue map,37.5,[],Tongue,
+Q502133,False,frenulum of tongue,35.5,[],Tongue,
+Q1558649,False,beef tongue,35.5,[],Tongue,
+Q67883586,False,veal tongue,35.5,[],Tongue,
+Q36870,False,first language,33.5,[],Tongue,
+Q229973,False,Tongue (Knights Hospitaller),33.5,[],Tongue,
+Q230101,False,tongue splitting,33.5,[],Tongue,
+Q1872856,False,blood tongue,33.5,[],Tongue,
+Q55739597,False,tongue (motif),33.5,[],Tongue,
+Q641878,False,tongue depressor,31.0,[],Tongue,
+Q5055127,False,caviar tongue,31.5,[],Tongue,
+Q25477789,False,Tongue cleaner,30.0,[],Tongue,
+Q55180752,False,Icecube Tongue,30.0,[],Tongue,
+Q19408,False,velar consonant,28.0,[],Tongue,
+Q230087,False,tongue piercing,28.5,[],Tongue,
+Q60756031,False,Tongue training,28.5,[],Tongue,
+Q1400565,False,spur,27.5,[],Tongue,
+Q1129755,False,steel tongue drum,26.5,[],Tongue,
+Q1891935,False,tongue and groove,26.0,[],Tongue,
+Q1976305,False,tongue-and-groove pliers,25.0,[],Tongue,
+Q862867,False,taste buds,20.0,[],Tongue,
+Q83365347,False,definitely endangered language,18.0,[],Tongue,
+,False,,,,Mammary tissue,
+,False,,,,In vitro differentiation of mESCs into motor neurons,
+Q3875059,False,upper motor neuron,28.0,[],Brain (neurons),
+Q1620205,False,cranial nerve nucleus,26.5,[],Brain (neurons),
+Q16905840,False,Serotonin pathways,19.5,[],Brain (neurons),
+Q193583,True,adipose tissue,100.0,tissue,Fat,Q40397
+,False,,,,ES-derived kidney organoid,
+Q55789730,False,fibroma of prostate,33.5,[],Prostate,
+Q55789704,False,benign neoplasm of prostate,27.5,[],Prostate,
+Q55779807,False,metastatic prostate carcinoma,23.5,[],Prostate,
+Q78319177,False,Prostatic Secretory Proteins,22.0,[],Prostate,
+Q7189642,False,Physician Data Query,14.5,[],Prostate,
+Q28439761,False,Prostatic stromal tumour of uncertain malignant potential,12.5,[],Prostate,
+Q920112,False,insect mandible,50.0,[],Mandible,
+Q5283631,False,mandible,50.0,[],Mandible,
+Q7290377,False,Ramus of the mandible,40.0,[],Mandible,
+Q17081695,False,Body of mandible,33.5,[],Mandible,
+Q66543008,False,zone of mandible,33.5,[],Mandible,
+Q66543011,False,base of mandible,33.5,[],Mandible,
+Q66555791,False,head of mandible,33.5,[],Mandible,
+Q66555792,False,neck of mandible,33.5,[],Mandible,
+Q268021,False,Angle of the mandible,31.0,[],Mandible,
+Q6554089,False,Lingula of mandible,31.0,[],Mandible,
+Q66561198,False,socket of mandible,31.0,[],Mandible,
+Q66554294,False,surface of mandible,29.5,[],Mandible,
+Q71684479,False,mandibular neoplasm,29.5,[],Mandible,
+Q68165685,False,mandibular disease,27.0,[],Mandible,
+Q66600986,False,Periosteum of mandible,26.5,[],Mandible,
+Q66601005,False,Vasculature of mandible,26.0,[],Mandible,
+Q7107502,False,Ossification of mandible,25.0,[],Mandible,
+Q66543229,False,oblique line of mandible,25.0,[],Mandible,
+Q66555869,False,zone of body of mandible,25.0,[],Mandible,
+Q4737956,False,alveolar part of mandible,24.0,[],Mandible,
+Q66561442,False,alveolar bone of mandible,24.0,[],Mandible,
+Q1414441,False,coronoid process of the mandible,22.0,[],Mandible,
+Q66555870,False,subdivision of surface of mandible,19.0,[],Mandible,
+Q5058671,False,Cemento-osseous dysplasia,15.0,[],Mandible,
+Q62006448,False,Posselt's Envelope of Motion,12.5,[],Mandible,
+,False,,,,Lymphoblastoid cell line,
+,False,,,,Embryonic thymus,
+,False,,,,Lung endoderm,
+,False,,,,Monocyte-derived macrophages,
+,False,,,,Leukemic cells,
+,False,,,,Embryonic stem cell line,
+,False,,,,Macrophage from E14.5,
+,False,,,,Kaposi's sarcoma,
+,False,,,,Thymocytes,
+Q19000715,False,prostate basal cell carcinoma,39.0,[],Prostate basal cells,
+,False,,,,Sub-ventricular zone,
+Q66599171,False,Left visual cortex,42.0,[],Visual cortex,
+Q66599170,False,Right visual cortex,40.5,[],Visual cortex,
+Q5628789,False,H1 neuron,9.0,[],Visual cortex,
+Q189763,False,trigeminal nerve,73.0,cranial nerve,Nerve,Q180454
+Q186029,False,optic nerve,71.0,cranial nerve,Nerve,Q180454
+Q190140,False,vagus nerve,67.0,cranial nerve,Nerve,Q180454
+Q242160,False,facial nerve cn 8,62.0,cranial nerve,Nerve,Q180454
+Q271987,False,Accessory nerve,62.0,cranial nerve,Nerve,Q180454
+Q307869,False,sciatic nerve,62.0,spinal nerve,Nerve,Q937076
+Q223903,False,oculomotor nerve,56.0,cranial nerve,Nerve,Q180454
+Q319584,False,trochlear nerve,56.0,cranial nerve,Nerve,Q180454
+Q319577,False,hypoglossal nerve,53.0,cranial nerve,Nerve,Q180454
+Q1420571,False,ophthalmic nerve,50.0,sensory nerve,Nerve,Q2635510
+Q509615,False,Intestinal epithelium,50.0,[],Intestinal epithelium,
+Q66714029,False,Intestinal epithelium,50.0,[],Intestinal epithelium,
+,False,,,,Peritoneal cavity cells,
+Q70079710,False,skeletal muscle satellite cells,41.5,[],Muscle satellite cells,
+,False,,,,Inflamed area of colon,
+,False,,,,Bone marrow mesenchymal and endothelial cells,
+Q55064607,False,???,50.0,[],Unknown,
+Q1541043,False,tomb of the Unknown Soldier,21.0,[],Unknown,
+Q594841,False,idiopathy,14.5,[],Unknown,
+Q753278,False,substantia nigra,50.0,[],Substantia nigra,
+Q66570992,False,left substantia nigra,43.0,[],Substantia nigra,
+Q66570991,False,right substantia nigra,42.0,[],Substantia nigra,
+Q3366041,False,pars compacta,39.0,[],Substantia nigra,
+Q66559332,False,substantia nigra pars compacta,35.0,[],Substantia nigra,
+Q66558706,False,subdivision of substantia nigra,34.0,[],Substantia nigra,
+Q66559334,False,substantia nigra pars reticulata,33.5,[],Substantia nigra,
+Q66574304,False,lateral part of substantia nigra,33.5,[],Substantia nigra,
+Q66570993,False,right substantia nigra pars compacta,31.0,[],Substantia nigra,
+Q66570994,False,left substantia nigra pars compacta,31.5,[],Substantia nigra,
+Q66574306,False,retrorubral part of substantia nigra,31.0,[],Substantia nigra,
+Q66570996,False,left substantia nigra pars reticulata,30.0,[],Substantia nigra,
+Q66570995,False,right substantia nigra pars reticulata,29.5,[],Substantia nigra,
+Q66539319,False,branch of anterior choroidal artery to substantia nigra,22.5,[],Substantia nigra,
+Q66569651,False,set of aminergic cells in compact part of substantia nigra [a9],21.0,[],Substantia nigra,
+Q66569652,False,set of dopaminergic cells in compact part of substantia nigra,21.0,[],Substantia nigra,
+Q66539357,False,branch of left anterior choroidal artery to left substantia nigra,20.0,[],Substantia nigra,
+Q66569221,False,set of branches of anterior choroidal artery to substantia nigra,20.0,[],Substantia nigra,
+Q66569653,False,set of noradrenergic cells in compact part of substantia nigra,20.5,[],Substantia nigra,
+Q66569654,False,set of norepinephric cells in compact part of substantia nigra,20.5,[],Substantia nigra,
+Q66573405,False,trunk of branch of anterior choroidal artery to substantia nigra,20.0,[],Substantia nigra,
+Q66539356,False,branch of right anterior choroidal artery to right substantia nigra,19.5,[],Substantia nigra,
+Q66573459,False,trunk of branch of left anterior choroidal artery to substantia nigra,19.0,[],Substantia nigra,
+Q66573458,False,trunk of branch of right anterior choroidal artery to substantia nigra,18.5,[],Substantia nigra,
+,False,,,,Stria terminalis (brain),
+Q11731945,False,Jądro łożyskowe prążka krańcowego,50.0,[],Bed nucleus of the stria terminalis,
+Q914952,False,cord blood,50.0,[],Cord blood,
+Q603336,False,cord blood bank,40.0,[],Cord blood,
+Q4232791,False,percutaneous umbilical cord blood sampling,34.5,[],Cord blood,
+Q25327036,False,Cord blood transfusion,31.0,[],Cord blood,
+Q42802058,False,cord blood mononuclear cell,27.0,[],Cord blood,
+Q67591532,False,cord blood stem cell transplantation,21.5,[],Cord blood,
+Q5169876,False,Cord blood-derived multipotent stem cell,20.0,[],Cord blood,
+,False,,,,Sorted myeloid cells,
+,False,,,,Tonsil CD14+ cells,
+,False,,,,Epidermal cells,
+,False,,,,Hind limb muscles,
+,False,,,,Tonsil CD4 T cells,
+,False,,,,Commensal-specific CD8+ T cells,
+,False,,,,Gonadal adipose tissue,
+Q7886,False,lung,50.0,[],Lungs,
+Q85782674,False,Lungs,50.0,[],Lungs,
+Q1682965,False,Pulmonary contusion,26.5,[],Lungs,
+Q552304,False,cardiopulmonary bypass,25.0,[],Lungs,
+Q337247,False,mediastinum,22.0,[],Lungs,
+Q31810173,False,Lungsud sa Malangas,21.0,[],Lungs,
+Q2990558,False,pulmonary compliance,20.0,[],Lungs,
+Q552461,False,hand washing,19.0,[],Lungs,
+Q754447,False,respiratory tract infection,18.0,[],Lungs,
+Q7075805,False,occupational lung disease,16.0,[],Lungs,
+Q927148,False,bronchoalveolar lavage,12.5,[],Lungs,
+Q91060086,False,respirable dust,10.0,[],Lungs,
+,False,,,,CD45+ dermal immune cells,
+,False,,,,Distal small intestine,
+Q66558171,False,segment of hindbrain,31.0,[],Hindbrain,
+Q66599518,False,Surface of hindbrain,31.0,[],Hindbrain,
+Q66599521,False,Surface of segment of hindbrain,22.5,[],Hindbrain,
+Q43363908,False,rhombencephalitis,16.0,[],Hindbrain,
+,False,,,,Embryonic hindbrain,
+Q1394389,False,dura mater,50.0,[],Dura mater,
+Q66569061,False,region of dura mater,37.0,[],Dura mater,
+Q66569063,False,spinal dura mater,37.0,[],Dura mater,
+Q66569062,False,cranial dura mater,35.5,[],Dura mater,
+Q66596113,False,Layer of dura mater,34.5,[],Dura mater,
+Q1322802,False,dural venous sinuses,32.0,[],Dura mater,
+Q66596114,False,periosteal dura,30.5,[],Dura mater,
+Q66596115,False,meningeal dura,29.0,[],Dura mater,
+Q66569064,False,subdivision of spinal dura mater,28.0,[],Dura mater,
+Q66599637,False,Mesothelial cell of dura mater,25.0,[],Dura mater,
+Q66569067,False,lumbar segment of spinal dura mater,22.0,[],Dura mater,
+Q66569065,False,cervical segment of spinal dura mater,21.5,[],Dura mater,
+Q66569066,False,thoracic segment of spinal dura mater,21.5,[],Dura mater,
+Q66590485,False,filum terminale segment of spinal dura mater,18.5,[],Dura mater,
+Q66563303,False,meningeal branch of posterior ethmoidal artery to dura mater,14.5,[],Dura mater,
+Q926250,False,choroid plexus,50.0,[],Choroid plexus,
+Q1237766,False,Choroid plexus cyst,42.5,[],Choroid plexus,
+Q55790814,False,childhood choroid plexus neoplasm,38.0,[],Choroid plexus,
+Q66599241,False,Epithelium of choroid plexus,33.5,[],Choroid plexus,
+Q66576377,False,choroid plexus of third ventricle,30.0,[],Choroid plexus,
+Q66576394,False,choroid plexus of fourth ventricle,29.0,[],Choroid plexus,
+Q66590323,False,choroid plexus of lateral ventricle,28.5,[],Choroid plexus,
+Q66599275,False,Choroid plexus of left lateral ventricle,26.0,[],Choroid plexus,
+Q66599274,False,Choroid plexus of right lateral ventricle,25.5,[],Choroid plexus,
+Q66599242,False,Subdivision of epithelium of choroid plexus,24.5,[],Choroid plexus,
+Q66599247,False,Epithelium of choroid plexus of third ventricle,23.0,[],Choroid plexus,
+Q66599243,False,Epithelium of choroid plexus of lateral ventricle,22.0,[],Choroid plexus,
+Q66599249,False,Epithelium of choroid plexus of fourth ventricle,22.5,[],Choroid plexus,
+Q66599245,False,Epithelium of choroid plexus of right lateral ventricle,20.5,[],Choroid plexus,
+Q66599246,False,Epithelium of choroid plexus of left lateral ventricle,20.5,[],Choroid plexus,
+,False,,,,Subdural meninges,
+Q1466317,False,mesenteric vein,80.0,veins,Mesenteric,Q9609
+Q367570,False,superior mesenteric artery,62.0,artery,Mesenteric,Q9655
+Q707384,False,inferior mesenteric artery,62.0,artery,Mesenteric,Q9655
+Q751322,False,superior mesenteric vein,59.0,veins,Mesenteric,Q9609
+Q3176575,False,inferior mesenteric vein,59.0,veins,Mesenteric,Q9609
+Q66600617,False,Renal subcortex,37.5,[],Subcortex,
+Q66599012,False,Cerebral subcortex,33.5,[],Subcortex,
+Q66599011,False,Left cerebral subcortex,28.0,[],Subcortex,
+Q66599010,False,Right cerebral subcortex,27.5,[],Subcortex,
+Q66600619,False,Subcortex of left kidney,27.5,[],Subcortex,
+Q66600618,False,Subcortex of right kidney,26.5,[],Subcortex,
+Q66599014,False,region of cerebral subcortex,24.5,[],Subcortex,
+,False,,,,Cd14+ monocytes,
+Q11090,True,small intestine,100.0,anatomical structure,Small intestine,Q4936952
+Q180569,True,tonsil,100.0,anatomical structure,Tonsil,Q4936952
+Q552087,False,adenoid,67.0,anatomical structure,Tonsil,Q4936952
+Q2442277,False,tubal tonsil,67.0,lymphatic tissue,Tonsil,Q3529455
+,False,,,,Cultured embryonic stem cells,
+Q1293511,True,cortex,100.0,plant structure,Cortex,Q20011319
+Q19065,False,adrenal cortex,77.0,anatomical structure,Cortex,Q4936952
+Q18696,False,motor cortex,71.0,cortex,Cortex,Q2346577
+Q75785,False,visual cortex,71.0,anatomical structure,Cortex,Q4936952
+Q5058180,False,cell cortex,71.0,cellular component,Cortex,Q5058355
+Q2307492,False,renal cortex,67.0,anatomical structure,Cortex,Q4936952
+Q75839,False,cerebral cortex,60.0,brain region,Cortex,Q1620186
+Q18717,False,orbitofrontal cortex,57.0,cortex,Cortex,Q2346577
+Q2998090,False,premotor cortex,57.0,brain region,Cortex,Q1620186
+Q18680,False,prefrontal cortex,52.0,brain region,Cortex,Q1620186
+Q2603645,False,entorhinal cortex,52.0,brain region,Cortex,Q1620186
+Q22327502,False,presynaptic active zone cytoplasmic component,41.0,cellular component,Cortex,Q5058355
+Q72788,False,dorsolateral prefrontal cortex,33.0,anatomical structure,Cortex,Q4936952
+Q14864171,False,cell periphery,32.0,cellular component,Cortex,Q5058355
+,False,,,,Lung progenitors,
+,False,,,,Embryonic kidney cortex,
+,False,,,,Ventral midbrain,
+Q1128050,False,hematopoietic stem cell transplantation,32.0,[],Bone marrow stem cells,
+,False,,,,Caudal ganglionic eminence,
+,False,,,,Cervical and lumbar spinal cord,
+Q5982337,True,colon,100.0,anatomical structure,Colon,Q4936952
+Q2619732,False,transverse colon,67.0,anatomical structure,Colon,Q4936952
+Q2562556,False,ascending colon,62.0,anatomical structure,Colon,Q4936952
+Q677253,False,sigmoid colon,59.0,anatomical structure,Colon,Q4936952
+Q2562565,False,descending colon,59.0,anatomical structure,Colon,Q4936952
+,False,,,,Medial ganglionic eminence,
+,False,,,,Lung mesenchyme,
+Q2307492,True,renal cortex,100.0,anatomical structure,Kidney cortex,Q4936952
+Q28015618,False,cortical collecting duct,62.0,anatomical structure,Kidney cortex,Q4936952
+,False,,,,Aortic leukocytes,
+Q937403,False,Subventricular zone,50.0,[],Subventricular zone,
+,False,,,,Trigeminal neurons,
+Q546523,True,bone marrow,100.0,tissue,Bone marrow,Q40397
+,False,,,,Alveolar rhabdomyosarcoma,
+,False,,,,Peripheral blood mononuclear cells,
+Q189961,False,mammary gland,50.0,[],Mammary gland,
+Q66554652,False,left mammary gland,42.0,[],Mammary gland,
+Q66058110,False,human mammary gland,40.5,[],Mammary gland,
+Q66554648,False,right mammary gland,40.5,[],Mammary gland,
+Q172563,False,umbilical cord,46.0,anatomical structure,Embryo,Q4936952
+Q1956694,False,myoblast,44.0,cell type,Embryo,Q189118
+Q9382,True,urinary bladder,100.0,anatomical structure,Bladder,Q4936952
+Q64386,False,gallbladder,78.0,anatomical structure,Bladder,Q4936952
+Q96756123,False,pig's bladder,70.0,urinary bladder,Bladder,Q9382
+Q9386,False,urethra,46.0,anatomical structure,Bladder,Q4936952
+Q182228,False,brain stem,71.0,anatomical structure,Brain,Q4936952
+Q130983,False,cerebellum,62.0,brain region,Brain,Q1620186
+Q822050,False,white matter,50.0,anatomical structure,Brain,Q4936952
+Q2464312,False,Albert Einstein's brain,48.0,human brain,Brain,Q492038
+Q1319792,False,corpus striatum,43.0,brain region,Brain,Q1620186
+Q1476178,False,nucleus accumbens,42.0,brain region,Brain,Q1620186
+Q502961,False,astrocyte,40.0,cell type,Brain,Q189118
+Q1622829,False,microglia,30.0,cell type,Brain,Q189118
+Q7060553,False,muscular system,92.0,soft tissue,Muscle,Q1458306
+Q428914,False,myocyte,71.0,cell type,Muscle,Q189118
+Q2083654,False,Iliopsoas,67.0,muscle,Muscle,Q7365
+Q526403,False,anconeus muscle,63.0,muscle,Muscle,Q7365
+Q1954164,False,soleus muscle,63.0,muscle,Muscle,Q7365
+Q130243,False,deltoid muscle,60.0,muscle,Muscle,Q7365
+Q597112,False,nasalis muscle,60.0,muscle,Muscle,Q7365
+Q743294,False,serratus anterior muscle,60.0,muscle,Muscle,Q7365
+Q725408,False,masseter muscle,57.0,muscle,Muscle,Q7365
+Q841536,False,risorius muscle,57.0,muscle,Muscle,Q7365
+Q943203,False,gastrocnemius muscle,57.0,muscle,Muscle,Q7365
+Q526239,False,plantaris muscle,55.0,muscle,Muscle,Q7365
+Q645694,False,digastric muscle,55.0,muscle,Muscle,Q7365
+Q927901,False,mylohyoid muscle,55.0,muscle,Muscle,Q7365
+Q232358,False,tendon,53.0,anatomical structure,Muscle,Q4936952
+Q504536,False,quadriceps femoris muscle,53.0,muscle,Muscle,Q7365
+Q846480,False,buccinator muscle,52.0,muscle,Muscle,Q7365
+Q899783,False,stylohyoid muscle,52.0,muscle,Muscle,Q7365
+Q74959,False,supraspinatus muscle,50.0,muscle,Muscle,Q7365
+Q545030,False,Corrugator supercilii muscle,50.0,muscle,Muscle,Q7365
+Q19087,False,infraspinatus muscle,48.0,muscle,Muscle,Q7365
+Q130050,False,subscapularis muscle,48.0,muscle,Muscle,Q7365
+Q130983,False,cerebellum,47.0,brain region,Muscle,Q1620186
+Q532798,False,pectoralis major,44.0,muscle,Muscle,Q7365
+Q730359,False,coracobrachialis muscle,44.0,muscle,Muscle,Q7365
+Q988343,False,blood vessel,73.0,anatomical structure,Blood,Q4936952
+Q11068,False,circulatory system,62.0,organ system,Blood,Q188193
+Q37187,False,red blood cell,59.0,cell type,Blood,Q189118
+Q9609,False,veins,55.0,anatomical structure,Blood,Q4936952
+Q715347,False,lymphocyte,46.0,cell type,Blood,Q189118
+Q184204,False,macrophage,44.0,cell type,Blood,Q189118
+Q111140,False,endothelium,40.0,tissue,Blood,Q40397
+Q2576226,False,rib cage,86.0,anatomical structure,Rib,Q4936952
+Q42244,False,ribosome,60.0,cellular component,Rib,Q5058355
+Q269345,False,lamella,44.0,fungal part,Rib,Q56883667
+Q964519,False,cervical rib,40.0,rib,Rib,Q196672
+Q417662,False,ribonucleoprotein,33.0,group or class of chemical substances,Rib,Q17339814
+Q9384,True,testicle,100.0,anatomical structure,Testis,Q4936952
+Q55790240,False,fetal brain disruption sequence,26.0,[],Fetal brain,
+Q163987,True,thymus,100.0,anatomical structure,Thymus,Q4936952
+Q1120914,False,placenta,100.0,plant structure,Placenta,Q20011319
+Q1212935,False,placenta,100.0,organ,Placenta,Q712378
+Q172563,False,umbilical cord,50.0,anatomical structure,Placenta,Q4936952
+Q191341,False,pulmonary alveolus,47.0,anatomical structure,Lung,Q4936952
+,False,,,,Fetal kidney,
+Q613203,False,calvaria,50.0,[],Calvaria,
+Q66574017,False,external table of calvaria,25.0,[],Calvaria,
+Q66574019,False,internal table of calvaria,25.0,[],Calvaria,
+Q66543234,False,internal surface of calvaria,22.0,[],Calvaria,
+Q66543235,False,external surface of calvaria,22.0,[],Calvaria,
+Q9377,True,kidney,100.0,anatomical structure,Kidney,Q4936952
+Q955020,False,renal pelvis,63.0,anatomical structure,Kidney,Q4936952
+Q909882,False,glomerulus,52.0,anatomical structure,Kidney,Q4936952
+Q9371,True,spleen,100.0,anatomical structure,Spleen,Q4936952
+Q9618,True,pancreas,100.0,gland,Pancreas,Q9647
+Q728309,False,islet of Langerhans,64.0,anatomical structure,Pancreas,Q4936952
+Q50265665,False,insulin,38.0,protein complex,Pancreas,Q420927
+,False,,,,Fetal intestine,
+,False,,,,Fetal stomach,
+Q9368,True,liver,100.0,anatomical structure,Liver,Q4936952
+Q827450,False,hepatocyte,53.0,cell type,Liver,Q189118
+Q55786967,False,well-differentiated fetal adenocarcinoma of the lung,28.5,[],Fetal lung,
+Q1029907,True,stomach,100.0,anatomical structure,Stomach,Q4936952
+Q3270352,False,body of stomach,64.0,anatomical structure,Stomach,Q4936952
+Q2449197,False,fundus,58.0,anatomical structure,Stomach,Q4936952
+Q1922379,True,mesenchymal stem cells,100.0,cell type,Mesenchymal stem cell,Q189118
+,False,,,,Fetal gonad,
+Q1074,True,skin,100.0,anatomical structure,Skin,Q4936952
+Q212743,False,epidermis,50.0,anatomical structure,Skin,Q4936952
+,False,,,,Fetal liver,
+Q9631,False,ovary,100.0,anatomical structure,Ovary,Q4936952
+Q148515,False,ovary,100.0,plant structure,Ovary,Q20011319
+Q1889778,False,trophoblasts,50.0,[],Trophoblast,
+Q66589800,False,trophoblast cell,40.5,[],Trophoblast,
+Q66592473,False,Villous trophoblast,36.5,[],Trophoblast,
+Q6047391,False,Intermediate trophoblast,31.5,[],Trophoblast,
+Q66592472,False,Intermediate trophoblast,31.5,[],Trophoblast,
+Q66592475,False,Intermediate trophoblast cell,27.5,[],Trophoblast,
+Q130983,True,cerebellum,100.0,brain region,Cerebellum,Q1620186
+Q9612,True,uterus,100.0,anatomical structure,Uterus,Q4936952
+Q666412,False,cervix,57.0,organ,Uterus,Q712378
+Q1233836,False,fallopian tube,53.0,anatomical structure,Uterus,Q4936952
+Q189033,True,medulla oblongata,100.0,brain region,Medulla oblongata,Q1620186
+Q184215,True,thalamus,100.0,brain region,Thalamus,Q1620186
+Q3519438,False,human thalamus,73.0,brain region,Thalamus,Q1620186
+Q7623541,False,stria medullaris of thalamus,44.0,anatomical structure,Thalamus,Q4936952
+Q1395415,False,dorsal root ganglion,50.0,[],Dorsal root ganglion,
+Q48360,True,hippocampus,100.0,brain region,Hippocampus,Q1620186
+Q66575252,False,dorsal striatum,50.0,[],Dorsal striatum,
+Q7920296,True,ventral striatum,100.0,brain region,Ventral striatum,Q1620186
+Q545787,True,dentate gyrus,100.0,gyrus,Dentate gyrus,Q1758383
+Q21132854,False,dentate gyrus mossy fiber,68.0,cellular component,Dentate gyrus,Q5058355
+Q70061154,False,hippocampal CA1 region,81.0,brain region,Hippocampus (ca1),Q1620186
+Q1977414,False,Neo Cortex,50.0,[],Neo-cortex,
+Q9606,True,spinal cord,100.0,anatomical structure,Spinal cord,Q4936952
+Q192570,True,pons,100.0,brain region,Pons,Q1620186
+Q164386,True,hypothalamus,100.0,anatomical structure,Hypothalamus,Q4936952
+Q444192,False,Paraventricular nucleus of hypothalamus,49.0,brain region,Hypothalamus,Q1620186
+Q1156516,False,suprachiasmatic nucleus,34.0,brain region,Hypothalamus,Q1620186
+Q7850864,False,tuberomammillary nucleus,28.0,neural nucleus,Hypothalamus,Q1934178
+Q338924,True,amygdala,100.0,brain region,Amygdala,Q1620186
+Q644945,True,olfactory bulb,100.0,organism substance,Olfactory bulb?,Q27983054
+Q1503804,False,Parinaud's syndrome,38.5,[],Dorsal midbrain,
+Q75839,False,cerebral cortex,64.0,brain region,Cortex 1,Q1620186
+Q18696,False,motor cortex,63.0,cortex,Cortex 1,Q2346577
+Q75785,False,visual cortex,63.0,anatomical structure,Cortex 1,Q4936952
+Q185080,False,mesencephalon,100.0,brain region,Mesencephalon?,Q1620186
+Q42303829,False,mesencephalon,100.0,embryonic structure,Mesencephalon?,Q30062554
+Q644945,True,olfactory bulb,100.0,organism substance,Olfactory bulb,Q27983054
+,False,,,,Cortex 3,
+Q19065,False,adrenal cortex,67.0,anatomical structure,Cortex 2,Q4936952
+Q64926247,False,somatosensory cortex,50.0,[],Somatosensory cortex,
+Q30587611,False,primary somatosensory cortex,42.0,[],Somatosensory cortex,
+Q13217355,False,secondary somatosensory cortex,40.0,[],Somatosensory cortex,
+Q586582,True,enteric nervous system,100.0,anatomical structure,Enteric nervous system,Q4936952
+Q187215,True,sympathetic nervous system,100.0,anatomical structure,Sympathetic nervous system,Q4936952
+,False,,,,"Cortex, hippocampus and subventricular zone",
+Q43054,True,neuron,100.0,cell type,Neurons,Q189118
+Q178999,False,axon,82.0,cellular component,Neurons,Q5058355
+Q1500732,False,interneuron,78.0,cell type,Neurons,Q189118
+Q14645696,False,neuronal cell body,75.0,cellular component,Neurons,Q5058355
+Q7364,False,eye,60.0,anatomical structure,Neurons,Q4936952
+Q187181,False,synapse,56.0,cellular component,Neurons,Q5058355
+Q12821248,False,dendrite,50.0,cellular component,Neurons,Q5058355
+,False,,,,Mammary epithelial cells,
+Q876089,True,left ventricle,100.0,anatomical structure,Left Ventricle,Q4936952
+Q1622829,True,microglia,100.0,cell type,Microglia,Q189118
+,False,,,,Intestinal crypt epithelium,
+,False,,,,Human embryo forebrain,
+,False,,,,Neonatal mouse stomach explants,
+,False,,,,Neonatal mouse stomach organoid,
+,False,,,,Airway submucosal glandular epithelial cells,
+,False,,,,Epithelial cells in airway luminal surface,
+,False,,,,Stomach organoid,
+,False,,,,Arcuate-median eminence,
+,False,,,,Lks+ hematopoietic stem cells,
+,False,,,,Mammary gland epithelium cell,
+,False,,,,Lsk cells from bone marrow,
+,False,,,,Hepatocellular carcinoma,
+Q736033,False,Peripheral blood mononuclear cell,50.0,[],Peripheral blood mononuclear cell,
+Q66592623,False,Peripheral blood mononuclear cell,50.0,[],Peripheral blood mononuclear cell,
+,False,,,,Pulmonary alveolar type i cells,
+,False,,,,Kidney organoids,
+Q170758,True,lymph node,100.0,anatomical structure,Lymph node,Q4936952
+Q340695,False,axillary lymph node,69.0,lymph node,Lymph node,Q170758
+Q776290,False,Sentinel lymph node,69.0,lymph node,Lymph node,Q170758
+Q4982430,False,Buccinator lymph node,65.0,lymph node,Lymph node,Q170758
+Q7643295,False,superficial lymph node,62.0,lymph node,Lymph node,Q170758
+,False,,,,Pulmonary alveolar type ii cells,
+,False,,,,Melanoma,
+Q188930,True,B-cells,100.0,cell type,B cells,Q189118
+Q55785921,False,borderline epithelial tumor of ovary,27.5,[],Ovarian tumor,
+Q17144533,False,International Ovarian Tumor Analysis trial,23.5,[],Ovarian tumor,
+Q2307492,True,renal cortex,100.0,anatomical structure,Renal cortex,Q4936952
+,False,,,,Embryonic kidney,
+,False,,,,Whole kidney,
+Q4118072,False,cancer cell,77.0,cell type,Tumor,Q189118
+Q1072,True,heart,100.0,anatomical structure,Heart,Q4936952
+Q1074839,False,atrium,62.0,anatomical structure,Heart,Q4936952
+Q2002035,False,ventricle,57.0,anatomical structure,Heart,Q4936952
+Q3384920,False,Embryoid body,50.0,[],Embryoid body,
+Q41514940,False,esBAF complex,64.0,cellular component,Embryonic stem cell,Q5058355
+Q913628,True,lacrimal gland,100.0,anatomical structure,Lacrimal gland,Q4936952
+Q5939177,False,Human umbilical vein endothelial cell,90.0,cell type,Umbilical vein endothelial cells,Q189118
+,False,,,,Breast epithelium,
+Q169342,True,retina,100.0,anatomical structure,Retina,Q4936952
+Q505544,False,rod cell,62.0,cell type,Retina,Q189118
+Q747023,False,macula of retina,60.0,anatomical structure,Retina,Q4936952
+Q489722,False,central retinal artery,57.0,artery,Retina,Q9655
+Q14859539,False,photoreceptor inner segment,29.0,cellular component,Retina,Q5058355
+,False,,,,Medial amygdala,
+Q193583,False,adipose tissue,83.0,tissue,Adipose,Q40397
+,False,,,,Lateral ganglionic eminence,
+Q94489,False,n-gram,16.5,[],\N,
+Q180544,False,prism,16.5,[],\N,
+Q175943,False,photodiode,9.0,[],\N,
+Q101004,True,aorta,100.0,artery,Aorta,Q9655
+Q2264329,False,abdominal aorta,77.0,artery,Aorta,Q9655
+Q2349469,False,ascending aorta,75.0,artery,Aorta,Q9655
+Q616032,False,aortic arch,71.0,artery,Aorta,Q9655
+Q616071,False,aortic valve,71.0,anatomical structure,Aorta,Q4936952
+Q615993,False,thoracic aorta,67.0,artery,Aorta,Q9655
+Q3270170,False,descending aorta,67.0,artery,Aorta,Q9655
+Q5298763,False,dorsal aorta,62.0,artery,Aorta,Q9655
+Q515917,False,brachiocephalic artery,50.0,artery,Aorta,Q9655
+Q519368,False,celiac artery,47.0,artery,Aorta,Q9655
+Q1163923,False,ductus arteriosus,47.0,artery,Aorta,Q9655
+,False,,,,Neuronal epithelium,
+Q11394395,False,endothelial cells,50.0,[],Endothelial cells,
+Q5376430,False,Endothelial stem cell,42.0,[],Endothelial cells,
+Q1340830,False,endothelial progenitor cells,38.0,[],Endothelial cells,
+Q500446,False,pericyte,17.0,[],Endothelial cells,
+Q215620,True,heart valve,100.0,anatomical structure,Heart valve,Q4936952
+Q5558489,False,Giant retinal ganglion cells,44.0,[],Retinal ganglion cells,
+Q10263076,False,Intrinsically photosensitive retinal ganglion cells,39.0,[],Retinal ganglion cells,
+,False,,,,Substantia nigra-ventral tegmental area,
+,False,,,,Breast cancer cell line,
+Q728309,True,islet of Langerhans,100.0,anatomical structure,Pancreatic islets,Q4936952
+,False,,,,Embryonic fibroblasts,
+Q719179,True,lateral geniculate nucleus,100.0,brain region,Lateral geniculate nucleus,Q1620186
+,False,,,,Circulating tumor cells in hepatocellular carcinoma,
+,False,,,,Lung distal alveolar stromal cells,
+,False,,,,Oligodendrocyte cultures,
+,False,,,,CD34+ cord blood cells,
+Q224930,False,natural killer T cell,44.0,[],NK cells,
+Q49000020,False,Adaptive NK cells,32.0,[],NK cells,
+Q55779842,False,neoplasm of mature T-cells or NK-cells,21.0,[],NK cells,
+,False,,,,ES-derived embryoid body,
+,False,,,,Lung proximal airway stromal cells,
+,False,,,,Neural stem cells from subventricular zone,
+,False,,,,Embryonic mouse mammary gland,
+,False,,,,Cortex CA1,
+,False,,,,Mammary epithelium,
+Q464210,False,basal ganglia,100.0,brain region,Striatum,Q1620186
+Q1319792,False,corpus striatum,100.0,brain region,Striatum,Q1620186
+Q7920296,False,ventral striatum,67.0,brain region,Striatum,Q1620186
+Q28472,False,hair,67.0,anatomical structure,Dermis,Q4936952
+Q30029801,False,zone of skin,31.0,anatomical structure,Dermis,Q4936952
+,False,,,,Nasal airway epithelium,
+Q654528,False,white adipose tissue,50.0,[],White adipose tissue,
+Q70307426,False,beige adipose tissue,35.0,[],White adipose tissue,
+,False,,,,Cardiac progenitor cells,
+,False,,,,Leukocytes from aortas,
+,False,,,,Cortical organoids,
+,False,,,,Lung airway epithelial cells,
+,False,,,,Foam cells from aortas,
+Q10334846,False,cardiac muscle,40.0,[],Cardiac tissue,
+Q66590639,False,fibrocollagenous sheath of cardiac muscle tissue,22.5,[],Cardiac tissue,
+Q376266,False,cytotoxic T cell,78.0,cell type,T cells,Q189118
+,False,,,,Subcutaneous innate lymphoid cells,
+,False,,,,Dermal innate lymphoid cells,
+,False,,,,Epidermal innate lymphoid cells,
+Q7130382,False,Pancolitis,34.5,[],Colon (Ulcerative Colitis),
+,False,,,,Skeletal muscle macrophages from hindlimb,
+,False,,,,Hepatocyte-derived liver progenitor-like cells,
+,False,,,,Hippocampus (injury),
+,False,,,,Hippocampus (24h Sham surgery),
+,False,,,,Merkel Cell Carcinoma,
+Q736033,False,Peripheral blood mononuclear cell,50.0,[],PBMC,
+,False,,,,Embryonic skin,
+Q3052544,False,olfactory epithelium,50.0,[],Olfactory epithelium,
+Q11788632,False,Olfactory epithelium,50.0,[],Olfactory epithelium,
+Q66558580,False,basal cell of olfactory epithelium,37.0,[],Olfactory epithelium,
+Q66563543,False,globose cell of olfactory epithelium,35.5,[],Olfactory epithelium,
+Q66558578,False,supporting cell of olfactory epithelium,34.0,[],Olfactory epithelium,
+Q66558582,False,basal proper cell of olfactory epithelium,33.0,[],Olfactory epithelium,
+,False,,,,NK cells from spleen,
+,False,,,,NK cells from blood,
+,False,,,,Bone marrow from melanoma tumor-bearing mice,
+Q914952,False,cord blood,50.0,[],Umbilical cord blood,
+Q4232791,False,percutaneous umbilical cord blood sampling,36.0,[],Umbilical cord blood,
+,False,,,,Immortalized gonadotrope cells,
+,False,,,,Splenocytes enriched for B cells,
+Q156871,True,pituitary gland,100.0,anatomical structure,Pituitary gland,Q4936952
+Q1503735,False,posterior pituitary,62.0,anatomical structure,Pituitary gland,Q4936952
+,False,,,,SVZ-derived neural stem cells,
+,False,,,,CD45+ cells,
+Q4778753,False,Aortic body,35.5,[],Aortic cells,
+,False,,,,Testicular cells,
+Q9384,True,testicle,100.0,anatomical structure,Testicle,Q4936952
+Q1973610,False,epididymis,67.0,sex organ,Testicle,Q4620674
+Q2531387,False,Decidua,50.0,[],Decidua,
+Q66591851,False,decidua,50.0,[],Decidua,
+,False,,,,Intestinal organoid epithelial cells,
+,False,,,,CD24+ CD45- neuronal cells,
+Q579886,True,submandibular gland,100.0,anatomical structure,Submandibular Gland,Q4936952
+,False,,,,Mouse embryonic fibroblasts,
+,False,,,,Yolk sack,
+Q317857,True,cochlea,100.0,anatomical structure,Cochlea,Q4936952
+Q29642065,False,auditory hair cell,56.0,cell type,Cochlea,Q189118
+Q741774,False,tectorial membrane,39.0,anatomical structure,Cochlea,Q4936952
+,False,,,,Intraembryonic tissues,
+,False,,,,Whole heart,
+,False,,,,Cortical cells,
+,False,,,,Blood CD8+ T lymphocytes,
+Q7240592,False,preoptic area,28.0,[],Preoptic region of the hypothalamus,
+Q7643652,False,Superior mesenteric lymph nodes,83.0,lymph node,Mesenteric lymph nodes,Q170758
+Q16989580,False,Inferior mesenteric lymph nodes,83.0,lymph node,Mesenteric lymph nodes,Q170758
+Q7133679,False,Paraaortic lymph node,88.0,lymph node,Periaortic lymph nodes,Q170758
+Q19001246,False,peripheral lymph node tuberculosis,38.0,[],Peripheral lymph node,
+Q66557635,False,skin of auricle of ear,28.5,[],Ear skin,
+Q66557638,False,skin of auricle of left ear,24.0,[],Ear skin,
+Q66557637,False,skin of auricle of right ear,23.5,[],Ear skin,
+,False,,,,Heart macrophages and dendritic cells,
+Q192419,False,diencephalon,100.0,anatomical structure,Diencephalon,Q4936952
+Q42303837,False,diencephalon,100.0,embryonic structure,Diencephalon,Q30062554
+Q164386,False,hypothalamus,48.0,anatomical structure,Diencephalon,Q4936952
+Q849277,False,epithalamus,48.0,brain region,Diencephalon,Q1620186
+Q662322,False,third ventricle,46.0,anatomical structure,Diencephalon,Q4936952
+Q1066549,False,subthalamus,45.0,brain region,Diencephalon,Q1620186
+Q2995031,False,alpha cell,47.5,[],Alpha cells,
+Q77939856,False,"Receptors, Pancreatic Hormone",15.5,[],Alpha cells,
+Q5376385,False,Endoplasmic Reticulum Stress in Beta Cells,19.0,[],Beta cells,
+,False,,,,Pancreatic progenitor cells,
+Q175449,True,trachea,100.0,anatomical structure,Trachea,Q4936952
+Q546523,False,bone marrow,71.0,tissue,Marrow,Q40397
+Q9614,False,tongue,100.0,anatomical structure,Tongue,Q4936952
+Q1437033,False,glossa,100.0,organ,Tongue,Q712378
+Q6553990,False,lingual papilla,60.0,anatomical structure,Tongue,Q4936952
+,False,,,,Mammary tissue,
+,False,,,,In vitro differentiation of mESCs into motor neurons,
+Q1934178,False,neural nucleus,53.0,brain region,Brain (neurons),Q1620186
+Q193583,True,adipose tissue,100.0,tissue,Fat,Q40397
+,False,,,,ES-derived kidney organoid,
+Q9625,True,prostate,100.0,material anatomical entity,Prostate,Q27043948
+Q16370,False,human mandible,84.0,bone,Mandible,Q265868
+Q5281607,False,arthropod mandible,82.0,anatomical structure,Mandible,Q4936952
+Q7162905,False,Peninj Mandible,70.0,Hominin fossil,Mandible,Q18347143
+Q104280,False,gums,59.0,animal structure,Mandible,Q25570959
+,False,,,,Lymphoblastoid cell line,
+Q76823287,False,"Receptor, EphB5",16.5,[],Embryonic thymus,
+,False,,,,Lung endoderm,
+,False,,,,Monocyte-derived macrophages,
+,False,,,,Leukemic cells,
+Q54905254,False,MES11,86.0,cell line,Embryonic stem cell line,Q21014462
+Q54905255,False,MES12,86.0,cell line,Embryonic stem cell line,Q21014462
+Q54905256,False,MES13,86.0,cell line,Embryonic stem cell line,Q21014462
+Q54905257,False,MES14,86.0,cell line,Embryonic stem cell line,Q21014462
+Q54905259,False,MES15,86.0,cell line,Embryonic stem cell line,Q21014462
+Q54905260,False,MES16,86.0,cell line,Embryonic stem cell line,Q21014462
+Q54905261,False,MES17,86.0,cell line,Embryonic stem cell line,Q21014462
+Q54905262,False,MES19,86.0,cell line,Embryonic stem cell line,Q21014462
+Q54905263,False,MES20,86.0,cell line,Embryonic stem cell line,Q21014462
+Q54905264,False,MES21,86.0,cell line,Embryonic stem cell line,Q21014462
+Q54905265,False,MES22,86.0,cell line,Embryonic stem cell line,Q21014462
+Q54905266,False,MES23,86.0,cell line,Embryonic stem cell line,Q21014462
+Q54905268,False,MES24,86.0,cell line,Embryonic stem cell line,Q21014462
+Q54905269,False,MES25,86.0,cell line,Embryonic stem cell line,Q21014462
+Q54905270,False,MES26,86.0,cell line,Embryonic stem cell line,Q21014462
+Q54905272,False,MES27,86.0,cell line,Embryonic stem cell line,Q21014462
+Q54905273,False,MES28,86.0,cell line,Embryonic stem cell line,Q21014462
+Q54905274,False,MES29,86.0,cell line,Embryonic stem cell line,Q21014462
+Q54872370,False,hAGES,72.0,cell line,Embryonic stem cell line,Q21014462
+Q54951467,False,RUES1,66.0,cell line,Embryonic stem cell line,Q21014462
+Q54951469,False,RUES2,66.0,cell line,Embryonic stem cell line,Q21014462
+Q54951472,False,RUES3,66.0,cell line,Embryonic stem cell line,Q21014462
+,False,,,,Macrophage from E14.5,
+,False,,,,Kaposi's sarcoma,
+,False,,,,Thymocytes,
+Q19000715,False,prostate basal cell carcinoma,39.0,[],Prostate basal cells,
+,False,,,,Sub-ventricular zone,
+Q75785,True,visual cortex,100.0,anatomical structure,Visual cortex,Q4936952
+Q68019463,False,human visual cortex,81.0,anatomical structure,Visual cortex,Q4936952
+Q43054,True,neuron,100.0,cell type,Nerve,Q189118
+Q189763,False,trigeminal nerve,73.0,cranial nerve,Nerve,Q180454
+Q186029,False,optic nerve,71.0,cranial nerve,Nerve,Q180454
+Q14862271,False,axon terminus,71.0,cellular component,Nerve,Q5058355
+Q9404,False,nervous system,67.0,anatomical structure,Nerve,Q4936952
+Q178999,False,axon,67.0,cellular component,Nerve,Q5058355
+Q190140,False,vagus nerve,67.0,cranial nerve,Nerve,Q180454
+Q242160,False,facial nerve cn 8,62.0,cranial nerve,Nerve,Q180454
+Q271987,False,Accessory nerve,62.0,cranial nerve,Nerve,Q180454
+Q307869,False,sciatic nerve,62.0,spinal nerve,Nerve,Q937076
+Q223903,False,oculomotor nerve,56.0,cranial nerve,Nerve,Q180454
+Q319584,False,trochlear nerve,56.0,cranial nerve,Nerve,Q180454
+Q319577,False,hypoglossal nerve,53.0,cranial nerve,Nerve,Q180454
+Q1420571,False,ophthalmic nerve,50.0,sensory nerve,Nerve,Q2635510
+Q187181,False,synapse,46.0,cellular component,Nerve,Q5058355
+Q12821248,False,dendrite,46.0,cellular component,Nerve,Q5058355
+Q509615,False,Intestinal epithelium,50.0,[],Intestinal epithelium,
+Q66714029,False,Intestinal epithelium,50.0,[],Intestinal epithelium,
+,False,,,,Peritoneal cavity cells,
+Q70079710,False,skeletal muscle satellite cells,41.5,[],Muscle satellite cells,
+,False,,,,Inflamed area of colon,
+,False,,,,Bone marrow mesenchymal and endothelial cells,
+Q55064607,False,???,50.0,[],Unknown,
+Q1541043,False,tomb of the Unknown Soldier,21.0,[],Unknown,
+Q594841,False,idiopathy,14.5,[],Unknown,
+Q7139918,False,pars reticulata,74.0,anatomical structure,Substantia nigra,Q4936952
+,False,,,,Stria terminalis (brain),
+Q11731945,False,Jądro łożyskowe prążka krańcowego,50.0,[],Bed nucleus of the stria terminalis,
+Q914952,False,cord blood,50.0,[],Cord blood,
+Q603336,False,cord blood bank,40.0,[],Cord blood,
+Q4232791,False,percutaneous umbilical cord blood sampling,34.5,[],Cord blood,
+Q25327036,False,Cord blood transfusion,31.0,[],Cord blood,
+Q42802058,False,cord blood mononuclear cell,27.0,[],Cord blood,
+Q67591532,False,cord blood stem cell transplantation,21.5,[],Cord blood,
+Q5169876,False,Cord blood-derived multipotent stem cell,20.0,[],Cord blood,
+,False,,,,Sorted myeloid cells,
+,False,,,,Tonsil CD14+ cells,
+,False,,,,Epidermal cells,
+,False,,,,Hind limb muscles,
+,False,,,,Tonsil CD4 T cells,
+,False,,,,Commensal-specific CD8+ T cells,
+,False,,,,Gonadal adipose tissue,
+Q535352,False,pulmonary vein,67.0,veins,Lungs,Q9609
+Q175449,False,trachea,55.0,anatomical structure,Lungs,Q4936952
+,False,,,,CD45+ dermal immune cells,
+,False,,,,Distal small intestine,
+Q1137072,True,rhombencephalon,100.0,embryonic structure,Hindbrain,Q30062554
+Q1137072,False,rhombencephalon,64.0,embryonic structure,Embryonic hindbrain,Q30062554
+Q2456825,False,myelencephalon,42.0,embryonic structure,Embryonic hindbrain,Q30062554
+Q1394389,False,dura mater,50.0,[],Dura mater,
+Q66569061,False,region of dura mater,37.0,[],Dura mater,
+Q66569063,False,spinal dura mater,37.0,[],Dura mater,
+Q66569062,False,cranial dura mater,35.5,[],Dura mater,
+Q66596113,False,Layer of dura mater,34.5,[],Dura mater,
+Q1322802,False,dural venous sinuses,32.0,[],Dura mater,
+Q66596114,False,periosteal dura,30.5,[],Dura mater,
+Q66596115,False,meningeal dura,29.0,[],Dura mater,
+Q66569064,False,subdivision of spinal dura mater,28.0,[],Dura mater,
+Q66599637,False,Mesothelial cell of dura mater,25.0,[],Dura mater,
+Q66569067,False,lumbar segment of spinal dura mater,22.0,[],Dura mater,
+Q66569065,False,cervical segment of spinal dura mater,21.5,[],Dura mater,
+Q66569066,False,thoracic segment of spinal dura mater,21.5,[],Dura mater,
+Q66590485,False,filum terminale segment of spinal dura mater,18.5,[],Dura mater,
+Q66563303,False,meningeal branch of posterior ethmoidal artery to dura mater,14.5,[],Dura mater,
+Q66568503,False,epithelial cell of choroid plexus,60.0,cell type,Choroid plexus,Q189118
+,False,,,,Subdural meninges,

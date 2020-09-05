@@ -1,4 +1,8 @@
-from wikidata_panglaodb.pre import downloads_panglao, reconcile_and_filter
+from wikidata_panglaodb.pre import (
+    downloads_panglao,
+    reconcile_more_types,
+    chunk_dataframe,
+)
 import pandas as pd
 
 data_urls = {
@@ -16,15 +20,29 @@ def test_downloads_panglaodb():
     assert len(result) == 4
 
 
-def test_reconcile_and_filter():
+def test_reconcile_more_types():
 
     cells_organs_germlayers = pd.read_csv(
         data_urls["cells_organs_germlayers"],
         names=["cell_type", "germ_layer", "organ"],
     ).iloc[:5, 0]
 
-    reconciled = reconcile_and_filter(
+    reconciled = reconcile_more_types(
         cells_organs_germlayers, type_qids=["Q7868", "Q189118"]
     )
 
     assert reconciled.shape[1] == 7
+
+
+def test_chunk_dataframe():
+
+    cells_organs_germlayers = pd.read_csv(
+        data_urls["cells_organs_germlayers"],
+        names=["cell_type", "germ_layer", "organ"],
+    )
+
+    chunked = chunk_dataframe(cells_organs_germlayers, 43)
+
+    shapes = [df.shape for df in chunked]
+
+    assert shapes[0] == (43, 3)

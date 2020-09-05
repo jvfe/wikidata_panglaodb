@@ -1,3 +1,8 @@
+<!-- badges start -->
+[![license](https://img.shields.io/badge/license-BSD%202--Clause-green)](https://github.com/jvfe/wikidata_panglaodb/blob/master/LICENSE)
+[![pytest status](https://github.com/jvfe/wikidata_panglaodb/workflows/wikidata_panglaodb/badge.svg)](https://github.com/jvfe/wikidata_panglaodb/actions)
+<!-- badges end -->
+
 # Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB
 
 Research compendium for the project "Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB".

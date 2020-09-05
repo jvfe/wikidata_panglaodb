@@ -1,6 +1,11 @@
 """Reconciles tissues, cells, germ layers and organs, saving csv files for all matches returned"""
 
-from wikidata_panglaodb.pre import downloads_panglao, reconcile_and_filter
+from wikidata_panglaodb.pre import (
+    downloads_panglao,
+    reconcile_more_types,
+    chunk_dataframe,
+)
+from reconciler import reconcile
 import pandas as pd
 
 
@@ -38,7 +43,7 @@ def main():
     results_tissues = []
     tissues_dfs = [tissues["tissue"], cells_organs_germlayers["germ_layer"]]
     for df in tissues_dfs:
-        reconciled = reconcile_and_filter(
+        reconciled = reconcile_more_types(
             df, type_qids=[types["tissue"], types["anatomical structure"]],
         )
         results_tissues.append(reconciled)
@@ -50,7 +55,7 @@ def main():
 
     # Reconciling cells with types cell type (Q189118) and cell (Q7868)
     print("Reconciling cell types")
-    cells_reconciled = reconcile_and_filter(
+    cells_reconciled = reconcile_more_types(
         cells_organs_germlayers["cell_type"],
         type_qids=[types["cell type"], types["cell"]],
     )
@@ -59,7 +64,7 @@ def main():
 
     # Reconciling organs with types organ (Q712378) and anatomical structure (Q4936952)
     print("Reconciling organs")
-    organs_reconciled = reconcile_and_filter(
+    organs_reconciled = reconcile_more_types(
         cells_organs_germlayers["organ"],
         type_qids=[types["organ"], types["anatomical structure"]],
     )

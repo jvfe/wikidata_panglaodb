@@ -4,7 +4,11 @@ site_author: jvfe
 site_url: https://jvfe.github.io/wikidata_panglaodb/
 nav:
     - Home: index.md
-    - Reference: reference.md
+    - Reference: 
+      - Preprocessing: reference/preprocessing.md
+      - Similarity: reference/similarity.md
+    - Analysis description: analysis_description.md
+    - Log book: log_book.md
 repo_url: https://github.com/jvfe/wikidata_panglaodb
 theme:
   name: "material"
