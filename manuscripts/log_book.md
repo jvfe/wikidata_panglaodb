@@ -3,7 +3,11 @@ What we did, tried, and accomplished during each day of the project.
 
 ### 03/09
 
-* Downloaded cell type and gene data from the wikidata query service.
+* Downloaded cell type, organ, tissue and gene data from the wikidata query service.
+    * Gene queries used: [Homo sapiens](https://w.wiki/bMk), [Mus musculus](https://w.wiki/bMm)
+    * [Cell query used](https://w.wiki/b2v)
+    * [Tissues query used](https://w.wiki/bMn)
+    * [Organs query used](https://w.wiki/bMp)
 
 ### 04/09
 
