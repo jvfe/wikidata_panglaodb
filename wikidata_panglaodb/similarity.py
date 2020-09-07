@@ -20,15 +20,9 @@ def get_string_match(string1, string2):
         bool: If they match, return True, else return False.
 
     """
-
-    tokenized1 = word_tokenize(string1)
-    tokenized2 = word_tokenize(string2)
+    tokenized = [[tokenized] for tokenized in [string1, string2]]
 
     ps = PorterStemmer()
-    stemmed1 = [ps.stem(w) for w in tokenized1]
-    stemmed2 = [ps.stem(w) for w in tokenized2]
+    stemmed = [[ps.stem(w)] for tokens in tokenized for w in tokens]
 
-    if stemmed1 == stemmed2:
-        return True
-    else:
-        return False
+    return stemmed[0] == stemmed[1]

@@ -18,3 +18,7 @@ What we did, tried, and accomplished during each day of the project.
 
 * Made a script, similarity_check.py, to better match Panglao's items to wikidata QIDs, ran the script and
     the results are in results/true_matches/.
+
+### 06/09
+
+* Refactored the similarity function, to use less repetition
