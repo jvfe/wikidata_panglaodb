@@ -22,3 +22,6 @@ What we did, tried, and accomplished during each day of the project.
 ### 06/09
 
 * Refactored the similarity function, to use less repetition
+
+* Added matching section for genes in preprocessing.py, the matching is done using a manual merge
+    with the wikidata query.

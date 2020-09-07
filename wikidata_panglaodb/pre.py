@@ -23,9 +23,9 @@ def downloads_panglao(data_urls):
         data_urls["tissues"], usecols=[2, 4], names=["tissue", "species"]
     ).drop_duplicates()
 
-    genes = pd.read_csv(data_urls["genes"], names=["ensg", "symbol"])
+    genes = pd.read_csv(data_urls["genes"], names=["ensg_panglao", "symbol"])
     genes["species"] = np.where(
-        genes["ensg"].str.startswith("ENSMUS"), "Mus musculus", "Homo sapiens"
+        genes["ensg_panglao"].str.startswith("ENSMUS"), "Mus musculus", "Homo sapiens"
     )
 
     cells_organs_germlayers = pd.read_csv(

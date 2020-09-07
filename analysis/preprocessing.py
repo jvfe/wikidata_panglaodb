@@ -1,11 +1,9 @@
-"""Reconciles tissues, cells, germ layers and organs, saving csv files for all matches returned"""
+"""Reconciles tissues, cells, genes, germ layers and organs, saving csv files for all matches returned"""
 
 from wikidata_panglaodb.pre import (
     downloads_panglao,
     reconcile_more_types,
-    chunk_dataframe,
 )
-from reconciler import reconcile
 import pandas as pd
 
 
@@ -23,7 +21,6 @@ def main():
     )
 
     tissues.to_csv("data/panglaodb/tissues.csv", index=False)
-    genes.to_csv("data/panglaodb/genes.csv", index=False)
     cells_organs_germlayers.to_csv(
         "data/panglaodb/cells_organs_germlayers.csv", index=False
     )
@@ -70,6 +67,34 @@ def main():
     )
 
     organs_reconciled.to_csv("results/all_matches/organs_reconciled.csv", index=False)
+
+    # Manual intersection of genes with the wikidata gene query,
+    # since the table is too large to reconcile and the values should be the same
+    # either way
+
+    human_genes_wdt = pd.read_csv("data/wikidata/humangenes.csv")
+    mouse_genes_wdt = pd.read_csv("data/wikidata/mousegenes.csv")
+
+    def filter_and_merge_genes(species, wikidata_table):
+
+        filtered = genes[genes["species"] == species]
+
+        species_slug = species.lower().replace(" ", "_")
+
+        filtered_reconciled = pd.merge(
+            wikidata_table,
+            filtered,
+            right_on=["symbol"],
+            left_on=["itemLabel"],
+            how="inner",
+        ).drop(["symbol"], axis=1)
+
+        filtered_reconciled.to_csv(
+            f"results/true_matches/{species_slug}_genes.csv", index=False
+        )
+
+    filter_and_merge_genes("Homo sapiens", human_genes_wdt)
+    filter_and_merge_genes("Mus musculus", mouse_genes_wdt)
 
 
 if __name__ == "__main__":
