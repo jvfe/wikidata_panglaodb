@@ -7,6 +7,7 @@ nav:
     - Reference: 
       - Preprocessing: reference/preprocessing.md
       - Similarity: reference/similarity.md
+      - Wikidata: reference/wdt.md
     - Analysis description: analysis_description.md
     - Log book: log_book.md
 repo_url: https://github.com/jvfe/wikidata_panglaodb

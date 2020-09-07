@@ -9,7 +9,8 @@ install_requirements = [
     "nltk",
     "pandas",
     "reconciler",
-    "wikidata2df",
+    "seaborn",
+    "requests"
 ]
 
 test_requirements = [

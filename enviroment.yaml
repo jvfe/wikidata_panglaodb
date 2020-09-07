@@ -148,4 +148,4 @@ dependencies:
     - werkzeug==1.0.1
     - wikidata2df==0.1.0
     - wikidataintegrator==0.7.4
-prefix: /home/jvfe/miniconda3/envs/wdt_panglaodb
+prefix: wdt_panglaodb
