@@ -31,9 +31,9 @@ def main():
         # Keep only true values
         df.drop(df[~df["match"]].index, inplace=True)
 
-    cells.to_csv("results/true_matches/cells.csv", index=False)
-    organs.to_csv("results/true_matches/organs.csv", index=False)
-    tissues.to_csv("results/true_matches/tissues.csv", index=False)
+    cells.to_csv("results/true_matches/cells_raw.csv", index=False)
+    organs.to_csv("results/true_matches/organs_raw.csv", index=False)
+    tissues.to_csv("results/true_matches/tissues_raw.csv", index=False)
 
 
 if __name__ == "__main__":

@@ -29,4 +29,54 @@ What we did, tried, and accomplished during each day of the project.
 ### 07/09
 
 * Started work on manual item checking
+
+#### Manual item checking
+
+* cells_checked:
+
+    * Q7840744 - Trychocyte - represents the Algae cell type, not the human cell type (Q7840748), match removed.
+    * Not false matched but something of note, Q7116107, Q3326185 and Q66592566 all represent the same concept,
+        oxyphil cells.
+
+* tissues_checked:
+
+    * Q5173237 refer to the outer layer of rocks, removed.
+    * Q1475019 and Q18816500 (Colon) refer to the grammatical figure, both removed.
+    * Q96377210 (Embryo) is a song, removed.
+    * Q719458 (Brain) and Q1409015 (heart) refers to the foods, removed.
+    * Q2281500 (Rib) is a deformation on a surface, removed.
+    * Q67208213 (Thymus) is a spice, removed.
+    * Q1615371 (stomacher) is a decorative item, removed.
+    * Q1155702 (skin) is a graphical interface, removed.
+    * Q97671426 (Skin) is a British TV series, removed.
+    * Q5262664 (DermIS) is an information system, removed.
+    * Q85782674 (Lungs) is a play, removed.
+    * **Plant structures removed**
+        * Q1120914 (Placenta)
+        * Q1293511 (Cortex)
+        * Q148515 (ovary)
+    * **Chinese medicine or religion items removed**
+        * Q7543099 (Small intestine)
+        * Q6704252 and Q6704255 (Lung)
+        * Q6140833 (Kidney) 
+        * Q7578442 (Spleen)
+        * Q6140977 (Liver)
+        * Q7618690 (Stomach)
+        * Q5691852 (Heart)
+
+* organs_checked:
+
+    * Q1155702 (skin) is a graphical interface, removed.
+    * Q97671426 (Skin) is a British TV series, removed.
+    * Q85782674 (Lungs) is a play, removed.
+    * Q67208213 (Thymus) is a spice, removed.
+    * Q96377210 (Embryo) is a song, removed.
+    * Q1120914 (Placenta) is a plant structure, removed.
+    * **Food items removed**
+        * Q1409015 (Heart)
+        * Q494268 (blood)
+    * **Chinese medicine or religion items removed**
+        * Q6140833 (Kidney) 
+        * Q5691852 (Heart)
+
 * Started working on the item quality assesment - halted until manual item matching is finished
