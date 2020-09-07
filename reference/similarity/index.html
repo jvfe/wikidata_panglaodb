@@ -156,6 +156,11 @@
 </ul>
 </nav>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../wdt/" title="Wikidata">
+      Wikidata
+    </a>
+</li>
 </ul>
 </nav>
 </li>
@@ -274,18 +279,12 @@ of both strings.</p>
 <span class="sd">        bool: If they match, return True, else return False.</span>
 
 <span class="sd">    """</span>
-
-    <span class="n">tokenized1</span> <span class="o">=</span> <span class="n">word_tokenize</span><span class="p">(</span><span class="n">string1</span><span class="p">)</span>
-    <span class="n">tokenized2</span> <span class="o">=</span> <span class="n">word_tokenize</span><span class="p">(</span><span class="n">string2</span><span class="p">)</span>
+    <span class="n">tokenized</span> <span class="o">=</span> <span class="p">[[</span><span class="n">tokenized</span><span class="p">]</span> <span class="k">for</span> <span class="n">tokenized</span> <span class="ow">in</span> <span class="p">[</span><span class="n">string1</span><span class="p">,</span> <span class="n">string2</span><span class="p">]]</span>
 
     <span class="n">ps</span> <span class="o">=</span> <span class="n">PorterStemmer</span><span class="p">()</span>
-    <span class="n">stemmed1</span> <span class="o">=</span> <span class="p">[</span><span class="n">ps</span><span class="o">.</span><span class="n">stem</span><span class="p">(</span><span class="n">w</span><span class="p">)</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">tokenized1</span><span class="p">]</span>
-    <span class="n">stemmed2</span> <span class="o">=</span> <span class="p">[</span><span class="n">ps</span><span class="o">.</span><span class="n">stem</span><span class="p">(</span><span class="n">w</span><span class="p">)</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">tokenized2</span><span class="p">]</span>
+    <span class="n">stemmed</span> <span class="o">=</span> <span class="p">[[</span><span class="n">ps</span><span class="o">.</span><span class="n">stem</span><span class="p">(</span><span class="n">w</span><span class="p">)]</span> <span class="k">for</span> <span class="n">tokens</span> <span class="ow">in</span> <span class="n">tokenized</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">tokens</span><span class="p">]</span>
 
-    <span class="k">if</span> <span class="n">stemmed1</span> <span class="o">==</span> <span class="n">stemmed2</span><span class="p">:</span>
-        <span class="k">return</span> <span class="kc">True</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">return</span> <span class="kc">False</span>
+    <span class="k">return</span> <span class="n">stemmed</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">stemmed</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
 </code></pre>
 </div>
 </details>
@@ -311,13 +310,13 @@ of both strings.</p>
               </div>
 </div>
 </a>
-<a class="md-footer-nav__link md-footer-nav__link--next" href="../../analysis_description/" rel="next" title="Analysis description">
+<a class="md-footer-nav__link md-footer-nav__link--next" href="../wdt/" rel="next" title="Wikidata">
 <div class="md-footer-nav__title">
 <div class="md-ellipsis">
 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Analysis description
+                Wikidata
               </div>
 </div>
 <div class="md-footer-nav__button md-icon">

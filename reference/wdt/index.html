@@ -6,11 +6,11 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Research compendium for the project 'Analysing the extent of cell type information present in Wikidata - A case study on PanglaoDB'." name="description"/>
-<link href="https://jvfe.github.io/wikidata_panglaodb/reference/preprocessing/" rel="canonical"/>
+<link href="https://jvfe.github.io/wikidata_panglaodb/reference/wdt/" rel="canonical"/>
 <meta content="jvfe" name="author"/>
 <link href="../../assets/images/favicon.png" rel="shortcut icon"/>
 <meta content="mkdocs-1.1.2, mkdocs-material-5.5.12" name="generator"/>
-<title>Preprocessing - wikidata_panglaodb</title>
+<title>Wikidata - wikidata_panglaodb</title>
 <link href="../../assets/stylesheets/main.4dd2dd8d.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&amp;display=fallback" rel="stylesheet"/>
@@ -21,7 +21,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#preprocessing-module">
+<a class="md-skip" href="#wikidata-module">
           Skip to content
         </a>
 </div>
@@ -42,7 +42,7 @@
           </span>
 <span class="md-header-nav__topic md-ellipsis">
             
-              Preprocessing
+              Wikidata
             
           </span>
 </div>
@@ -128,14 +128,24 @@
         Reference
       </label>
 <ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../preprocessing/" title="Preprocessing">
+      Preprocessing
+    </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../similarity/" title="Similarity">
+      Similarity
+    </a>
+</li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
 <label class="md-nav__link md-nav__link--active" for="__toc">
-        Preprocessing
+        Wikidata
         <span class="md-nav__icon md-icon"></span>
 </label>
-<a class="md-nav__link md-nav__link--active" href="./" title="Preprocessing">
-      Preprocessing
+<a class="md-nav__link md-nav__link--active" href="./" title="Wikidata">
+      Wikidata
     </a>
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
 <label class="md-nav__title" for="__toc">
@@ -144,27 +154,12 @@
     </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#wikidata_panglaodb.pre.downloads_panglao">
-    wikidata_panglaodb.pre.downloads_panglao
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#wikidata_panglaodb.pre.reconcile_more_types">
-    wikidata_panglaodb.pre.reconcile_more_types
+<a class="md-nav__link" href="#wikidata_panglaodb.wdt.get_number_of_statements_for_items">
+    wikidata_panglaodb.wdt.get_number_of_statements_for_items
   </a>
 </li>
 </ul>
 </nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../similarity/" title="Similarity">
-      Similarity
-    </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../wdt/" title="Wikidata">
-      Wikidata
-    </a>
 </li>
 </ul>
 </nav>
@@ -194,13 +189,8 @@
     </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#wikidata_panglaodb.pre.downloads_panglao">
-    wikidata_panglaodb.pre.downloads_panglao
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#wikidata_panglaodb.pre.reconcile_more_types">
-    wikidata_panglaodb.pre.reconcile_more_types
+<a class="md-nav__link" href="#wikidata_panglaodb.wdt.get_number_of_statements_for_items">
+    wikidata_panglaodb.wdt.get_number_of_statements_for_items
   </a>
 </li>
 </ul>
@@ -210,18 +200,18 @@
 </div>
 <div class="md-content">
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/jvfe/wikidata_panglaodb/edit/master/docs/reference/preprocessing.md" title="Edit this page">
+<a class="md-content__button md-icon" href="https://github.com/jvfe/wikidata_panglaodb/edit/master/docs/reference/wdt.md" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"></path></svg>
 </a>
-<h1 id="preprocessing-module">Preprocessing module</h1>
-<p><strong>downloads_panglao()</strong></p>
+<h1 id="wikidata-module">Wikidata module</h1>
+<p><strong>get_number_of_statements_for_items()</strong></p>
 <div class="doc doc-object doc-function">
-<h2 class="hidden-toc" href="#wikidata_panglaodb.pre.downloads_panglao" id="wikidata_panglaodb.pre.downloads_panglao" style="visibility: hidden; width: 0; height: 0;">
+<h2 class="hidden-toc" href="#wikidata_panglaodb.wdt.get_number_of_statements_for_items" id="wikidata_panglaodb.wdt.get_number_of_statements_for_items" style="visibility: hidden; width: 0; height: 0;">
 </h2>
 <div class="doc doc-contents first">
-<p>Downloads metadata from PanglaoDB</p>
-<p>Gets the unique values of metadata entities and writes 
-those to text files.</p>
+<p>Return a pandas dataframe of items and their number of statements</p>
+<p>This function takes in a list of QIDs and uses the Wikibase API to return
+a table with the number of statements each item has.</p>
 <p><strong>Parameters:</strong></p>
 <table>
 <thead>
@@ -234,10 +224,10 @@ those to text files.</p>
 </thead>
 <tbody>
 <tr>
-<td><code>data_urls</code></td>
-<td><code>dict(list</code></td>
+<td><code>qid_list</code></td>
+<td><code>list</code></td>
 <td>
-<p>A dictionary with the urls of each metadata file.</p>
+<p>A list containing the QIDs you want to analyse.</p>
 </td>
 <td><em>required</em></td>
 </tr>
@@ -253,126 +243,64 @@ those to text files.</p>
 </thead>
 <tbody>
 <tr>
-<td><code>tuple</code></td>
+<td><code>DataFrame</code></td>
 <td>
-<p>A tuple containing the DataFrames tissues, genes, cells_organs_germlayers
-    and cells_w_descriptions.</p>
+<p>A dataframe of two columns, one for the input QIDs, another with 
+    the number of statements for each QID.</p>
 </td>
 </tr>
 </tbody>
 </table>
 <details class="quote">
-<summary>Source code in <code>wikidata_panglaodb/pre.py</code></summary>
+<summary>Source code in <code>wikidata_panglaodb/wdt.py</code></summary>
 <div class="highlight">
-<pre><span></span><code><span class="k">def</span> <span class="nf">downloads_panglao</span><span class="p">(</span><span class="n">data_urls</span><span class="p">):</span>
-    <span class="sd">"""Downloads metadata from PanglaoDB</span>
+<pre><span></span><code><span class="k">def</span> <span class="nf">get_number_of_statements_for_items</span><span class="p">(</span><span class="n">qid_list</span><span class="p">,</span> <span class="n">has_property</span><span class="p">):</span>
+    <span class="sd">"""Return a pandas dataframe of items and their number of statements</span>
 
-<span class="sd">    Gets the unique values of metadata entities and writes </span>
-<span class="sd">    those to text files.</span>
+<span class="sd">    This function takes in a list of QIDs and uses the Wikibase API to return</span>
+<span class="sd">    a table with the number of statements each item has.</span>
 
 <span class="sd">    Args:</span>
-<span class="sd">        data_urls (dict(list)): A dictionary with the urls of each metadata file.</span>
+<span class="sd">        qid_list (list): A list containing the QIDs you want to analyse.</span>
 
 <span class="sd">    Returns:</span>
-<span class="sd">        tuple: A tuple containing the DataFrames tissues, genes, cells_organs_germlayers</span>
-<span class="sd">            and cells_w_descriptions.</span>
+<span class="sd">        DataFrame: A dataframe of two columns, one for the input QIDs, another with </span>
+<span class="sd">            the number of statements for each QID.</span>
 <span class="sd">    """</span>
 
-    <span class="n">tissues</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-        <span class="n">data_urls</span><span class="p">[</span><span class="s2">"tissues"</span><span class="p">],</span> <span class="n">usecols</span><span class="o">=</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"tissue"</span><span class="p">,</span> <span class="s2">"species"</span><span class="p">]</span>
-    <span class="p">)</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">()</span>
+    <span class="c1"># API limits to 50 items at once</span>
+    <span class="n">item_quality_dict</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
 
-    <span class="n">genes</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">data_urls</span><span class="p">[</span><span class="s2">"genes"</span><span class="p">],</span> <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"ensg_panglao"</span><span class="p">,</span> <span class="s2">"symbol"</span><span class="p">])</span>
-    <span class="n">genes</span><span class="p">[</span><span class="s2">"species"</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span>
-        <span class="n">genes</span><span class="p">[</span><span class="s2">"ensg_panglao"</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">"ENSMUS"</span><span class="p">),</span> <span class="s2">"Mus musculus"</span><span class="p">,</span> <span class="s2">"Homo sapiens"</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">qid_list</span><span class="p">),</span> <span class="mi">50</span><span class="p">):</span>
+
+        <span class="n">curr_ids</span> <span class="o">=</span> <span class="n">qid_list</span><span class="p">[</span><span class="n">i</span> <span class="p">:</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">50</span><span class="p">)]</span>
+
+        <span class="n">params</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">"action"</span><span class="p">:</span> <span class="s2">"wbgetentities"</span><span class="p">,</span>
+            <span class="s2">"ids"</span><span class="p">:</span> <span class="s2">"|"</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">curr_ids</span><span class="p">),</span>
+            <span class="s2">"format"</span><span class="p">:</span> <span class="s2">"json"</span><span class="p">,</span>
+        <span class="p">}</span>
+
+        <span class="n">resp</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">"https://www.wikidata.org/w/api.php"</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">params</span><span class="p">)</span>
+
+        <span class="n">query_result</span> <span class="o">=</span> <span class="n">resp</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s2">"entities"</span><span class="p">]</span>
+
+        <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">query_result</span><span class="p">:</span>
+            <span class="n">properties</span> <span class="o">=</span> <span class="n">query_result</span><span class="p">[</span><span class="n">item</span><span class="p">][</span><span class="s2">"claims"</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">has_property</span> <span class="ow">in</span> <span class="n">properties</span><span class="p">:</span>
+                <span class="n">item_quality_dict</span><span class="p">[</span><span class="n">item</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">properties</span><span class="o">.</span><span class="n">keys</span><span class="p">()),</span> <span class="kc">True</span><span class="p">]</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">item_quality_dict</span><span class="p">[</span><span class="n">item</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">properties</span><span class="o">.</span><span class="n">keys</span><span class="p">()),</span> <span class="kc">False</span><span class="p">]</span>
+
+    <span class="n">item_quality_table</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span>
+            <span class="n">item_quality_dict</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">"n_statements"</span><span class="p">,</span> <span class="s2">"has_property"</span><span class="p">],</span> <span class="n">orient</span><span class="o">=</span><span class="s2">"index"</span>
+        <span class="p">)</span>
+        <span class="o">.</span><span class="n">rename_axis</span><span class="p">(</span><span class="s2">"id"</span><span class="p">)</span>
+        <span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
     <span class="p">)</span>
 
-    <span class="n">cells_organs_germlayers</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-        <span class="n">data_urls</span><span class="p">[</span><span class="s2">"cells_organs_germlayers"</span><span class="p">],</span>
-        <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"cell_type"</span><span class="p">,</span> <span class="s2">"germ_layer"</span><span class="p">,</span> <span class="s2">"organ"</span><span class="p">],</span>
-    <span class="p">)</span>
-
-    <span class="n">cells_w_descriptions</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-        <span class="n">data_urls</span><span class="p">[</span><span class="s2">"cells_w_descriptions"</span><span class="p">],</span>
-        <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"cell_type"</span><span class="p">,</span> <span class="s2">"description"</span><span class="p">,</span> <span class="s2">"synonyms"</span><span class="p">],</span>
-    <span class="p">)</span>
-
-    <span class="k">return</span> <span class="n">tissues</span><span class="p">,</span> <span class="n">genes</span><span class="p">,</span> <span class="n">cells_organs_germlayers</span><span class="p">,</span> <span class="n">cells_w_descriptions</span>
-</code></pre>
-</div>
-</details>
-</div>
-</div>
-<p><strong>reconcile_more_types()</strong></p>
-<div class="doc doc-object doc-function">
-<h2 class="hidden-toc" href="#wikidata_panglaodb.pre.reconcile_more_types" id="wikidata_panglaodb.pre.reconcile_more_types" style="visibility: hidden; width: 0; height: 0;">
-</h2>
-<div class="doc doc-contents first">
-<p>Reconcile dataframe column against one type QID or more</p>
-<p>This functions loops through all qids given in the type_qids list and reconciles the pandas
-column to them, returning a concatenated dataframe with all the matches.</p>
-<p><strong>Parameters:</strong></p>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
-<th>Default</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>dataframe_column</code></td>
-<td><code>Series</code></td>
-<td>
-<p>A pandas dataframe column with the values to reconcile.</p>
-</td>
-<td><em>required</em></td>
-</tr>
-<tr>
-<td><code>type_qids</code></td>
-<td><code>list</code></td>
-<td>
-<p>A list of the QIDs value you want to reconcile against.</p>
-</td>
-<td><em>required</em></td>
-</tr>
-</tbody>
-</table>
-<p>Returns: 
-    DataFrame: A dataframe containing all possible matches for each item type.</p>
-<details class="quote">
-<summary>Source code in <code>wikidata_panglaodb/pre.py</code></summary>
-<div class="highlight">
-<pre><span></span><code><span class="k">def</span> <span class="nf">reconcile_more_types</span><span class="p">(</span><span class="n">dataframe_column</span><span class="p">,</span> <span class="n">type_qids</span><span class="p">):</span>
-    <span class="sd">"""Reconcile dataframe column against one type QID or more</span>
-
-<span class="sd">    This functions loops through all qids given in the type_qids list and reconciles the pandas</span>
-<span class="sd">    column to them, returning a concatenated dataframe with all the matches.</span>
-
-<span class="sd">    Args:</span>
-<span class="sd">        dataframe_column (Series): A pandas dataframe column with the values to reconcile.</span>
-<span class="sd">        type_qids (list): A list of the QIDs value you want to reconcile against.</span>
-
-<span class="sd">    Returns: </span>
-<span class="sd">        DataFrame: A dataframe containing all possible matches for each item type.</span>
-
-<span class="sd">    """</span>
-
-    <span class="n">all_matches</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="k">for</span> <span class="nb">type</span> <span class="ow">in</span> <span class="n">type_qids</span><span class="p">:</span>
-        <span class="k">try</span><span class="p">:</span>
-            <span class="n">current</span> <span class="o">=</span> <span class="n">reconcile</span><span class="p">(</span><span class="n">dataframe_column</span><span class="p">,</span> <span class="n">type_id</span><span class="o">=</span><span class="nb">type</span><span class="p">,</span> <span class="n">top_res</span><span class="o">=</span><span class="s2">"all"</span><span class="p">)</span>
-            <span class="n">all_matches</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">current</span><span class="p">)</span>
-        <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
-            <span class="k">pass</span>
-    <span class="k">try</span><span class="p">:</span>
-        <span class="n">full_df_matches</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">all_matches</span><span class="p">)</span>
-    <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
-        <span class="k">pass</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">return</span> <span class="n">full_df_matches</span>
+    <span class="k">return</span> <span class="n">item_quality_table</span>
 </code></pre>
 </div>
 </details>
@@ -385,7 +313,7 @@ column to them, returning a concatenated dataframe with all the matches.</p>
 <footer class="md-footer">
 <div class="md-footer-nav">
 <nav aria-label="Footer" class="md-footer-nav__inner md-grid">
-<a class="md-footer-nav__link md-footer-nav__link--prev" href="../.." rel="prev" title="Home">
+<a class="md-footer-nav__link md-footer-nav__link--prev" href="../similarity/" rel="prev" title="Similarity">
 <div class="md-footer-nav__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
 </div>
@@ -394,17 +322,17 @@ column to them, returning a concatenated dataframe with all the matches.</p>
 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Home
+                Similarity
               </div>
 </div>
 </a>
-<a class="md-footer-nav__link md-footer-nav__link--next" href="../similarity/" rel="next" title="Similarity">
+<a class="md-footer-nav__link md-footer-nav__link--next" href="../../analysis_description/" rel="next" title="Analysis description">
 <div class="md-footer-nav__title">
 <div class="md-ellipsis">
 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Similarity
+                Analysis description
               </div>
 </div>
 <div class="md-footer-nav__button md-icon">

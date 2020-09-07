@@ -138,6 +138,11 @@
       Similarity
     </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../reference/wdt/" title="Wikidata">
+      Wikidata
+    </a>
+</li>
 </ul>
 </nav>
 </li>
@@ -201,14 +206,19 @@
 <h1 id="analysis-directory">Analysis directory</h1>
 <p>Here you will find all scripts used in the actual analysis. To run them,
 make sure you ran <code>pip install .</code> at the root directory.</p>
+<p>Simple data transformation scripts are plain text python files, scripts containing extensive information and 
+associated plots are jupyter notebooks.</p>
 <h2 id="brief-description">Brief description</h2>
 <ul>
 <li>
 <p><strong>preprocessing.py</strong>: Downloads metadata from PanglaoDB into the data/panglaodb directory, also reconciles said data and outputs 
-    the matches to the results/all_matches directory.</p>
+    the matches to the results/all_matches directory. For genes, since a manual merge is used, the matches are outputted to results/true_matches.</p>
 </li>
 <li>
 <p><strong>similarity_check.py</strong>: Checks the reconciled/all_matches data for similarity matching, outputting the filtered data to results/true_matches.</p>
+</li>
+<li>
+<p><strong>item_quality.py</strong>: Item quality assesment on matches and associated plots.</p>
 </li>
 </ul>
 </article>
@@ -218,7 +228,7 @@ make sure you ran <code>pip install .</code> at the root directory.</p>
 <footer class="md-footer">
 <div class="md-footer-nav">
 <nav aria-label="Footer" class="md-footer-nav__inner md-grid">
-<a class="md-footer-nav__link md-footer-nav__link--prev" href="../reference/similarity/" rel="prev" title="Similarity">
+<a class="md-footer-nav__link md-footer-nav__link--prev" href="../reference/wdt/" rel="prev" title="Wikidata">
 <div class="md-footer-nav__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
 </div>
@@ -227,7 +237,7 @@ make sure you ran <code>pip install .</code> at the root directory.</p>
 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Similarity
+                Wikidata
               </div>
 </div>
 </a>
