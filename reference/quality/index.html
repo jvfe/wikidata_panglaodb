@@ -6,11 +6,11 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Research compendium for the project 'Analysing the extent of cell type information present in Wikidata - A case study on PanglaoDB'." name="description"/>
-<link href="https://jvfe.github.io/wikidata_panglaodb/reference/wdt/" rel="canonical"/>
+<link href="https://jvfe.github.io/wikidata_panglaodb/reference/quality/" rel="canonical"/>
 <meta content="jvfe" name="author"/>
 <link href="../../assets/images/favicon.png" rel="shortcut icon"/>
 <meta content="mkdocs-1.1.2, mkdocs-material-5.5.12" name="generator"/>
-<title>Wikidata - wikidata_panglaodb</title>
+<title>Item quality - wikidata_panglaodb</title>
 <link href="../../assets/stylesheets/main.4dd2dd8d.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&amp;display=fallback" rel="stylesheet"/>
@@ -21,7 +21,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#wikidata-module">
+<a class="md-skip" href="#item-quality-module">
           Skip to content
         </a>
 </div>
@@ -42,7 +42,7 @@
           </span>
 <span class="md-header-nav__topic md-ellipsis">
             
-              Wikidata
+              Item quality
             
           </span>
 </div>
@@ -141,11 +141,11 @@
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
 <label class="md-nav__link md-nav__link--active" for="__toc">
-        Wikidata
+        Item quality
         <span class="md-nav__icon md-icon"></span>
 </label>
-<a class="md-nav__link md-nav__link--active" href="./" title="Wikidata">
-      Wikidata
+<a class="md-nav__link md-nav__link--active" href="./" title="Item quality">
+      Item quality
     </a>
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
 <label class="md-nav__title" for="__toc">
@@ -154,8 +154,18 @@
     </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#wikidata_panglaodb.wdt.get_number_of_statements_for_items">
-    wikidata_panglaodb.wdt.get_number_of_statements_for_items
+<a class="md-nav__link" href="#wikidata_panglaodb.quality.summarize_histology">
+    wikidata_panglaodb.quality.summarize_histology
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wikidata_panglaodb.quality.plot_matched_item_types">
+    wikidata_panglaodb.quality.plot_matched_item_types
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wikidata_panglaodb.quality.get_number_of_statements_for_items">
+    wikidata_panglaodb.quality.get_number_of_statements_for_items
   </a>
 </li>
 </ul>
@@ -189,8 +199,18 @@
     </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#wikidata_panglaodb.wdt.get_number_of_statements_for_items">
-    wikidata_panglaodb.wdt.get_number_of_statements_for_items
+<a class="md-nav__link" href="#wikidata_panglaodb.quality.summarize_histology">
+    wikidata_panglaodb.quality.summarize_histology
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wikidata_panglaodb.quality.plot_matched_item_types">
+    wikidata_panglaodb.quality.plot_matched_item_types
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wikidata_panglaodb.quality.get_number_of_statements_for_items">
+    wikidata_panglaodb.quality.get_number_of_statements_for_items
   </a>
 </li>
 </ul>
@@ -200,13 +220,233 @@
 </div>
 <div class="md-content">
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/jvfe/wikidata_panglaodb/edit/master/docs/reference/wdt.md" title="Edit this page">
+<a class="md-content__button md-icon" href="https://github.com/jvfe/wikidata_panglaodb/edit/master/docs/reference/quality.md" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"></path></svg>
 </a>
-<h1 id="wikidata-module">Wikidata module</h1>
+<h1 id="item-quality-module">Item quality module</h1>
+<p><strong>summarize_histology()</strong></p>
+<div class="doc doc-object doc-function">
+<h2 class="hidden-toc" href="#wikidata_panglaodb.quality.summarize_histology" id="wikidata_panglaodb.quality.summarize_histology" style="visibility: hidden; width: 0; height: 0;">
+</h2>
+<div class="doc doc-contents first">
+<p>Return a summary table for item matches in the histology category</p>
+<p>Returns a summary table in the following structure:
+    n_unique_matches is the number of uniquely named input values that matched
+    perc_matched is the percentage of uniquely named input values that matched
+    n_item_matches is the number of unique items they matched against, including duplicate concepts
+    how_many_perfect_matches is the percentage of items matched that got
+        a perfect 100.0 score in the reconciliation
+    how_many_no_p31 is the percentage of items matched that don't have an 'instance of' property</p>
+<p><strong>Parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>dfs_list</code></td>
+<td><code>list(DataFrame</code></td>
+<td>
+<p>A dataframe list of the histology related reconciled tables 
+(cells, tissues and organs)</p>
+</td>
+<td><em>required</em></td>
+</tr>
+<tr>
+<td><code>total_list</code></td>
+<td><code>list(int</code></td>
+<td>
+<p>A list of the number of original input values.</p>
+</td>
+<td><em>required</em></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>DataFrame</code></td>
+<td>
+<p>A summary table for the matches.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<details class="quote">
+<summary>Source code in <code>wikidata_panglaodb/quality.py</code></summary>
+<div class="highlight">
+<pre><span></span><code><span class="k">def</span> <span class="nf">summarize_histology</span><span class="p">(</span><span class="n">dfs_list</span><span class="p">,</span> <span class="n">total_list</span><span class="p">):</span>
+    <span class="sd">"""Return a summary table for item matches in the histology category</span>
+
+<span class="sd">    Returns a summary table in the following structure:</span>
+<span class="sd">        n_unique_matches is the number of uniquely named input values that matched</span>
+<span class="sd">        perc_matched is the percentage of uniquely named input values that matched</span>
+<span class="sd">        n_item_matches is the number of unique items they matched against, including duplicate concepts</span>
+<span class="sd">        how_many_perfect_matches is the percentage of items matched that got</span>
+<span class="sd">            a perfect 100.0 score in the reconciliation</span>
+<span class="sd">        how_many_no_p31 is the percentage of items matched that don't have an 'instance of' property</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        dfs_list (list(DataFrame)): A dataframe list of the histology related reconciled tables </span>
+<span class="sd">            (cells, tissues and organs)</span>
+<span class="sd">        total_list (list(int)): A list of the number of original input values.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        DataFrame: A summary table for the matches.</span>
+<span class="sd">    """</span>
+
+    <span class="n">summary_table</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span>
+        <span class="p">{</span>
+            <span class="s2">"n_unique_matches"</span><span class="p">:</span> <span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">"input_value"</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span> <span class="k">for</span> <span class="n">df</span> <span class="ow">in</span> <span class="n">dfs_list</span><span class="p">],</span>
+            <span class="s2">"n_item_matches"</span><span class="p">:</span> <span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">"id"</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span> <span class="k">for</span> <span class="n">df</span> <span class="ow">in</span> <span class="n">dfs_list</span><span class="p">],</span>
+            <span class="s2">"n_perfect_matches"</span><span class="p">:</span> <span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">"score"</span><span class="p">]</span> <span class="o">==</span> <span class="mf">100.0</span><span class="p">])</span> <span class="k">for</span> <span class="n">df</span> <span class="ow">in</span> <span class="n">dfs_list</span><span class="p">],</span>
+            <span class="s2">"n_no_p31"</span><span class="p">:</span> <span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">"type"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"[]"</span><span class="p">])</span> <span class="k">for</span> <span class="n">df</span> <span class="ow">in</span> <span class="n">dfs_list</span><span class="p">],</span>
+            <span class="s2">"totals"</span><span class="p">:</span> <span class="n">total_list</span><span class="p">,</span>
+        <span class="p">}</span>
+    <span class="p">)</span>
+
+    <span class="n">summary_table</span><span class="p">[</span><span class="s2">"perc_matched"</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">summary_table</span><span class="p">[</span><span class="s2">"n_unique_matches"</span><span class="p">]</span> <span class="o">/</span> <span class="n">summary_table</span><span class="p">[</span><span class="s2">"totals"</span><span class="p">]</span>
+    <span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
+    <span class="n">summary_table</span><span class="p">[</span><span class="s2">"how_many_perfect_matches"</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">summary_table</span><span class="p">[</span><span class="s2">"n_perfect_matches"</span><span class="p">]</span> <span class="o">/</span> <span class="n">summary_table</span><span class="p">[</span><span class="s2">"n_item_matches"</span><span class="p">]</span>
+    <span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
+    <span class="n">summary_table</span><span class="p">[</span><span class="s2">"how_many_no_p31"</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">summary_table</span><span class="p">[</span><span class="s2">"n_no_p31"</span><span class="p">]</span> <span class="o">/</span> <span class="n">summary_table</span><span class="p">[</span><span class="s2">"n_item_matches"</span><span class="p">]</span>
+    <span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
+
+    <span class="n">summary_table</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span>
+        <span class="p">[</span><span class="s2">"n_no_p31"</span><span class="p">,</span> <span class="s2">"n_perfect_matches"</span><span class="p">,</span> <span class="s2">"totals"</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span>
+    <span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">summary_table</span>
+</code></pre>
+</div>
+</details>
+</div>
+</div>
+<p><strong>plot_matched_item_types()</strong></p>
+<div class="doc doc-object doc-function">
+<h2 class="hidden-toc" href="#wikidata_panglaodb.quality.plot_matched_item_types" id="wikidata_panglaodb.quality.plot_matched_item_types" style="visibility: hidden; width: 0; height: 0;">
+</h2>
+<div class="doc doc-contents first">
+<p>Plot reconciled item types</p>
+<p>This will make a count table of item types, and plot it, for a defined entity type (data_type),
+it will take in the reconciled table itself, from where it will extract the counts,
+a summary table from where the totals can be acquired, the entity type being analysed 
+and an axis on a matplotlib figure.</p>
+<p><strong>Parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>reconciled_table</code></td>
+<td><code>DataFrame</code></td>
+<td>
+<p>The table containing the reconciled items.</p>
+</td>
+<td><em>required</em></td>
+</tr>
+<tr>
+<td><code>summary_table</code></td>
+<td><code>DataFrame</code></td>
+<td>
+<p>A summary table created by summarize_histology()</p>
+</td>
+<td><em>required</em></td>
+</tr>
+<tr>
+<td><code>data_type</code></td>
+<td><code>str</code></td>
+<td>
+<p>The data type being analysed, "cells", "organs" or "tissues".</p>
+</td>
+<td><em>required</em></td>
+</tr>
+<tr>
+<td><code>ax</code></td>
+<td><code>matplotlib.axes.Axes</code></td>
+<td>
+<p>A matplotlib figure axis to plot the final figure.</p>
+</td>
+<td><em>required</em></td>
+</tr>
+</tbody>
+</table>
+<p>Returns: 
+    plot: A bar plot for the item type counts.</p>
+<details class="quote">
+<summary>Source code in <code>wikidata_panglaodb/quality.py</code></summary>
+<div class="highlight">
+<pre><span></span><code><span class="k">def</span> <span class="nf">plot_matched_item_types</span><span class="p">(</span><span class="n">reconciled_table</span><span class="p">,</span> <span class="n">summary_table</span><span class="p">,</span> <span class="n">data_type</span><span class="p">,</span> <span class="n">ax</span><span class="p">):</span>
+    <span class="sd">"""Plot reconciled item types</span>
+
+<span class="sd">    This will make a count table of item types, and plot it, for a defined entity type (data_type),</span>
+<span class="sd">    it will take in the reconciled table itself, from where it will extract the counts,</span>
+<span class="sd">    a summary table from where the totals can be acquired, the entity type being analysed </span>
+<span class="sd">    and an axis on a matplotlib figure.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        reconciled_table (DataFrame): The table containing the reconciled items.</span>
+<span class="sd">        summary_table (DataFrame): A summary table created by summarize_histology()</span>
+<span class="sd">        data_type (str): The data type being analysed, "cells", "organs" or "tissues".</span>
+<span class="sd">        ax (matplotlib.axes.Axes): A matplotlib figure axis to plot the final figure.</span>
+
+<span class="sd">    Returns: </span>
+<span class="sd">        plot: A bar plot for the item type counts.</span>
+<span class="sd">    """</span>
+    <span class="n">type_counts</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">reconciled_table</span><span class="p">[</span><span class="s2">"type"</span><span class="p">]</span>
+        <span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+        <span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+        <span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">"[]"</span><span class="p">,</span> <span class="s2">"None"</span><span class="p">)</span>
+        <span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s2">"index"</span><span class="p">:</span> <span class="s2">"Item type"</span><span class="p">,</span> <span class="s2">"type"</span><span class="p">:</span> <span class="s2">"# of items"</span><span class="p">})</span>
+    <span class="p">)</span>
+
+    <span class="n">type_counts</span><span class="p">[</span><span class="s2">"</span><span class="si">% o</span><span class="s2">f matched items"</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">type_counts</span><span class="p">[</span><span class="s2">"# of items"</span><span class="p">]</span> <span class="o">/</span> <span class="n">summary_table</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">data_type</span><span class="p">,</span> <span class="s2">"n_item_matches"</span><span class="p">]</span>
+    <span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
+
+    <span class="n">p</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span>
+        <span class="n">x</span><span class="o">=</span><span class="s2">"Item type"</span><span class="p">,</span>
+        <span class="n">y</span><span class="o">=</span><span class="s2">"</span><span class="si">% o</span><span class="s2">f matched items"</span><span class="p">,</span>
+        <span class="n">data</span><span class="o">=</span><span class="n">type_counts</span><span class="p">,</span>
+        <span class="n">edgecolor</span><span class="o">=</span><span class="s2">"w"</span><span class="p">,</span>
+        <span class="n">palette</span><span class="o">=</span><span class="s2">"magma"</span><span class="p">,</span>
+        <span class="n">dodge</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+        <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">p</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">xlabel</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+    <span class="n">p</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">get_xticklabels</span><span class="p">(),</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">45</span><span class="p">,</span> <span class="n">horizontalalignment</span><span class="o">=</span><span class="s2">"right"</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">p</span>
+</code></pre>
+</div>
+</details>
+</div>
+</div>
 <p><strong>get_number_of_statements_for_items()</strong></p>
 <div class="doc doc-object doc-function">
-<h2 class="hidden-toc" href="#wikidata_panglaodb.wdt.get_number_of_statements_for_items" id="wikidata_panglaodb.wdt.get_number_of_statements_for_items" style="visibility: hidden; width: 0; height: 0;">
+<h2 class="hidden-toc" href="#wikidata_panglaodb.quality.get_number_of_statements_for_items" id="wikidata_panglaodb.quality.get_number_of_statements_for_items" style="visibility: hidden; width: 0; height: 0;">
 </h2>
 <div class="doc doc-contents first">
 <p>Return a pandas dataframe of items and their number of statements</p>
@@ -252,7 +492,7 @@ a table with the number of statements each item has.</p>
 </tbody>
 </table>
 <details class="quote">
-<summary>Source code in <code>wikidata_panglaodb/wdt.py</code></summary>
+<summary>Source code in <code>wikidata_panglaodb/quality.py</code></summary>
 <div class="highlight">
 <pre><span></span><code><span class="k">def</span> <span class="nf">get_number_of_statements_for_items</span><span class="p">(</span><span class="n">qid_list</span><span class="p">,</span> <span class="n">has_property</span><span class="p">):</span>
     <span class="sd">"""Return a pandas dataframe of items and their number of statements</span>
