@@ -80,3 +80,10 @@ What we did, tried, and accomplished during each day of the project.
         * Q5691852 (Heart)
 
 * Started working on the item quality assesment - halted until manual item matching is finished
+
+### 08/09
+
+* Started working on analysing matches:
+    * Changed module name wdt to quality, since it'll contain all item quality-related functions.
+    * Made summary tables for all reconciled panglaodb entities (cells, tissues and organs)
+    * Made plots for item types of the reconciled items.

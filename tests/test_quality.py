@@ -1,4 +1,4 @@
-from wikidata_panglaodb.wdt import get_number_of_statements_for_items
+from wikidata_panglaodb.quality import get_number_of_statements_for_items
 
 
 def test_get_number_of_statements_for_items():

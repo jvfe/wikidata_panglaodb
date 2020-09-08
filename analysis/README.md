@@ -13,4 +13,6 @@ associated plots are jupyter notebooks.
 
 * **similarity_check.py**: Checks the reconciled/all_matches data for similarity matching, outputting the filtered data to results/true_matches.
 
-* **item_quality.py**: Item quality assesment on matches and associated plots.
+* **analyse_matches.py**: Summarize the manually curated matches. 
+
+* **item_quality.py**: Item quality assesment on the manually curated matches and associated plots.
