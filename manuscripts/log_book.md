@@ -87,3 +87,10 @@ What we did, tried, and accomplished during each day of the project.
     * Changed module name wdt to quality, since it'll contain all item quality-related functions.
     * Made summary tables for all reconciled panglaodb entities (cells, tissues and organs)
     * Made plots for item types of the reconciled items.
+
+### 09/09
+
+* Analysed gene item matches, percentage that matched, etc. Added this in the draft. This warranted the refactoring of a quality module function,
+    now dismembered in two functions.
+
+* Continued work on the item quality assessment.

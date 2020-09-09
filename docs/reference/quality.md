@@ -1,5 +1,9 @@
 # Item quality module
 
+**summarize_matches()**
+
+::: wikidata_panglaodb.quality.summarize_matches
+
 **summarize_histology()**
 
 ::: wikidata_panglaodb.quality.summarize_histology

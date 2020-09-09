@@ -1,10 +1,13 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from wikidata_panglaodb.quality import summarize_histology, plot_matched_item_types
+from wikidata_panglaodb.quality import (
+    summarize_histology,
+    summarize_matches,
+    plot_matched_item_types,
+)
 
 
 def main():
-
     cells = pd.read_csv("results/true_matches/cells_checked.csv").drop_duplicates(
         subset=["id"]
     )
@@ -14,10 +17,29 @@ def main():
     tissues = pd.read_csv("results/true_matches/tissues_checked.csv").drop_duplicates(
         subset=["id"]
     )
+    genes_panglaodb = pd.read_csv("data/panglaodb/genes.csv")
+    mmu_genes = pd.read_csv("results/true_matches/mus_musculus_genes.csv").rename(
+        columns={"itemLabel": "input_value", "item": "id"}
+    )
+    hsa_genes = pd.read_csv("results/true_matches/homo_sapiens_genes.csv").rename(
+        columns={"itemLabel": "input_value", "item": "id"}
+    )
 
     histo_summary = summarize_histology([cells, tissues, organs], [215, 246, 29])
     histo_summary.index = ["cells", "tissues", "organs"]
 
+    gene_quant_by_species = (
+        genes_panglaodb.groupby("species").count()["symbol"].to_list()
+    )
+
+    gene_summary = summarize_matches(
+        [hsa_genes, mmu_genes], gene_quant_by_species
+    ).drop(["totals"], axis=1)
+    gene_summary.index = ["genes_hsa", "genes_mmu"]
+
+    print("Match summary:\n", pd.concat([histo_summary, gene_summary]))
+
+    # Item types that were matched
     fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(16, 9))
 
     ax1 = plot_matched_item_types(cells, histo_summary, "cells", ax=ax1)

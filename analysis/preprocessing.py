@@ -25,6 +25,7 @@ def main():
         "data/panglaodb/cells_organs_germlayers.csv", index=False
     )
     cells_w_descriptions.to_csv("data/panglaodb/cells_w_descriptions.csv", index=False)
+    genes.to_csv("data/panglaodb/genes.csv", index=False)
 
     types = {
         "tissue": "Q40397",

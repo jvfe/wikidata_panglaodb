@@ -9,6 +9,40 @@ from collections import defaultdict
 sns.set(style="whitegrid", palette="muted")
 
 
+def summarize_matches(dfs_list, total_list):
+    """Return a simple summary table for item matches regardless of category
+    
+    Returns a summary table in the following structure:
+        n_unique_matches is the number of uniquely named input values that matched
+        perc_matched is the percentage of uniquely named input values that matched
+        n_item_matches is the number of unique items they matched against, including duplicate concepts
+        
+
+    Args:
+        dfs_list (list(DataFrame)): A dataframe list of the histology related reconciled tables 
+            (cells, tissues and organs)
+        total_list (list(int)): A list of the number of original input values.
+    
+    Returns:
+        DataFrame: A summary table for the matches.
+
+    """
+
+    summary_table = pd.DataFrame(
+        {
+            "n_unique_matches": [df["input_value"].nunique() for df in dfs_list],
+            "n_item_matches": [df["id"].nunique() for df in dfs_list],
+            "totals": total_list,
+        }
+    )
+
+    summary_table["perc_matched"] = (
+        summary_table["n_unique_matches"] / summary_table["totals"]
+    ) * 100
+
+    return summary_table
+
+
 def summarize_histology(dfs_list, total_list):
     """Return a summary table for item matches in the histology category
     
@@ -29,19 +63,13 @@ def summarize_histology(dfs_list, total_list):
         DataFrame: A summary table for the matches.
     """
 
-    summary_table = pd.DataFrame(
-        {
-            "n_unique_matches": [df["input_value"].nunique() for df in dfs_list],
-            "n_item_matches": [df["id"].nunique() for df in dfs_list],
-            "n_perfect_matches": [len(df[df["score"] == 100.0]) for df in dfs_list],
-            "n_no_p31": [len(df[df["type"] == "[]"]) for df in dfs_list],
-            "totals": total_list,
-        }
-    )
+    summary_table = summarize_matches(dfs_list, total_list)
 
-    summary_table["perc_matched"] = (
-        summary_table["n_unique_matches"] / summary_table["totals"]
-    ) * 100
+    summary_table["n_perfect_matches"] = [
+        len(df[df["score"] == 100.0]) for df in dfs_list
+    ]
+    summary_table["n_no_p31"] = [len(df[df["type"] == "[]"]) for df in dfs_list]
+
     summary_table["how_many_perfect_matches"] = (
         summary_table["n_perfect_matches"] / summary_table["n_item_matches"]
     ) * 100
@@ -70,8 +98,9 @@ def plot_matched_item_types(reconciled_table, summary_table, data_type, ax):
         data_type (str): The data type being analysed, "cells", "organs" or "tissues".
         ax (matplotlib.axes.Axes): A matplotlib figure axis to plot the final figure.
     
-    Returns: 
-        plot: A bar plot for the item type counts.
+    Returns:
+        matplotlib.Figure: A bar plot for the item type counts.
+
     """
     type_counts = (
         reconciled_table["type"]
