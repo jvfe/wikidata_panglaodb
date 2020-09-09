@@ -10,7 +10,7 @@ Depicted in Table 1 are also matches for gene data, which were acquired using ma
 | Cells   |                 81 |               85 |        37.6744 |                    38.8235 |           55.2941 |
 | Tissues |                 79 |               87 |        32.1138 |                    62.069  |           37.931  |
 | Organs  |                 22 |               30 |        75.8621 |                    53.3333 |           46.6667 |
-| Human Genes |                 35423 |               87 |        60.847533 |                    NA      |           NA      |
+| Human Genes |                 35423 |               35427 |        60.847533 |                    NA      |           NA      |
 | Mouse Genes  |                 25124 |               25127 |        46.704962 |                    NA      |           NA      |
 Table 1: Summary of the matched entities from PanglaoDB.
 
