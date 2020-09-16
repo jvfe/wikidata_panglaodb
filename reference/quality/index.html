@@ -154,6 +154,11 @@
     </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
+<a class="md-nav__link" href="#wikidata_panglaodb.quality.summarize_matches">
+    wikidata_panglaodb.quality.summarize_matches
+  </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#wikidata_panglaodb.quality.summarize_histology">
     wikidata_panglaodb.quality.summarize_histology
   </a>
@@ -199,6 +204,11 @@
     </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
+<a class="md-nav__link" href="#wikidata_panglaodb.quality.summarize_matches">
+    wikidata_panglaodb.quality.summarize_matches
+  </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#wikidata_panglaodb.quality.summarize_histology">
     wikidata_panglaodb.quality.summarize_histology
   </a>
@@ -224,6 +234,103 @@
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"></path></svg>
 </a>
 <h1 id="item-quality-module">Item quality module</h1>
+<p><strong>summarize_matches()</strong></p>
+<div class="doc doc-object doc-function">
+<h2 class="hidden-toc" href="#wikidata_panglaodb.quality.summarize_matches" id="wikidata_panglaodb.quality.summarize_matches" style="visibility: hidden; width: 0; height: 0;">
+</h2>
+<div class="doc doc-contents first">
+<p>Return a simple summary table for item matches regardless of category</p>
+<p>Returns a summary table in the following structure:
+    n_unique_matches is the number of uniquely named input values that matched
+    perc_matched is the percentage of uniquely named input values that matched
+    n_item_matches is the number of unique items they matched against, including duplicate concepts</p>
+<p><strong>Parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>dfs_list</code></td>
+<td><code>list(DataFrame</code></td>
+<td>
+<p>A dataframe list of the histology related reconciled tables 
+(cells, tissues and organs)</p>
+</td>
+<td><em>required</em></td>
+</tr>
+<tr>
+<td><code>total_list</code></td>
+<td><code>list(int</code></td>
+<td>
+<p>A list of the number of original input values.</p>
+</td>
+<td><em>required</em></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>DataFrame</code></td>
+<td>
+<p>A summary table for the matches.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<details class="quote">
+<summary>Source code in <code>wikidata_panglaodb/quality.py</code></summary>
+<div class="highlight">
+<pre><span></span><code><span class="k">def</span> <span class="nf">summarize_matches</span><span class="p">(</span><span class="n">dfs_list</span><span class="p">,</span> <span class="n">total_list</span><span class="p">):</span>
+    <span class="sd">"""Return a simple summary table for item matches regardless of category</span>
+
+<span class="sd">    Returns a summary table in the following structure:</span>
+<span class="sd">        n_unique_matches is the number of uniquely named input values that matched</span>
+<span class="sd">        perc_matched is the percentage of uniquely named input values that matched</span>
+<span class="sd">        n_item_matches is the number of unique items they matched against, including duplicate concepts</span>
+
+
+<span class="sd">    Args:</span>
+<span class="sd">        dfs_list (list(DataFrame)): A dataframe list of the histology related reconciled tables </span>
+<span class="sd">            (cells, tissues and organs)</span>
+<span class="sd">        total_list (list(int)): A list of the number of original input values.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        DataFrame: A summary table for the matches.</span>
+
+<span class="sd">    """</span>
+
+    <span class="n">summary_table</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span>
+        <span class="p">{</span>
+            <span class="s2">"n_unique_matches"</span><span class="p">:</span> <span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">"input_value"</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span> <span class="k">for</span> <span class="n">df</span> <span class="ow">in</span> <span class="n">dfs_list</span><span class="p">],</span>
+            <span class="s2">"n_item_matches"</span><span class="p">:</span> <span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">"id"</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span> <span class="k">for</span> <span class="n">df</span> <span class="ow">in</span> <span class="n">dfs_list</span><span class="p">],</span>
+            <span class="s2">"totals"</span><span class="p">:</span> <span class="n">total_list</span><span class="p">,</span>
+        <span class="p">}</span>
+    <span class="p">)</span>
+
+    <span class="n">summary_table</span><span class="p">[</span><span class="s2">"perc_matched"</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">summary_table</span><span class="p">[</span><span class="s2">"n_unique_matches"</span><span class="p">]</span> <span class="o">/</span> <span class="n">summary_table</span><span class="p">[</span><span class="s2">"totals"</span><span class="p">]</span>
+    <span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
+
+    <span class="k">return</span> <span class="n">summary_table</span>
+</code></pre>
+</div>
+</details>
+</div>
+</div>
 <p><strong>summarize_histology()</strong></p>
 <div class="doc doc-object doc-function">
 <h2 class="hidden-toc" href="#wikidata_panglaodb.quality.summarize_histology" id="wikidata_panglaodb.quality.summarize_histology" style="visibility: hidden; width: 0; height: 0;">
@@ -307,19 +414,13 @@
 <span class="sd">        DataFrame: A summary table for the matches.</span>
 <span class="sd">    """</span>
 
-    <span class="n">summary_table</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span>
-        <span class="p">{</span>
-            <span class="s2">"n_unique_matches"</span><span class="p">:</span> <span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">"input_value"</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span> <span class="k">for</span> <span class="n">df</span> <span class="ow">in</span> <span class="n">dfs_list</span><span class="p">],</span>
-            <span class="s2">"n_item_matches"</span><span class="p">:</span> <span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">"id"</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span> <span class="k">for</span> <span class="n">df</span> <span class="ow">in</span> <span class="n">dfs_list</span><span class="p">],</span>
-            <span class="s2">"n_perfect_matches"</span><span class="p">:</span> <span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">"score"</span><span class="p">]</span> <span class="o">==</span> <span class="mf">100.0</span><span class="p">])</span> <span class="k">for</span> <span class="n">df</span> <span class="ow">in</span> <span class="n">dfs_list</span><span class="p">],</span>
-            <span class="s2">"n_no_p31"</span><span class="p">:</span> <span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">"type"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"[]"</span><span class="p">])</span> <span class="k">for</span> <span class="n">df</span> <span class="ow">in</span> <span class="n">dfs_list</span><span class="p">],</span>
-            <span class="s2">"totals"</span><span class="p">:</span> <span class="n">total_list</span><span class="p">,</span>
-        <span class="p">}</span>
-    <span class="p">)</span>
+    <span class="n">summary_table</span> <span class="o">=</span> <span class="n">summarize_matches</span><span class="p">(</span><span class="n">dfs_list</span><span class="p">,</span> <span class="n">total_list</span><span class="p">)</span>
 
-    <span class="n">summary_table</span><span class="p">[</span><span class="s2">"perc_matched"</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span>
-        <span class="n">summary_table</span><span class="p">[</span><span class="s2">"n_unique_matches"</span><span class="p">]</span> <span class="o">/</span> <span class="n">summary_table</span><span class="p">[</span><span class="s2">"totals"</span><span class="p">]</span>
-    <span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
+    <span class="n">summary_table</span><span class="p">[</span><span class="s2">"n_perfect_matches"</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">"score"</span><span class="p">]</span> <span class="o">==</span> <span class="mf">100.0</span><span class="p">])</span> <span class="k">for</span> <span class="n">df</span> <span class="ow">in</span> <span class="n">dfs_list</span>
+    <span class="p">]</span>
+    <span class="n">summary_table</span><span class="p">[</span><span class="s2">"n_no_p31"</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">"type"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"[]"</span><span class="p">])</span> <span class="k">for</span> <span class="n">df</span> <span class="ow">in</span> <span class="n">dfs_list</span><span class="p">]</span>
+
     <span class="n">summary_table</span><span class="p">[</span><span class="s2">"how_many_perfect_matches"</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span>
         <span class="n">summary_table</span><span class="p">[</span><span class="s2">"n_perfect_matches"</span><span class="p">]</span> <span class="o">/</span> <span class="n">summary_table</span><span class="p">[</span><span class="s2">"n_item_matches"</span><span class="p">]</span>
     <span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
@@ -392,8 +493,23 @@ and an axis on a matplotlib figure.</p>
 </tr>
 </tbody>
 </table>
-<p>Returns: 
-    plot: A bar plot for the item type counts.</p>
+<p><strong>Returns:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>matplotlib.Figure</code></td>
+<td>
+<p>A bar plot for the item type counts.</p>
+</td>
+</tr>
+</tbody>
+</table>
 <details class="quote">
 <summary>Source code in <code>wikidata_panglaodb/quality.py</code></summary>
 <div class="highlight">
@@ -411,8 +527,9 @@ and an axis on a matplotlib figure.</p>
 <span class="sd">        data_type (str): The data type being analysed, "cells", "organs" or "tissues".</span>
 <span class="sd">        ax (matplotlib.axes.Axes): A matplotlib figure axis to plot the final figure.</span>
 
-<span class="sd">    Returns: </span>
-<span class="sd">        plot: A bar plot for the item type counts.</span>
+<span class="sd">    Returns:</span>
+<span class="sd">        matplotlib.Figure: A bar plot for the item type counts.</span>
+
 <span class="sd">    """</span>
     <span class="n">type_counts</span> <span class="o">=</span> <span class="p">(</span>
         <span class="n">reconciled_table</span><span class="p">[</span><span class="s2">"type"</span><span class="p">]</span>
