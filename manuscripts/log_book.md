@@ -94,3 +94,10 @@ What we did, tried, and accomplished during each day of the project.
     now dismembered in two functions.
 
 * Continued work on the item quality assessment.
+
+### 16/09
+
+* Fixed number of statements for outlier Q18033537, since the number it had previously (400+) was 
+    [due to multiple wrong statements](https://www.wikidata.org/w/index.php?title=Q18033537&diff=1277410676&oldid=1245096003)
+
+* Discussed visualizations.
