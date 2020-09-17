@@ -101,3 +101,7 @@ What we did, tried, and accomplished during each day of the project.
     [due to multiple wrong statements](https://www.wikidata.org/w/index.php?title=Q18033537&diff=1277410676&oldid=1245096003)
 
 * Discussed visualizations.
+
+### 17/09
+
+* Continued work on item quality assessment, building initial visualizations.
