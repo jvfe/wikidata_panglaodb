@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.ticker as mtick
 from wikidata_panglaodb.quality import (
     summarize_histology,
     summarize_matches,
@@ -49,7 +50,8 @@ def main():
     ax1.set_title("Cell types")
     ax2.set_title("Organs")
     ax3.set_title("Tissues")
-
+    for axis in [ax1, ax2, ax3]:
+        axis.yaxis.set_major_formatter(mtick.PercentFormatter())
     fig.tight_layout()
     fig.savefig("figs/reconciled_item_types.png")
 

@@ -7,6 +7,7 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+import matplotlib.ticker as mtick
 from wikidata_panglaodb.quality import get_number_of_statements_for_items
 
 sns.set(style="whitegrid", palette="muted")
@@ -74,7 +75,13 @@ gene_items = pd.melt(
 # %%
 hist_fig, hist_ax = plt.subplots(figsize=(10, 10))
 
-sns.boxplot(x="class", y="n_statements", data=histology_w_statements, ax=hist_ax)
+sns.boxplot(
+    x="class",
+    y="n_statements",
+    data=histology_w_statements,
+    palette="rocket",
+    ax=hist_ax,
+)
 hist_ax.set_ylabel("# of statements")
 hist_ax.set_xlabel("")
 hist_fig.savefig("figs/histo_boxplots.png")
@@ -128,12 +135,60 @@ plot_gene_violin()
 plot_gene_violin(miniplot=True)
 
 # %%
-sns.catplot(
-    x="has_property",
-    hue="species",
-    col="property",
-    data=gene_items,
-    kind="count",
-    height=4,
-    aspect=0.7,
+# Plots for alternative IDs
+
+gene_altids = (
+    gene_items.groupby(["species", "property"])
+    .agg(
+        has_property=pd.NamedAgg("has_property", "sum"),
+        total=pd.NamedAgg("species", "count"),
+    )
+    .reset_index()
 )
+
+gene_altids["percentage_has_id"] = (
+    gene_altids["has_property"] / gene_altids["total"]
+) * 100
+
+histo_altids = (
+    histology_w_statements.groupby("class")
+    .agg(
+        has_property=pd.NamedAgg("has_property", "sum"),
+        total=pd.NamedAgg("class", "count"),
+    )
+    .reset_index()
+)
+
+histo_altids["percentage_has_id"] = (
+    histo_altids["has_property"] / histo_altids["total"]
+) * 100
+
+# %%
+histo_alt_fig, histo_alt_ax = plt.subplots(figsize=(10, 10))
+sns.barplot(
+    x="class",
+    y="percentage_has_id",
+    data=histo_altids,
+    palette="rocket",
+    ax=histo_alt_ax,
+)
+histo_alt_ax.set_xlabel("")
+histo_alt_ax.set_ylabel("% has alternative ID")
+histo_alt_ax.yaxis.set_major_formatter(mtick.PercentFormatter())
+histo_alt_fig.savefig("figs/histo_alt_ids.png")
+# %%
+gene_alt_fig, gene_alt_ax = plt.subplots(figsize=(10, 10))
+sns.barplot(
+    x="property",
+    y="percentage_has_id",
+    hue="species",
+    data=gene_altids,
+    palette="husl",
+    ax=gene_alt_ax,
+)
+gene_alt_ax.set_xticklabels(["Ensembl Gene ID", "Entrez"])
+gene_alt_ax.set_xlabel("")
+gene_alt_ax.set_ylabel("% has alternative ID")
+gene_alt_ax.legend(title="")
+gene_alt_ax.yaxis.set_major_formatter(mtick.PercentFormatter())
+gene_alt_fig.savefig("figs/gene_alt_ids.png")
