@@ -164,17 +164,27 @@
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#wikidata_panglaodb.quality.plot_matched_item_types">
-    wikidata_panglaodb.quality.plot_matched_item_types
-  </a>
-</li>
-<li class="md-nav__item">
 <a class="md-nav__link" href="#wikidata_panglaodb.quality.get_number_of_statements_for_items">
     wikidata_panglaodb.quality.get_number_of_statements_for_items
   </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wikidata_panglaodb.quality.get_genes_item_quality">
+    wikidata_panglaodb.quality.get_genes_item_quality
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wikidata_panglaodb.quality.aggregate_altID_data">
+    wikidata_panglaodb.quality.aggregate_altID_data
+  </a>
+</li>
 </ul>
 </nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../plotting/" title="Plotting">
+      Plotting
+    </a>
 </li>
 </ul>
 </nav>
@@ -214,13 +224,18 @@
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#wikidata_panglaodb.quality.plot_matched_item_types">
-    wikidata_panglaodb.quality.plot_matched_item_types
+<a class="md-nav__link" href="#wikidata_panglaodb.quality.get_number_of_statements_for_items">
+    wikidata_panglaodb.quality.get_number_of_statements_for_items
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#wikidata_panglaodb.quality.get_number_of_statements_for_items">
-    wikidata_panglaodb.quality.get_number_of_statements_for_items
+<a class="md-nav__link" href="#wikidata_panglaodb.quality.get_genes_item_quality">
+    wikidata_panglaodb.quality.get_genes_item_quality
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wikidata_panglaodb.quality.aggregate_altID_data">
+    wikidata_panglaodb.quality.aggregate_altID_data
   </a>
 </li>
 </ul>
@@ -438,129 +453,6 @@
 </details>
 </div>
 </div>
-<p><strong>plot_matched_item_types()</strong></p>
-<div class="doc doc-object doc-function">
-<h2 class="hidden-toc" href="#wikidata_panglaodb.quality.plot_matched_item_types" id="wikidata_panglaodb.quality.plot_matched_item_types" style="visibility: hidden; width: 0; height: 0;">
-</h2>
-<div class="doc doc-contents first">
-<p>Plot reconciled item types</p>
-<p>This will make a count table of item types, and plot it, for a defined entity type (data_type),
-it will take in the reconciled table itself, from where it will extract the counts,
-a summary table from where the totals can be acquired, the entity type being analysed 
-and an axis on a matplotlib figure.</p>
-<p><strong>Parameters:</strong></p>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
-<th>Default</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>reconciled_table</code></td>
-<td><code>DataFrame</code></td>
-<td>
-<p>The table containing the reconciled items.</p>
-</td>
-<td><em>required</em></td>
-</tr>
-<tr>
-<td><code>summary_table</code></td>
-<td><code>DataFrame</code></td>
-<td>
-<p>A summary table created by summarize_histology()</p>
-</td>
-<td><em>required</em></td>
-</tr>
-<tr>
-<td><code>data_type</code></td>
-<td><code>str</code></td>
-<td>
-<p>The data type being analysed, "cells", "organs" or "tissues".</p>
-</td>
-<td><em>required</em></td>
-</tr>
-<tr>
-<td><code>ax</code></td>
-<td><code>matplotlib.axes.Axes</code></td>
-<td>
-<p>A matplotlib figure axis to plot the final figure.</p>
-</td>
-<td><em>required</em></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Returns:</strong></p>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>matplotlib.Figure</code></td>
-<td>
-<p>A bar plot for the item type counts.</p>
-</td>
-</tr>
-</tbody>
-</table>
-<details class="quote">
-<summary>Source code in <code>wikidata_panglaodb/quality.py</code></summary>
-<div class="highlight">
-<pre><span></span><code><span class="k">def</span> <span class="nf">plot_matched_item_types</span><span class="p">(</span><span class="n">reconciled_table</span><span class="p">,</span> <span class="n">summary_table</span><span class="p">,</span> <span class="n">data_type</span><span class="p">,</span> <span class="n">ax</span><span class="p">):</span>
-    <span class="sd">"""Plot reconciled item types</span>
-
-<span class="sd">    This will make a count table of item types, and plot it, for a defined entity type (data_type),</span>
-<span class="sd">    it will take in the reconciled table itself, from where it will extract the counts,</span>
-<span class="sd">    a summary table from where the totals can be acquired, the entity type being analysed </span>
-<span class="sd">    and an axis on a matplotlib figure.</span>
-
-<span class="sd">    Args:</span>
-<span class="sd">        reconciled_table (DataFrame): The table containing the reconciled items.</span>
-<span class="sd">        summary_table (DataFrame): A summary table created by summarize_histology()</span>
-<span class="sd">        data_type (str): The data type being analysed, "cells", "organs" or "tissues".</span>
-<span class="sd">        ax (matplotlib.axes.Axes): A matplotlib figure axis to plot the final figure.</span>
-
-<span class="sd">    Returns:</span>
-<span class="sd">        matplotlib.Figure: A bar plot for the item type counts.</span>
-
-<span class="sd">    """</span>
-    <span class="n">type_counts</span> <span class="o">=</span> <span class="p">(</span>
-        <span class="n">reconciled_table</span><span class="p">[</span><span class="s2">"type"</span><span class="p">]</span>
-        <span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
-        <span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
-        <span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">"[]"</span><span class="p">,</span> <span class="s2">"None"</span><span class="p">)</span>
-        <span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s2">"index"</span><span class="p">:</span> <span class="s2">"Item type"</span><span class="p">,</span> <span class="s2">"type"</span><span class="p">:</span> <span class="s2">"# of items"</span><span class="p">})</span>
-    <span class="p">)</span>
-
-    <span class="n">type_counts</span><span class="p">[</span><span class="s2">"</span><span class="si">% o</span><span class="s2">f matched items"</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span>
-        <span class="n">type_counts</span><span class="p">[</span><span class="s2">"# of items"</span><span class="p">]</span> <span class="o">/</span> <span class="n">summary_table</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">data_type</span><span class="p">,</span> <span class="s2">"n_item_matches"</span><span class="p">]</span>
-    <span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
-
-    <span class="n">p</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span>
-        <span class="n">x</span><span class="o">=</span><span class="s2">"Item type"</span><span class="p">,</span>
-        <span class="n">y</span><span class="o">=</span><span class="s2">"</span><span class="si">% o</span><span class="s2">f matched items"</span><span class="p">,</span>
-        <span class="n">data</span><span class="o">=</span><span class="n">type_counts</span><span class="p">,</span>
-        <span class="n">edgecolor</span><span class="o">=</span><span class="s2">"w"</span><span class="p">,</span>
-        <span class="n">palette</span><span class="o">=</span><span class="s2">"magma"</span><span class="p">,</span>
-        <span class="n">dodge</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-        <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">,</span>
-    <span class="p">)</span>
-    <span class="n">p</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">xlabel</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
-    <span class="n">p</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">get_xticklabels</span><span class="p">(),</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">45</span><span class="p">,</span> <span class="n">horizontalalignment</span><span class="o">=</span><span class="s2">"right"</span><span class="p">)</span>
-
-    <span class="k">return</span> <span class="n">p</span>
-</code></pre>
-</div>
-</details>
-</div>
-</div>
 <p><strong>get_number_of_statements_for_items()</strong></p>
 <div class="doc doc-object doc-function">
 <h2 class="hidden-toc" href="#wikidata_panglaodb.quality.get_number_of_statements_for_items" id="wikidata_panglaodb.quality.get_number_of_statements_for_items" style="visibility: hidden; width: 0; height: 0;">
@@ -663,6 +555,178 @@ a table with the number of statements each item has.</p>
 </details>
 </div>
 </div>
+<p><strong>get_genes_item_quality()</strong></p>
+<div class="doc doc-object doc-function">
+<h2 class="hidden-toc" href="#wikidata_panglaodb.quality.get_genes_item_quality" id="wikidata_panglaodb.quality.get_genes_item_quality" style="visibility: hidden; width: 0; height: 0;">
+</h2>
+<div class="doc doc-contents first">
+<p>Changes ID columns to binary values</p>
+<p>Changes the alternative id columns in the reconciled gene data to binary values,
+also drops unecessary columns if drop == True.</p>
+<p><strong>Parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>df</code></td>
+<td><code>DataFrame</code></td>
+<td>
+<p>Reconciled gene data.</p>
+</td>
+<td><em>required</em></td>
+</tr>
+<tr>
+<td><code>drop</code></td>
+<td><code>bool</code></td>
+<td>
+<p>Wether or not to drop the other columns.</p>
+</td>
+<td><code>True</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>DataFrame</code></td>
+<td>
+<p>Simplified dataframe for plotting.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<details class="quote">
+<summary>Source code in <code>wikidata_panglaodb/quality.py</code></summary>
+<div class="highlight">
+<pre><span></span><code><span class="k">def</span> <span class="nf">get_genes_item_quality</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="sd">"""Changes ID columns to binary values</span>
+
+<span class="sd">    Changes the alternative id columns in the reconciled gene data to binary values,</span>
+<span class="sd">    also drops unecessary columns if drop == True.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        df (DataFrame): Reconciled gene data.</span>
+<span class="sd">        drop (bool): Wether or not to drop the other columns.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        DataFrame: Simplified dataframe for plotting.</span>
+
+<span class="sd">    """</span>
+
+    <span class="n">result_df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s2">"item"</span><span class="p">:</span> <span class="s2">"id"</span><span class="p">})</span>
+
+    <span class="n">result_df</span><span class="p">[</span><span class="s2">"has_ensg"</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">result_df</span><span class="p">[</span><span class="s2">"ensg_wdt"</span><span class="p">]</span><span class="o">.</span><span class="n">isna</span><span class="p">(),</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span>
+    <span class="n">result_df</span><span class="p">[</span><span class="s2">"has_entrez"</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">result_df</span><span class="p">[</span><span class="s2">"entrez"</span><span class="p">]</span><span class="o">.</span><span class="n">isna</span><span class="p">(),</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">drop</span> <span class="o">==</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="n">result_df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span>
+            <span class="p">[</span><span class="s2">"itemLabel"</span><span class="p">,</span> <span class="s2">"entrez"</span><span class="p">,</span> <span class="s2">"ensg_wdt"</span><span class="p">,</span> <span class="s2">"ensg_panglao"</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span>
+        <span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">result_df</span>
+</code></pre>
+</div>
+</details>
+</div>
+</div>
+<p><strong>aggregate_altID_data()</strong></p>
+<div class="doc doc-object doc-function">
+<h2 class="hidden-toc" href="#wikidata_panglaodb.quality.aggregate_altID_data" id="wikidata_panglaodb.quality.aggregate_altID_data" style="visibility: hidden; width: 0; height: 0;">
+</h2>
+<div class="doc doc-contents first">
+<p>Summarize alternative IDs for final bar plot</p>
+<p><strong>Parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>dataframe</code></td>
+<td><code>DataFrame</code></td>
+<td>
+<p>With either the histological or gene data.</p>
+</td>
+<td><em>required</em></td>
+</tr>
+<tr>
+<td><code>group</code></td>
+<td><code>list</code></td>
+<td>
+<p>Columns to use for the groupby.</p>
+</td>
+<td><em>required</em></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Returns:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>DataFrame</code></td>
+<td>
+<p>Summarized counts and percentages.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<details class="quote">
+<summary>Source code in <code>wikidata_panglaodb/quality.py</code></summary>
+<div class="highlight">
+<pre><span></span><code><span class="k">def</span> <span class="nf">aggregate_altID_data</span><span class="p">(</span><span class="n">dataframe</span><span class="p">,</span> <span class="n">group</span><span class="p">):</span>
+    <span class="sd">"""Summarize alternative IDs for final bar plot</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        dataframe (DataFrame): With either the histological or gene data.</span>
+<span class="sd">        group (list): Columns to use for the groupby.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        DataFrame: Summarized counts and percentages.</span>
+<span class="sd">    """</span>
+    <span class="n">aggregated</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">dataframe</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">group</span><span class="p">)</span>
+        <span class="o">.</span><span class="n">agg</span><span class="p">(</span>
+            <span class="n">has_property</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">NamedAgg</span><span class="p">(</span><span class="s2">"has_property"</span><span class="p">,</span> <span class="s2">"sum"</span><span class="p">),</span>
+            <span class="n">total</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">NamedAgg</span><span class="p">(</span><span class="n">group</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s2">"count"</span><span class="p">),</span>
+        <span class="p">)</span>
+        <span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+    <span class="p">)</span>
+
+    <span class="n">aggregated</span><span class="p">[</span><span class="s2">"percentage_has_id"</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">aggregated</span><span class="p">[</span><span class="s2">"has_property"</span><span class="p">]</span> <span class="o">/</span> <span class="n">aggregated</span><span class="p">[</span><span class="s2">"total"</span><span class="p">]</span>
+    <span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
+
+    <span class="k">return</span> <span class="n">aggregated</span>
+</code></pre>
+</div>
+</details>
+</div>
+</div>
 </article>
 </div>
 </div>
@@ -683,13 +747,13 @@ a table with the number of statements each item has.</p>
               </div>
 </div>
 </a>
-<a class="md-footer-nav__link md-footer-nav__link--next" href="../../analysis_description/" rel="next" title="Analysis description">
+<a class="md-footer-nav__link md-footer-nav__link--next" href="../plotting/" rel="next" title="Plotting">
 <div class="md-footer-nav__title">
 <div class="md-ellipsis">
 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Analysis description
+                Plotting
               </div>
 </div>
 <div class="md-footer-nav__button md-icon">
