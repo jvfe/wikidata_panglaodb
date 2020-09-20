@@ -4,8 +4,8 @@ import matplotlib.ticker as mtick
 from wikidata_panglaodb.quality import (
     summarize_histology,
     summarize_matches,
-    plot_matched_item_types,
 )
+from wikidata_panglaodb.plotting import plot_matched_item_types
 
 
 def main():
@@ -52,6 +52,7 @@ def main():
     ax3.set_title("Tissues")
     for axis in [ax1, ax2, ax3]:
         axis.yaxis.set_major_formatter(mtick.PercentFormatter())
+
     fig.tight_layout()
     fig.savefig("figs/reconciled_item_types.png")
 

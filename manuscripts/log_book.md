@@ -109,3 +109,7 @@ What we did, tried, and accomplished during each day of the project.
 ### 18/09
 
 * Built all initial draft visualizations, now need to refactor and test the code in item_quality.py.
+
+### 20/09
+
+* Refactoring and testing functions associated with the item quality assessment.

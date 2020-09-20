@@ -8,6 +8,7 @@ nav:
       - Preprocessing: reference/preprocessing.md
       - Similarity: reference/similarity.md
       - Item quality: reference/quality.md
+      - Plotting: reference/plotting.md
     - Analysis description: analysis_description.md
     - Log book: log_book.md
 repo_url: https://github.com/jvfe/wikidata_panglaodb

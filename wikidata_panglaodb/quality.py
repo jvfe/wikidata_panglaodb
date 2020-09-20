@@ -2,11 +2,8 @@
 
 import requests
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
+import numpy as np
 from collections import defaultdict
-
-sns.set(style="whitegrid", palette="muted")
 
 
 def summarize_matches(dfs_list, total_list):
@@ -84,51 +81,6 @@ def summarize_histology(dfs_list, total_list):
     return summary_table
 
 
-def plot_matched_item_types(reconciled_table, summary_table, data_type, ax):
-    """Plot reconciled item types
-    
-    This will make a count table of item types, and plot it, for a defined entity type (data_type),
-    it will take in the reconciled table itself, from where it will extract the counts,
-    a summary table from where the totals can be acquired, the entity type being analysed 
-    and an axis on a matplotlib figure.
-
-    Args:
-        reconciled_table (DataFrame): The table containing the reconciled items.
-        summary_table (DataFrame): A summary table created by summarize_histology()
-        data_type (str): The data type being analysed, "cells", "organs" or "tissues".
-        ax (matplotlib.axes.Axes): A matplotlib figure axis to plot the final figure.
-    
-    Returns:
-        matplotlib.Figure: A bar plot for the item type counts.
-
-    """
-    type_counts = (
-        reconciled_table["type"]
-        .value_counts()
-        .reset_index()
-        .replace("[]", "None")
-        .rename(columns={"index": "Item type", "type": "# of items"})
-    )
-
-    type_counts["% of matched items"] = (
-        type_counts["# of items"] / summary_table.loc[data_type, "n_item_matches"]
-    ) * 100
-
-    p = sns.barplot(
-        x="Item type",
-        y="% of matched items",
-        data=type_counts,
-        edgecolor="w",
-        palette="magma",
-        dodge=False,
-        ax=ax,
-    )
-    p.set(xlabel=None)
-    p.set_xticklabels(p.get_xticklabels(), rotation=45, horizontalalignment="right")
-
-    return p
-
-
 def get_number_of_statements_for_items(qid_list, has_property):
     """Return a pandas dataframe of items and their number of statements
     
@@ -177,3 +129,56 @@ def get_number_of_statements_for_items(qid_list, has_property):
 
     return item_quality_table
 
+
+def get_genes_item_quality(df, drop=True):
+    """Changes ID columns to binary values
+
+    Changes the alternative id columns in the reconciled gene data to binary values,
+    also drops unecessary columns if drop == True.
+
+    Args:
+        df (DataFrame): Reconciled gene data.
+        drop (bool): Wether or not to drop the other columns.
+
+    Returns:
+        DataFrame: Simplified dataframe for plotting.
+         
+    """
+
+    result_df = df.copy().rename(columns={"item": "id"})
+
+    result_df["has_ensg"] = np.where(result_df["ensg_wdt"].isna(), False, True)
+    result_df["has_entrez"] = np.where(result_df["entrez"].isna(), False, True)
+
+    if drop == True:
+        result_df.drop(
+            ["itemLabel", "entrez", "ensg_wdt", "ensg_panglao"], axis=1, inplace=True
+        )
+
+    return result_df
+
+
+def aggregate_altID_data(dataframe, group):
+    """Summarize alternative IDs for final bar plot
+    
+    Args:
+        dataframe (DataFrame): With either the histological or gene data.
+        group (list): Columns to use for the groupby.
+    
+    Returns:
+        DataFrame: Summarized counts and percentages.
+    """
+    aggregated = (
+        dataframe.groupby(group)
+        .agg(
+            has_property=pd.NamedAgg("has_property", "sum"),
+            total=pd.NamedAgg(group[0], "count"),
+        )
+        .reset_index()
+    )
+
+    aggregated["percentage_has_id"] = (
+        aggregated["has_property"] / aggregated["total"]
+    ) * 100
+
+    return aggregated
