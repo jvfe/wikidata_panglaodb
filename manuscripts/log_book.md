@@ -113,3 +113,10 @@ What we did, tried, and accomplished during each day of the project.
 ### 20/09
 
 * Refactoring and testing functions associated with the item quality assessment.
+
+### 21/09
+
+* Updating table in analyse_matches.py to print totals as well.
+
+* Started working primarily in the manuscript. Progress for this can be followed [here](https://github.com/jvfe/paper_wdt_panglao)
+
