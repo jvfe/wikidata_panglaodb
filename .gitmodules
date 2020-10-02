@@ -1,5 +1,5 @@
 [submodule "manuscripts/manuscript_panglaodb"]
-	path = manuscripts/manuscript_panglaodb
+	path = manuscripts/project_panglaodb
 	url = https://github.com/jvfe/manuscript_panglaodb.git
 [submodule "manuscripts/paper_wdt_panglao"]
 	path = manuscripts/paper_wdt_panglao

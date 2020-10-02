@@ -26,16 +26,16 @@ def main():
         columns={"itemLabel": "input_value", "item": "id"}
     )
 
-    histo_summary = summarize_histology([cells, tissues, organs], [215, 246, 29])
+    histo_totals = [215, 246, 29]
+    histo_summary = summarize_histology([cells, tissues, organs], histo_totals)
     histo_summary.index = ["cells", "tissues", "organs"]
+    histo_summary["totals"] = histo_totals
 
     gene_quant_by_species = (
         genes_panglaodb.groupby("species").count()["symbol"].to_list()
     )
 
-    gene_summary = summarize_matches(
-        [hsa_genes, mmu_genes], gene_quant_by_species
-    ).drop(["totals"], axis=1)
+    gene_summary = summarize_matches([hsa_genes, mmu_genes], gene_quant_by_species)
     gene_summary.index = ["genes_hsa", "genes_mmu"]
 
     print("Match summary:\n", pd.concat([histo_summary, gene_summary]))
