@@ -71,25 +71,32 @@ def reconcile_more_types(dataframe_column, type_qids):
         return full_df_matches
 
 
-def chunk_dataframe(df, base_size):
-    """Splits a dataframe into many chunks of length base_size
-    
-    This is useful to reconcile large dataframes, since the requests will 
-    be lighter and you'll have the capacity to space them out.
+def get_negative_intersection(left_df, right_df, left_on, right_on):
+    """Returns everything from right_df that's not on left_df
+
 
     Args:
-        df (DataFrame): A large dataframe to split.
-        base_size (int): The number of rows of each chunk.
+        left_df (DataFrame): The dataframe you want to merge against.
+        right_df (DataFrame): The dataframe you want the missing results from.
+        left_on (str): Key from the left_df to use for merging.
+        right_on (str): Key from the right_df to use for merging.
 
     Returns:
-        list(DataFrame): A list of DataFrames, each of length base_size.
+        DataFrame: The rows from right_df that are not in left_df.
+        
     """
+    merged_data = pd.merge(
+        left_df,
+        right_df,
+        how="outer",
+        left_on=[left_on],
+        right_on=[right_on],
+        indicator=True,
+    )
 
-    length_of_list = int(len(df) / base_size)
-
-    chunks = [
-        df.iloc[i * base_size : (i + 1) * base_size].copy()
-        for i in range(length_of_list + 1)
+    missing_from_wikidata = merged_data[merged_data["_merge"] == "right_only"][
+        right_df.columns
     ]
 
-    return chunks
+    return missing_from_wikidata
+

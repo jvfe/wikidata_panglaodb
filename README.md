@@ -19,6 +19,8 @@ Research-related directories:
 * **manuscripts**: Manuscripts for this research project, each manuscript is a submodule of a GitHub repository that uses 
     [Manubot](https://github.com/manubot/manubot).
 
+* **improvements**: One-use code, creating Wikidata items from PanglaoDB's metadata and improving existing items.
+
 Software-related directories, they are structured similarly to a Python package:
 
 * **wikidata_panglaodb**: This is the source code for all author-defined functions used in the analysis.

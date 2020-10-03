@@ -32,17 +32,3 @@ def test_reconcile_more_types():
     )
 
     assert reconciled.shape[1] == 7
-
-
-def test_chunk_dataframe():
-
-    cells_organs_germlayers = pd.read_csv(
-        data_urls["cells_organs_germlayers"],
-        names=["cell_type", "germ_layer", "organ"],
-    )
-
-    chunked = chunk_dataframe(cells_organs_germlayers, 43)
-
-    shapes = [df.shape for df in chunked]
-
-    assert shapes[0] == (43, 3)

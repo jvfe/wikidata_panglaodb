@@ -120,3 +120,7 @@ What we did, tried, and accomplished during each day of the project.
 
 * Started working primarily in the manuscript. Progress for this can be followed [here](https://github.com/jvfe/paper_wdt_panglao)
 
+### 02/10
+
+* Created improvements/ directory, code used for improving wikidata items and creating new ones.
+* Isolated PanglaoDB's data that was missing from Wikidata.
