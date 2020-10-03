@@ -1,7 +1,6 @@
 from wikidata_panglaodb.pre import (
     downloads_panglao,
     reconcile_more_types,
-    chunk_dataframe,
 )
 import pandas as pd
 
