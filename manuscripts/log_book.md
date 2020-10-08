@@ -126,3 +126,13 @@ What we did, tried, and accomplished during each day of the project.
 
 * Created improvements/ directory, code used for improving wikidata items and creating new ones.
 * Isolated PanglaoDB's data that was missing from Wikidata.
+
+### 07/10
+
+* Reconciled organs once more, now adding "animal organ" as one of the possible reconcilable types. This will fix most missing matches.
+* Adding false match removal as a script, to avoid manually editing intermediate files.
+
+### 08/10
+
+* Committed what was done in 07/10. 
+* Reproduced item_quality assessement, now with the new reconciled organ data.
