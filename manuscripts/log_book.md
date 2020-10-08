@@ -78,6 +78,7 @@ What we did, tried, and accomplished during each day of the project.
     * **Chinese medicine or religion items removed**
         * Q6140833 (Kidney) 
         * Q5691852 (Heart)
+        * Q6140977 (Liver)
 
 * Started working on the item quality assesment - halted until manual item matching is finished
 

@@ -33,6 +33,7 @@ def main():
         "cell type": "Q189118",
         "cell": "Q7868",
         "organ": "Q712378",
+        "animal organ": "Q24060765",
     }
 
     # Reconciling tissues againt types tissue (Q40397) and anatomical structure (Q4936952)
@@ -64,7 +65,11 @@ def main():
     print("Reconciling organs")
     organs_reconciled = reconcile_more_types(
         cells_organs_germlayers["organ"],
-        type_qids=[types["organ"], types["anatomical structure"]],
+        type_qids=[
+            types["organ"],
+            types["animal organ"],
+            types["anatomical structure"],
+        ],
     )
 
     organs_reconciled.to_csv("results/all_matches/organs_reconciled.csv", index=False)
