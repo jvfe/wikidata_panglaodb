@@ -68,6 +68,7 @@ What we did, tried, and accomplished during each day of the project.
 
     * Q1155702 (skin) is a graphical interface, removed.
     * Q97671426 (Skin) is a British TV series, removed.
+    * Q7535317 (Skin)  is an aircraft component, removed.
     * Q85782674 (Lungs) is a play, removed.
     * Q67208213 (Thymus) is a spice, removed.
     * Q96377210 (Embryo) is a song, removed.

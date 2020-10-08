@@ -1,39 +1,172 @@
 id,match,name,score,type,type_id,input_value
 Q66505125,True,immune system,50.0,[],,Immune system
-Q170145,True,zygote,50.0,[],,Zygote
 Q11498334,True,Zygote,50.0,[],,Zygote
-Q66569968,True,zygote,50.0,[],,Zygote
 Q25615,True,connective tissue,50.0,[],,Connective tissue
 Q11893325,True,Connective tissue,50.0,[],,Connective tissue
+Q66505125,True,immune system,50.0,[],,Immune system
 Q7873,True,blood,50.0,[],,Blood
-Q6140977,True,Liver,50.0,[],,Liver
+Q66505125,True,immune system,50.0,[],,Immune system
+Q7873,True,blood,50.0,[],,Blood
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q66505125,True,immune system,50.0,[],,Immune system
+Q25615,True,connective tissue,50.0,[],,Connective tissue
+Q11893325,True,Connective tissue,50.0,[],,Connective tissue
+Q66505125,True,immune system,50.0,[],,Immune system
+Q7886,True,lung,50.0,[],,Lungs
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q7873,True,blood,50.0,[],,Blood
+Q66505125,True,immune system,50.0,[],,Immune system
+Q9355635,True,Thyroid,50.0,[],,Thyroid
 Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
 Q7886,True,lung,50.0,[],,Lungs
-Q9355635,True,Thyroid,50.0,[],,Thyroid
+Q41301,True,epithelium,50.0,[],,Epithelium
+Q25615,True,connective tissue,50.0,[],,Connective tissue
+Q11893325,True,Connective tissue,50.0,[],,Connective tissue
+Q66505125,True,immune system,50.0,[],,Immune system
+Q66505125,True,immune system,50.0,[],,Immune system
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q41301,True,epithelium,50.0,[],,Epithelium
 Q41301,True,epithelium,50.0,[],,Epithelium
 Q189961,True,mammary gland,50.0,[],,Mammary gland
+Q66505125,True,immune system,50.0,[],,Immune system
+Q41301,True,epithelium,50.0,[],,Epithelium
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
 Q1212935,True,placenta,100.0,organ,Q712378,Placenta
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q7886,True,lung,50.0,[],,Lungs
+Q189961,True,mammary gland,50.0,[],,Mammary gland
+Q7886,True,lung,50.0,[],,Lungs
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q66505125,True,immune system,50.0,[],,Immune system
+Q66505125,True,immune system,50.0,[],,Immune system
 Q65426278,True,Olfactory system,50.0,[],,Olfactory system
 Q66502822,True,olfactory system,50.0,[],,Olfactory system
-Q1059,True,immune system,100.0,organ system,Q188193,Immune system
-Q170145,True,zygote,50.0,[],,Zygote
+Q7886,True,lung,50.0,[],,Lungs
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q7873,True,blood,50.0,[],,Blood
+Q7886,True,lung,50.0,[],,Lungs
+Q66505125,True,immune system,50.0,[],,Immune system
+Q66505125,True,immune system,50.0,[],,Immune system
+Q66505125,True,immune system,50.0,[],,Immune system
 Q11498334,True,Zygote,50.0,[],,Zygote
-Q66569968,True,zygote,50.0,[],,Zygote
+Q25615,True,connective tissue,50.0,[],,Connective tissue
+Q11893325,True,Connective tissue,50.0,[],,Connective tissue
+Q66505125,True,immune system,50.0,[],,Immune system
+Q7873,True,blood,50.0,[],,Blood
+Q66505125,True,immune system,50.0,[],,Immune system
+Q7873,True,blood,50.0,[],,Blood
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q66505125,True,immune system,50.0,[],,Immune system
+Q25615,True,connective tissue,50.0,[],,Connective tissue
+Q11893325,True,Connective tissue,50.0,[],,Connective tissue
+Q66505125,True,immune system,50.0,[],,Immune system
+Q7886,True,lung,50.0,[],,Lungs
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q7873,True,blood,50.0,[],,Blood
+Q66505125,True,immune system,50.0,[],,Immune system
+Q9355635,True,Thyroid,50.0,[],,Thyroid
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q7886,True,lung,50.0,[],,Lungs
+Q41301,True,epithelium,50.0,[],,Epithelium
+Q25615,True,connective tissue,50.0,[],,Connective tissue
+Q11893325,True,Connective tissue,50.0,[],,Connective tissue
+Q66505125,True,immune system,50.0,[],,Immune system
+Q66505125,True,immune system,50.0,[],,Immune system
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q41301,True,epithelium,50.0,[],,Epithelium
+Q41301,True,epithelium,50.0,[],,Epithelium
+Q189961,True,mammary gland,50.0,[],,Mammary gland
+Q66505125,True,immune system,50.0,[],,Immune system
+Q41301,True,epithelium,50.0,[],,Epithelium
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q66560269,True,placenta,50.0,[],,Placenta
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q7886,True,lung,50.0,[],,Lungs
+Q189961,True,mammary gland,50.0,[],,Mammary gland
+Q7886,True,lung,50.0,[],,Lungs
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q66505125,True,immune system,50.0,[],,Immune system
+Q66505125,True,immune system,50.0,[],,Immune system
+Q65426278,True,Olfactory system,50.0,[],,Olfactory system
+Q66502822,True,olfactory system,50.0,[],,Olfactory system
+Q7886,True,lung,50.0,[],,Lungs
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q7873,True,blood,50.0,[],,Blood
+Q7886,True,lung,50.0,[],,Lungs
+Q66505125,True,immune system,50.0,[],,Immune system
+Q66505125,True,immune system,50.0,[],,Immune system
+Q1059,True,immune system,100.0,organ system,Q188193,Immune system
+Q170145,True,zygote,100.0,cell type,Q189118,Zygote
+Q66569968,True,zygote,100.0,cell type,Q189118,Zygote
 Q265868,True,bone,100.0,anatomical structure,Q4936952,Bone
 Q9377,True,kidney,100.0,anatomical structure,Q4936952,Kidney
 Q66566650,True,vasculature,100.0,anatomical structure,Q4936952,Vasculature
-Q25615,True,connective tissue,50.0,[],,Connective tissue
-Q11893325,True,Connective tissue,50.0,[],,Connective tissue
+Q1059,True,immune system,100.0,organ system,Q188193,Immune system
+Q1059,True,immune system,100.0,organ system,Q188193,Immune system
 Q1072,True,heart,100.0,anatomical structure,Q4936952,Heart
+Q265868,True,bone,100.0,anatomical structure,Q4936952,Bone
 Q9368,True,liver,100.0,anatomical structure,Q4936952,Liver
 Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q1059,True,immune system,100.0,organ system,Q188193,Immune system
+Q11829360,True,gastrointestinal tract,100.0,anatomical structure,Q4936952,GI tract
 Q11829360,True,gastrointestinal tract,100.0,anatomical structure,Q4936952,GI tract
 Q1074,True,skin,100.0,anatomical structure,Q4936952,Skin
+Q1059,True,immune system,100.0,organ system,Q188193,Immune system
+Q9368,True,liver,100.0,anatomical structure,Q4936952,Liver
+Q9377,True,kidney,100.0,anatomical structure,Q4936952,Kidney
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
 Q7364,True,eye,100.0,anatomical structure,Q4936952,Eye
+Q1059,True,immune system,100.0,organ system,Q188193,Immune system
+Q9377,True,kidney,100.0,anatomical structure,Q4936952,Kidney
+Q1072,True,heart,100.0,anatomical structure,Q4936952,Heart
 Q163987,True,thymus,100.0,anatomical structure,Q4936952,Thymus
 Q9382,True,urinary bladder,100.0,anatomical structure,Q4936952,Urinary bladder
 Q16399,True,thyroid gland,100.0,anatomical structure,Q4936952,Thyroid
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q9368,True,liver,100.0,anatomical structure,Q4936952,Liver
+Q11829360,True,gastrointestinal tract,100.0,anatomical structure,Q4936952,GI tract
+Q9368,True,liver,100.0,anatomical structure,Q4936952,Liver
+Q9377,True,kidney,100.0,anatomical structure,Q4936952,Kidney
+Q265868,True,bone,100.0,anatomical structure,Q4936952,Bone
+Q1059,True,immune system,100.0,organ system,Q188193,Immune system
+Q1059,True,immune system,100.0,organ system,Q188193,Immune system
+Q66566650,True,vasculature,100.0,anatomical structure,Q4936952,Vasculature
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q9368,True,liver,100.0,anatomical structure,Q4936952,Liver
+Q1072,True,heart,100.0,anatomical structure,Q4936952,Heart
+Q265868,True,bone,100.0,anatomical structure,Q4936952,Bone
+Q11829360,True,gastrointestinal tract,100.0,anatomical structure,Q4936952,GI tract
+Q9368,True,liver,100.0,anatomical structure,Q4936952,Liver
+Q1074,True,skin,100.0,anatomical structure,Q4936952,Skin
+Q1074,True,skin,100.0,anatomical structure,Q4936952,Skin
+Q9377,True,kidney,100.0,anatomical structure,Q4936952,Kidney
 Q189961,True,mammary gland,50.0,[],,Mammary gland
+Q9377,True,kidney,100.0,anatomical structure,Q4936952,Kidney
+Q1059,True,immune system,100.0,organ system,Q188193,Immune system
+Q66566650,True,vasculature,100.0,anatomical structure,Q4936952,Vasculature
+Q7364,True,eye,100.0,anatomical structure,Q4936952,Eye
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
 Q1212935,True,placenta,100.0,organ,Q712378,Placenta
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q66566650,True,vasculature,100.0,anatomical structure,Q4936952,Vasculature
+Q66566650,True,vasculature,100.0,anatomical structure,Q4936952,Vasculature
+Q189961,True,mammary gland,50.0,[],,Mammary gland
+Q11829360,True,gastrointestinal tract,100.0,anatomical structure,Q4936952,GI tract
+Q11829360,True,gastrointestinal tract,100.0,anatomical structure,Q4936952,GI tract
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q1059,True,immune system,100.0,organ system,Q188193,Immune system
+Q265868,True,bone,100.0,anatomical structure,Q4936952,Bone
+Q9377,True,kidney,100.0,anatomical structure,Q4936952,Kidney
+Q1059,True,immune system,100.0,organ system,Q188193,Immune system
+Q11829360,True,gastrointestinal tract,100.0,anatomical structure,Q4936952,GI tract
 Q1054094,True,olfactory system,100.0,organ system,Q188193,Olfactory system
+Q9368,True,liver,100.0,anatomical structure,Q4936952,Liver
+Q11829360,True,gastrointestinal tract,100.0,anatomical structure,Q4936952,GI tract
+Q9618,True,pancreas,100.0,gland,Q9647,Pancreas
+Q1059,True,immune system,100.0,organ system,Q188193,Immune system
+Q265868,True,bone,100.0,anatomical structure,Q4936952,Bone
+Q265868,True,bone,100.0,anatomical structure,Q4936952,Bone
+Q1059,True,immune system,100.0,organ system,Q188193,Immune system
+Q11829360,True,gastrointestinal tract,100.0,anatomical structure,Q4936952,GI tract
+Q1074,True,skin,100.0,anatomical structure,Q4936952,Skin
 Q712294,True,adrenal gland,100.0,anatomical structure,Q4936952,Adrenal glands
