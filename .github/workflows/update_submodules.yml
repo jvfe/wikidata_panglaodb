@@ -1,0 +1,29 @@
+on:
+  schedule:
+  - cron: "48 14 * * 5"
+  push:
+    branches:
+      - cron_action
+
+
+
+name: update-manuscripts
+
+jobs:
+  update-manuscripts:
+    name: Update manuscript submodules
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          submodules: 'true'
+      - name: Push to repository
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git submodule foreach git pull origin master
+          git add manuscripts/
+          git commit -m "chore: Update manuscript submodules" || echo "chore: Update manuscript submodules"
+          git push origin || echo "chore: Update manuscript submodules"
