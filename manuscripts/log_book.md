@@ -136,3 +136,8 @@ What we did, tried, and accomplished during each day of the project.
 
 * Committed what was done in 07/10. 
 * Reproduced item_quality assessement, now with the new reconciled organ data.
+
+### 09/10
+
+* Code for adding ensembl gene IDs to Wikidata items.
+
