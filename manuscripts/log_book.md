@@ -141,3 +141,7 @@ What we did, tried, and accomplished during each day of the project.
 
 * Code for adding ensembl gene IDs to Wikidata items.
 
+### 11/10
+
+* Added a Makefile for reproducibility and automation, see
+    [the Turing Way](https://the-turing-way.netlify.app/reproducible-research/make.html) for reference.

@@ -3,9 +3,9 @@
 [![pytest status](https://github.com/jvfe/wikidata_panglaodb/workflows/wikidata_panglaodb/badge.svg)](https://github.com/jvfe/wikidata_panglaodb/actions)
 <!-- badges end -->
 
-# Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB
+# Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB
 
-Research compendium for the project "Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB".
+Research compendium for the project "Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB".
 
 ## Repository brief descrition
 
@@ -46,10 +46,10 @@ git clone --recurse-submodules https://github.com/jvfe/wikidata_panglaodb
 Then, at the project's root directory (wikidata_panglaodb/):
 
 ```bash
-pip install .
+make repro
 ```
 
-And then run the scripts in the analysis/ subdirectory.
+This will reproduce all steps of the analysis done after the reconciliation.
 
 ### Collaborating
 
@@ -62,21 +62,12 @@ Pre-requisites:
 Initiate the environment:
 
 ```bash
-conda env create -f environment.yaml
-conda activate wdt_panglaodb
-```
-
-Download the base package in editable mode:
-
-```bash
-pip install -e .
+make develop
 ```
 
 **If you've already collaborated before but changes have been made to the conda enviroment/repository, run:**
 
 ```bash
-git pull origin master
-conda activate wdt_panglaodb
-conda env update --file environment.yaml
+make update-proj
 ```
 
