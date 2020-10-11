@@ -21,7 +21,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#analysing-the-extent-of-cell-type-information-present-in-wikidata-a-case-study-on-panglaodb">
+<a class="md-skip" href="#wikidata-to-build-5-star-linked-open-biological-databases-a-case-study-of-panglaodb">
           Skip to content
         </a>
 </div>
@@ -250,8 +250,8 @@
 <p><a href="https://github.com/jvfe/wikidata_panglaodb/blob/master/LICENSE"><img alt="license" src="https://img.shields.io/badge/license-BSD%202--Clause-green"/></a>
 <a href="https://github.com/jvfe/wikidata_panglaodb/actions"><img alt="pytest status" src="https://github.com/jvfe/wikidata_panglaodb/workflows/wikidata_panglaodb/badge.svg"/></a>
 <!-- badges end --></p>
-<h1 id="analysing-the-extent-of-cell-type-information-present-in-wikidata-a-case-study-on-panglaodb">Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB</h1>
-<p>Research compendium for the project "Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB".</p>
+<h1 id="wikidata-to-build-5-star-linked-open-biological-databases-a-case-study-of-panglaodb">Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB</h1>
+<p>Research compendium for the project "Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB".</p>
 <h2 id="repository-brief-descrition">Repository brief descrition</h2>
 <p>Research-related directories:</p>
 <ul>
@@ -288,9 +288,9 @@
 <pre><code class="bash">git clone --recurse-submodules https://github.com/jvfe/wikidata_panglaodb
 </code></pre>
 <p>Then, at the project's root directory (wikidata_panglaodb/):</p>
-<pre><code class="bash">pip install .
+<pre><code class="bash">make repro
 </code></pre>
-<p>And then run the scripts in the analysis/ subdirectory.</p>
+<p>This will reproduce all steps of the analysis done after the reconciliation.</p>
 <h3 id="collaborating">Collaborating</h3>
 <p>Pre-requisites:</p>
 <ul>
@@ -299,16 +299,10 @@
 <li><a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">Conda</a></li>
 </ul>
 <p>Initiate the environment:</p>
-<pre><code class="bash">conda env create -f environment.yaml
-conda activate wdt_panglaodb
-</code></pre>
-<p>Download the base package in editable mode:</p>
-<pre><code class="bash">pip install -e .
+<pre><code class="bash">make develop
 </code></pre>
 <p><strong>If you've already collaborated before but changes have been made to the conda enviroment/repository, run:</strong></p>
-<pre><code class="bash">git pull origin master
-conda activate wdt_panglaodb
-conda env update --file environment.yaml
+<pre><code class="bash">make update-proj
 </code></pre>
 </article>
 </div>

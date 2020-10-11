@@ -210,9 +210,7 @@
 </a>
 <h1 id="analysis-directory">Analysis directory</h1>
 <p>Here you will find all scripts used in the actual analysis. To run them,
-make sure you ran <code>pip install .</code> at the root directory.</p>
-<p>Simple data transformation scripts are plain text python files, scripts containing extensive information and 
-associated plots are jupyter notebooks.</p>
+make sure you ran <code>make install</code> at the root directory.</p>
 <h2 id="brief-description">Brief description</h2>
 <ul>
 <li>
@@ -221,6 +219,9 @@ associated plots are jupyter notebooks.</p>
 </li>
 <li>
 <p><strong>similarity_check.py</strong>: Checks the reconciled/all_matches data for similarity matching, outputting the filtered data to results/true_matches.</p>
+</li>
+<li>
+<p><strong>remove_false_matches.py</strong>: Removes false matches, see the log book for a description of them.</p>
 </li>
 <li>
 <p><strong>analyse_matches.py</strong>: Summarize the manually curated matches. </p>
