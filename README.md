@@ -1,6 +1,7 @@
 <!-- badges start -->
 [![license](https://img.shields.io/badge/license-BSD%202--Clause-green)](https://github.com/jvfe/wikidata_panglaodb/blob/master/LICENSE)
 [![pytest status](https://github.com/jvfe/wikidata_panglaodb/workflows/wikidata_panglaodb/badge.svg)](https://github.com/jvfe/wikidata_panglaodb/actions)
+[![docs](https://github.com/jvfe/wikidata_panglaodb/workflows/docs/badge.svg)](https://jvfe.github.io/wikidata_panglaodb/)
 <!-- badges end -->
 
 # Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB
