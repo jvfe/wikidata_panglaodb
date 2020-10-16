@@ -1,9 +1,9 @@
 on:
   schedule:
-  - cron: "48 14 * * 5"
+  - cron: "5 23 * * 5"
   push:
     branches:
-      - cron_action
+      - master
 
 
 
