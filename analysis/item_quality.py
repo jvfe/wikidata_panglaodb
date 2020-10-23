@@ -15,15 +15,9 @@ sns.set(style="whitegrid", palette="muted")
 
 def main():
 
-    cells = pd.read_csv("results/true_matches/cells_checked.csv").drop_duplicates(
-        subset=["id"]
-    )
-    organs = pd.read_csv("results/true_matches/organs_checked.csv").drop_duplicates(
-        subset=["id"]
-    )
-    tissues = pd.read_csv("results/true_matches/tissues_checked.csv").drop_duplicates(
-        subset=["id"]
-    )
+    cells = pd.read_csv("results/true_matches/cells_checked.csv")
+    organs = pd.read_csv("results/true_matches/organs_checked.csv")
+    tissues = pd.read_csv("results/true_matches/tissues_checked.csv")
     mmu_genes = pd.read_csv("results/true_matches/mus_musculus_genes.csv")
     hsa_genes = pd.read_csv("results/true_matches/homo_sapiens_genes.csv")
 

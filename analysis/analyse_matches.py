@@ -9,15 +9,9 @@ from wikidata_panglaodb.plotting import plot_matched_item_types
 
 
 def main():
-    cells = pd.read_csv("results/true_matches/cells_checked.csv").drop_duplicates(
-        subset=["id"]
-    )
-    organs = pd.read_csv("results/true_matches/organs_checked.csv").drop_duplicates(
-        subset=["id"]
-    )
-    tissues = pd.read_csv("results/true_matches/tissues_checked.csv").drop_duplicates(
-        subset=["id"]
-    )
+    cells = pd.read_csv("results/true_matches/cells_checked.csv")
+    organs = pd.read_csv("results/true_matches/organs_checked.csv")
+    tissues = pd.read_csv("results/true_matches/tissues_checked.csv")
     genes_panglaodb = pd.read_csv("data/panglaodb/genes.csv")
     mmu_genes = pd.read_csv("results/true_matches/mus_musculus_genes.csv").rename(
         columns={"itemLabel": "input_value", "item": "id"}

@@ -145,3 +145,16 @@ What we did, tried, and accomplished during each day of the project.
 
 * Added a Makefile for reproducibility and automation, see
     [the Turing Way](https://the-turing-way.netlify.app/reproducible-research/make.html) for reference.
+
+### 15/10
+
+* Added GH actions to continuously update submodules and automatically build the documentation.
+
+### 16/10
+
+* Fixed issues with GH actions and added documentation badge to the README
+
+### 23/10
+
+* Refactored remove_false_matches.py to remove input_value/id duplication, 
+    simplifying the code in analyse_matches.py and item_quality.py.

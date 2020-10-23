@@ -40,9 +40,15 @@ def main():
     tissues_raw = pd.read_csv("results/true_matches/tissues_raw.csv")
     organs_raw = pd.read_csv("results/true_matches/organs_raw.csv")
 
-    cells_clean = cells_raw[~cells_raw["id"].isin(false_matches)]
-    tissues_clean = tissues_raw[~tissues_raw["id"].isin(false_matches)]
-    organs_clean = organs_raw[~organs_raw["id"].isin(false_matches)]
+    cells_clean = cells_raw[~cells_raw["id"].isin(false_matches)].drop_duplicates(
+        subset=["id", "input_value"]
+    )
+    tissues_clean = tissues_raw[~tissues_raw["id"].isin(false_matches)].drop_duplicates(
+        subset=["id", "input_value"]
+    )
+    organs_clean = organs_raw[~organs_raw["id"].isin(false_matches)].drop_duplicates(
+        subset=["id", "input_value"]
+    )
 
     cells_clean.to_csv("results/true_matches/cells_checked.csv", index=False)
     tissues_clean.to_csv("results/true_matches/tissues_checked.csv", index=False)
