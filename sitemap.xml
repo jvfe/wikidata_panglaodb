@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://jvfe.github.io/wikidata_panglaodb/</loc>
-     <lastmod>2020-10-16</lastmod>
+     <lastmod>2020-10-23</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://jvfe.github.io/wikidata_panglaodb/reference/preprocessing/</loc>
-     <lastmod>2020-10-16</lastmod>
+     <lastmod>2020-10-23</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://jvfe.github.io/wikidata_panglaodb/reference/similarity/</loc>
-     <lastmod>2020-10-16</lastmod>
+     <lastmod>2020-10-23</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://jvfe.github.io/wikidata_panglaodb/reference/quality/</loc>
-     <lastmod>2020-10-16</lastmod>
+     <lastmod>2020-10-23</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://jvfe.github.io/wikidata_panglaodb/reference/plotting/</loc>
-     <lastmod>2020-10-16</lastmod>
+     <lastmod>2020-10-23</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://jvfe.github.io/wikidata_panglaodb/analysis_description/</loc>
-     <lastmod>2020-10-16</lastmod>
+     <lastmod>2020-10-23</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://jvfe.github.io/wikidata_panglaodb/log_book/</loc>
-     <lastmod>2020-10-16</lastmod>
+     <lastmod>2020-10-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
