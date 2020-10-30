@@ -35,3 +35,53 @@ Changes to make:
 
 
 And now I`ve finished checking the matches considered False. There are a lot of non-matches that still need checking. 
+
+## Cell types not matched
+
+* Need to create:
+    - Immature neurons
+    - Cortical interneurons
+
+* Neural stem/precursor cells seems to be best matched to neural stem cells (Q2944097).
+* Erythroid-like and erythroid precursor cells is a bit different from erythroid precursor cells (Q70074894). I`ll create a new item. 
+
+* "Cardiac stem and precursor cells" seems to be best matched to Endogenous cardiac stem cell (Q5376332)
+
+
+
+
+Changes to make:
+* Immature neurons : Q101003994
+* Cortical interneurons: Q101004030
+* Neural stem/precursor cells: Q2944097
+* Oligodendrocyte progenitor cells: Q7086819
+* T cell naive: Q6959842
+* Cardiomyocytes: Q1047227
+* T memory cells: Q2304808
+* Clara cells: Q645712
+* Peripheral blood mononuclear cells: Q736033
+* Juxtaglomerular cells: Q2596226
+* Cardiac stem and precursor cells: Q5376332
+* Thymocytes: Q7799635
+* Tuft cells: Q25325383
+ 
+There might be many changes yet to make. I`ll make a list of the cell types that need to be added to add them as a batch edit.
+
+Cells to add to Wikidata: 
+* Proximal tubule cells
+* Human myeloid-derived suppressor cells
+* Mouse myeloid-derived suppressor cells
+* Myeloid dendritic cells
+* Plasmacytoid dendritic cells
+* T follicular helper cells
+* Osteoclasts and osteoblasts (combinatorial class)
+* Glutaminergic neurons
+* Meningeal cells
+* Erythroid-like and erythroid precursor cells (superclass of erythroid precursor cells (Q70074894))
+* Crypt base columnar cells
+* Urothelial cells
+
+
+I stopped at line 26, Tuft cells, ot the not mathed table. 
+
+

@@ -167,3 +167,4 @@ What we did, tried, and accomplished during each day of the project.
 ### 30/10
 
 * Checked cell type matches considered false and noted down in RMarkdown.
+* Started to manually check the cell types that were not reconciled to Wikidata.
