@@ -158,3 +158,7 @@ What we did, tried, and accomplished during each day of the project.
 
 * Refactored remove_false_matches.py to remove input_value/id duplication, 
     simplifying the code in analyse_matches.py and item_quality.py.
+
+### 29/10
+
+* Run reconciler and start to manually check the matches of cell types to Wikidata (Tiago). Note: I plan to do the manual matching of cell types individually, for consistency.  
