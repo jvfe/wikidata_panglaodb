@@ -162,3 +162,8 @@ What we did, tried, and accomplished during each day of the project.
 ### 29/10
 
 * Run reconciler and start to manually check the matches of cell types to Wikidata (Tiago). Note: I plan to do the manual matching of cell types individually, for consistency.  
+
+
+### 30/10
+
+* Checked cell type matches considered false and noted down in RMarkdown.
