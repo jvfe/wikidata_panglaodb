@@ -1,0 +1,190 @@
+,panglao,wikidata
+0,Basal cells,Q101062513
+1,Trigeminal neurons,Q101062590
+2,Juxtaglomerular cells,Q2596226
+3,Pancreatic stellate cells,Q1164962
+4,Fibroblasts,Q463418
+5,Motor neurons,Q1133903
+6,Mammary epithelial cells,Q101062572
+7,Parietal cells,Q1640093
+8,Peri-islet Schwann cells,Q101062584
+9,Chromaffin cells,Q919689
+10,Dendritic cells,Q506253
+11,Tuft cells,Q25325383
+12,Trophoblast progenitor cells,Q101062703
+13,Megakaryocytes,Q821701
+14,T follicular helper cells,Q5464650
+15,T helper cells,Q632518
+16,Epiblast cells,Q101003525
+17,Photoreceptor cells,Q748049
+18,Decidual cells,Q5249153
+19,Platelets,Q101026
+20,Urothelial cells,Q101062509
+21,Transient cells,EXCLUDE
+22,Proximal tubule cells,Q101062469
+23,Luminal epithelial cells,Q101062619
+24,Purkinje fiber cells,Q101062559
+25,Microglia,Q1622829
+26,Delta cells,Q2621407
+27,Pinealocytes,Q3241787
+28,His bundle cells,Q101003168
+29,Schwann cells,Q465621
+30,Melanocytes,Q247101
+31,Natural killer T cells,Q224930
+32,Choroid plexus cells,Q98603523
+33,Radial glia cells,Q4387286
+34,Oligodendrocytes,Q916698
+35,NK cells,Q332181
+36,Smooth muscle cells,Q66508979
+37,Spermatocytes,Q3486515
+38,Myocytes,Q428914
+39,Osteocytes,Q913236
+40,Serotonergic neurons,Q70220966
+41,Enteric neurons,Q101062626
+42,Endothelial cells,Q11394395
+43,Sertoli cells,Q195614
+44,Hepatoblasts,Q101062568
+45,Principal cells,Q101062526
+46,Retinal progenitor cells,Q101062580
+47,Purkinje neurons,Q1570272
+48,Alpha cells,Q2995031
+49,Intercalated cells,Q66592471
+50,Gastric chief cells,Q2595765
+51,Oligodendrocyte progenitor cells,Q7086819
+52,Glutaminergic neurons,Q101062495
+53,Bergmann glia,Q101062516
+54,Granulosa cells,Q70203021
+55,Epsilon cells,Q4532277
+56,Mast cells,Q191989
+57,Myoepithelial cells,Q1476681
+58,Oxyphil cells,Q7116107
+59,Endothelial cells (aorta),Q101062623
+60,Salivary mucous cells,Q101062659
+61,Trophoblast cells,Q66589800
+62,Osteoclasts,Q828410
+63,Pyramidal cells,Q2116409
+64,Germ cells,Q281579
+65,Merkel cells,Q1570264
+66,Noradrenergic neurons,Q101062687
+67,Microfold cells,Q1815955
+68,Enteroendocrine cells,Q5380231
+69,Red pulp macrophages,Q101062629
+70,Vascular smooth muscle cells,Q101062544
+71,GABAergic neurons,Q66591221
+72,Myoblasts,Q1956694
+73,Stromal cells,Q4381253
+74,Adipocyte progenitor cells,Q101062531
+75,Myeloid-derived suppressor cells,Q15220362
+76,Hemangioblasts,Q1642030
+77,Hepatic stellate cells,Q1997459
+78,Ionocytes,Q101062667
+79,Epithelial cells,Q15176415
+80,Myofibroblasts,Q1467330
+81,Pulmonary alveolar type II cells,Q3272858
+82,Satellite glial cells,Q63710
+83,Satellite cells,Q101001061
+84,Luteal cells,Q70204009
+85,Ductal cells,Q5311600
+86,Pulmonary vascular smooth muscle cells,Q101062553
+87,Erythroid-like and erythroid precursor cells,Q101062502
+88,Adrenergic neurons,Q71262051
+89,Neuroblasts,Q2927095
+90,Anterior pituitary gland cells,Q101003254
+91,Plasmacytoid dendritic cells,Q101062485
+92,Nuocytes,Q7069936
+93,Thymocytes,Q7799635
+94,Paneth cells,
+95,Interneurons,Q1500732
+96,Monocytes,Q107244
+97,Podocytes,Q138912
+98,Neural stem/precursor cells,Q2944097
+99,Cholangiocytes,Q5104283
+100,Crypt cells,Q101062678
+101,Osteoblasts,Q917177
+102,Pericytes,Q500446
+103,Erythroblasts,Q66590166
+104,Olfactory epithelial cells,Q66563539
+105,Eosinophils,Q107238
+106,Keratinocytes,Q1473931
+107,Taste receptor cells,Q66563575
+108,Cholinergic neurons,Q12167532
+109,Hematopoietic stem cells,Q514525
+110,Spermatozoa,Q74560
+111,Goblet cells,Q813622
+112,Pluripotent stem cells,Q15952110
+113,Foveolar cells,Q66592466
+114,Gamma (PP) cells,Q1968774
+115,Peritubular myoid cells,Q48997538
+116,B cells memory,Q1195394
+117,Pulmonary alveolar type I cells,Q3296912
+118,Endothelial cells (blood brain barrier),Q101062538
+119,Pancreatic progenitor cells,Q25325366
+120,Undefined placental cells,
+121,Alveolar macrophages,Q448687
+122,Airway epithelial cells,Q101062683
+123,Ciliated cells,Q101062671
+124,Immature neurons,Q101003994
+125,Kupffer cells,Q513486
+126,Sebocytes,Q101062695
+127,Osteoclast precursor cells,Q101062534
+128,T memory cells,Q2304808
+129,Enterocytes,Q1340349
+130,Tanycytes,Q1419042
+131,T cells,Q193529
+132,Cardiac stem and precursor cells,Q5376332
+133,Cardiomyocytes,Q1047227
+134,Ependymal cells,Q28646122
+135,Adipocytes,Q357519
+136,Langerhans cells,Q1623344
+137,Macrophages,Q184204
+138,Meningeal cells,Q101062499
+139,T regulatory cells,Q1550619
+140,B cells naive,Q3269473
+141,B cells,Q188930
+142,Beta cells,Q1767180
+143,Distal tubule cells,Q66568836
+144,Basophils,Q107988
+145,Airway goblet cells,Q101062600
+146,Cajal-Retzius cells,Q2299284
+147,Gamma delta T cells,Q3077796
+148,Chondrocytes,Q775480
+149,Trichocytes,Q7840744
+150,Glycinergic neurons,Q101062691
+151,Müller cells,Q735343
+152,Dopaminergic neurons,Q5297290
+153,Mesothelial cells,Q66562849
+154,Hepatocytes,Q827450
+155,Neutrophils,Q188417
+156,Neurons,Q43054
+157,Astrocytes,Q502961
+158,Trophoblast stem cells,Q101062701
+159,Parathyroid chief cells,Q3272785
+160,Acinar cells,Q66590269
+161,Loop of Henle cells,Q101062522
+162,Clara cells,Q645712
+163,Follicular cells,Q5464650
+164,Airway smooth muscle cells,Q101062548
+165,Embryonic stem cells,Q1151519
+166,T cytotoxic cells,Q376266
+167,T cells naive,Q6959842
+168,Glomus cells,Q4778753
+169,Leydig cells,Q636846
+170,Retinal ganglion cells,Q927337
+171,Enteric glia cells,Q101062673
+172,Kidney progenitor cells,Q101062528
+173,Mesangial cells,Q3331086
+174,Reticulocytes,Q1404923
+175,Plasma cells,Q66568528
+176,Enterochromaffin cells,Q568290
+177,Neuroendocrine cells,Q10599959
+178,Astrocyte progenitor cells,Q101001053
+179,Multinuclear myocytes,Q101003165
+180,Spermatocyte and Spermatozoa,Q101003191
+181,Granulocytes,Q223143
+182,Theca cells,Q101003314
+183,Immature neurons ,Q101003994
+184,Cortical interneurons,Q101004030
+185,T cell naive,Q6959842
+186,Peripheral blood mononuclear cells,Q736033
+187,Paneth Cells,Q2004084
+188,Retinal epithelial cells,Q66572893

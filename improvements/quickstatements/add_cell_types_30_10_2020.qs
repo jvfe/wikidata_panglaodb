@@ -2,7 +2,6 @@ CREATE
 LAST|Len|"Proximal tubule cell"
 LAST|Den|"cell type"
 LAST|Aen|"Proximal tubule cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|
 LAST|P703|
@@ -12,7 +11,6 @@ CREATE
 LAST|Len|"Human myeloid-derived suppressor cell"
 LAST|Den|"cell type"
 LAST|Aen|"Human myeloid-derived suppressor cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q15220362
 LAST|P703|Q15978631
@@ -22,7 +20,6 @@ CREATE
 LAST|Len|"Mouse myeloid-derived suppressor cell"
 LAST|Den|"cell type"
 LAST|Aen|"Mouse myeloid-derived suppressor cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q15220362
 LAST|P703|Q83310
@@ -32,7 +29,6 @@ CREATE
 LAST|Len|"Myeloid dendritic cell"
 LAST|Den|"cell type"
 LAST|Aen|"Myeloid dendritic cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q506253
 LAST|P703|
@@ -42,7 +38,6 @@ CREATE
 LAST|Len|"Plasmacytoid dendritic cell"
 LAST|Den|"cell type"
 LAST|Aen|"Plasmacytoid dendritic cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q506253
 LAST|P703|
@@ -52,7 +47,6 @@ CREATE
 LAST|Len|"Osteoclasts and osteoblast"
 LAST|Den|"cell type"
 LAST|Aen|"Osteoclasts and osteoblasts"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|
 LAST|P703|
@@ -62,7 +56,6 @@ CREATE
 LAST|Len|"Glutaminergic neuron"
 LAST|Den|"cell type"
 LAST|Aen|"Glutaminergic neurons"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q43054
 LAST|P703|
@@ -72,7 +65,6 @@ CREATE
 LAST|Len|"Meningeal cell"
 LAST|Den|"cell type"
 LAST|Aen|"Meningeal cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|
 LAST|P703|
@@ -82,7 +74,6 @@ CREATE
 LAST|Len|"Erythroid-like and erythroid precursor cell"
 LAST|Den|"cell type"
 LAST|Aen|"Erythroid-like and erythroid precursor cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|
 LAST|P703|
@@ -102,7 +93,6 @@ CREATE
 LAST|Len|"Urothelial cell"
 LAST|Den|"cell type"
 LAST|Aen|"Urothelial cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|
 LAST|P703|
@@ -112,7 +102,6 @@ CREATE
 LAST|Len|"Basal cell of the skin"
 LAST|Den|"cell type"
 LAST|Aen|"Basal cells of the skin"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q66558828
 LAST|P703|
@@ -122,7 +111,6 @@ CREATE
 LAST|Len|"Bergmann glia cell"
 LAST|Den|"cell type"
 LAST|Aen|"Bergmann glia cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q502961
 LAST|P703|
@@ -142,7 +130,6 @@ CREATE
 LAST|Len|"Loop of Henle cell"
 LAST|Den|"cell type"
 LAST|Aen|"Loop of Henle cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|
 LAST|P703|
@@ -162,7 +149,6 @@ CREATE
 LAST|Len|"Kidney progenitor cell"
 LAST|Den|"cell type"
 LAST|Aen|"Kidney progenitor cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|
 LAST|P703|
@@ -182,7 +168,6 @@ CREATE
 LAST|Len|"Osteoclast precursor cell"
 LAST|Den|"cell type"
 LAST|Aen|"Osteoclast precursor cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|
 LAST|P703|
@@ -192,7 +177,6 @@ CREATE
 LAST|Len|"Endothelial cell (blood brain barrier)"
 LAST|Den|"cell type"
 LAST|Aen|"Endothelial cells (blood brain barrier)"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q11394395
 LAST|P703|
@@ -202,7 +186,6 @@ CREATE
 LAST|Len|"Mononuclear myocyte"
 LAST|Den|"cell type"
 LAST|Aen|"Mononuclear myocytes"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q428914
 LAST|P703|
@@ -212,7 +195,6 @@ CREATE
 LAST|Len|"Vascular smooth muscle cell"
 LAST|Den|"cell type"
 LAST|Aen|"Vascular smooth muscle cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q66508979
 LAST|P703|
@@ -222,7 +204,6 @@ CREATE
 LAST|Len|"Airway smooth muscle cell"
 LAST|Den|"cell type"
 LAST|Aen|"Airway smooth muscle cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q66508979
 LAST|P703|
@@ -242,7 +223,6 @@ CREATE
 LAST|Len|"Purkinje fiber cell"
 LAST|Den|"cell type"
 LAST|Aen|"Purkinje fiber cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|
 LAST|P703|
@@ -262,7 +242,6 @@ CREATE
 LAST|Len|"Hepatoblast"
 LAST|Den|"cell type"
 LAST|Aen|"Hepatoblasts"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|
 LAST|P703|
@@ -272,7 +251,6 @@ CREATE
 LAST|Len|"Mammary epithelial cell"
 LAST|Den|"cell type"
 LAST|Aen|"Mammary epithelial cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q15176415
 LAST|P703|
@@ -282,7 +260,6 @@ CREATE
 LAST|Len|"Endothelial cells (brain)"
 LAST|Den|"cell type"
 LAST|Aen|"Endothelial cells (brain)"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q11394395
 LAST|P703|
@@ -292,7 +269,6 @@ CREATE
 LAST|Len|"Retinal progenitor cell"
 LAST|Den|"cell type"
 LAST|Aen|"Retinal progenitor cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|
 LAST|P703|
@@ -312,7 +288,6 @@ CREATE
 LAST|Len|"Trigeminal neuron"
 LAST|Den|"cell type"
 LAST|Aen|"Trigeminal neurons"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q43054
 LAST|P703|
@@ -322,7 +297,6 @@ CREATE
 LAST|Len|"Endothelial cell (lungs)"
 LAST|Den|"cell type"
 LAST|Aen|"Endothelial cells (lungs)"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q11394395
 LAST|P703|
@@ -332,7 +306,6 @@ CREATE
 LAST|Len|"Fibroblast (lungs)"
 LAST|Den|"cell type"
 LAST|Aen|"Fibroblasts (lungs)"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q463418
 LAST|P703|
@@ -342,7 +315,6 @@ CREATE
 LAST|Len|"Airway goblet cell"
 LAST|Den|"cell type"
 LAST|Aen|"Airway goblet cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q813622
 LAST|P703|
@@ -352,7 +324,6 @@ CREATE
 LAST|Len|"Fibroblast (pancreas)"
 LAST|Den|"cell type"
 LAST|Aen|"Fibroblasts (pancreas)"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q463418
 LAST|P703|
@@ -362,7 +333,6 @@ CREATE
 LAST|Len|"Endothelial cell (mammary)"
 LAST|Den|"cell type"
 LAST|Aen|"Endothelial cells (mammary)"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q11394395
 LAST|P703|
@@ -372,7 +342,6 @@ CREATE
 LAST|Len|"Immature neuronal cell"
 LAST|Den|"cell type"
 LAST|Aen|"Immature neuronal cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q43054
 LAST|P703|
@@ -382,7 +351,6 @@ CREATE
 LAST|Len|"Fibroblast (Uterus)"
 LAST|Den|"cell type"
 LAST|Aen|"Fibroblasts (Uterus)"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q463418
 LAST|P703|
@@ -392,7 +360,6 @@ CREATE
 LAST|Len|"Endothelial cell (heart)"
 LAST|Den|"cell type"
 LAST|Aen|"Endothelial cells (heart)"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q11394395
 LAST|P703|
@@ -402,7 +369,6 @@ CREATE
 LAST|Len|"Luminal epithelial cell"
 LAST|Den|"cell type"
 LAST|Aen|"Luminal epithelial cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|
 LAST|P703|
@@ -412,7 +378,6 @@ CREATE
 LAST|Len|"Endothelial cell (aorta)"
 LAST|Den|"cell type"
 LAST|Aen|"Endothelial cells (aorta)"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q11394395
 LAST|P703|
@@ -422,7 +387,6 @@ CREATE
 LAST|Len|"Enteric neuron"
 LAST|Den|"cell type"
 LAST|Aen|"Enteric neurons"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q43054
 LAST|P703|
@@ -432,7 +396,6 @@ CREATE
 LAST|Len|"Red pulp macrophage"
 LAST|Den|"cell type"
 LAST|Aen|"Red pulp macrophages"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q184204
 LAST|P703|
@@ -442,7 +405,6 @@ CREATE
 LAST|Len|"Fibroblast (spinal cord)"
 LAST|Den|"cell type"
 LAST|Aen|"Fibroblasts (spinal cord)"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q463418
 LAST|P703|
@@ -452,7 +414,6 @@ CREATE
 LAST|Len|"Fibroblast (brain)"
 LAST|Den|"cell type"
 LAST|Aen|"Fibroblasts (brain)"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q463418
 LAST|P703|
@@ -462,7 +423,6 @@ CREATE
 LAST|Len|"Fibroblast (bone)"
 LAST|Den|"cell type"
 LAST|Aen|"Fibroblasts (bone)"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q463418
 LAST|P703|
@@ -472,7 +432,6 @@ CREATE
 LAST|Len|"Fibroblast (kidney)"
 LAST|Den|"cell type"
 LAST|Aen|"Fibroblasts (kidney)"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q463418
 LAST|P703|
@@ -482,7 +441,6 @@ CREATE
 LAST|Len|"Small luteal cell"
 LAST|Den|"cell type"
 LAST|Aen|"Small luteal cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q70204009
 LAST|P703|
@@ -492,7 +450,6 @@ CREATE
 LAST|Len|"Fibroblast (lymph nodes)"
 LAST|Den|"cell type"
 LAST|Aen|"Fibroblasts (lymph nodes)"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q463418
 LAST|P703|
@@ -502,7 +459,6 @@ CREATE
 LAST|Len|"Fibroblast (colon)"
 LAST|Den|"cell type"
 LAST|Aen|"Fibroblasts (colon)"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q463418
 LAST|P703|
@@ -522,7 +478,6 @@ CREATE
 LAST|Len|"Ionocyte"
 LAST|Den|"cell type"
 LAST|Aen|"Ionocytes"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q15176415
 LAST|P703|
@@ -532,7 +487,6 @@ CREATE
 LAST|Len|"Ciliated cell"
 LAST|Den|"cell type"
 LAST|Aen|"Ciliated cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|
 LAST|P703|
@@ -542,7 +496,6 @@ CREATE
 LAST|Len|"Enteric glia cell"
 LAST|Den|"cell type"
 LAST|Aen|"Enteric glia cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q177105
 LAST|P703|
@@ -552,7 +505,6 @@ CREATE
 LAST|Len|"Crypt cell"
 LAST|Den|"cell type"
 LAST|Aen|"Crypt cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|
 LAST|P703|
@@ -562,7 +514,6 @@ CREATE
 LAST|Len|"Airway epithelial cell"
 LAST|Den|"cell type"
 LAST|Aen|"Airway epithelial cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q15176415
 LAST|P703|
@@ -572,7 +523,6 @@ CREATE
 LAST|Len|"Noradrenergic neuron"
 LAST|Den|"cell type"
 LAST|Aen|"Noradrenergic neurons"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q43054
 LAST|P703|
@@ -582,7 +532,6 @@ CREATE
 LAST|Len|"Glycinergic neuron"
 LAST|Den|"cell type"
 LAST|Aen|"Glycinergic neurons"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|Q43054
 LAST|P703|
@@ -592,7 +541,6 @@ CREATE
 LAST|Len|"Sebocyte"
 LAST|Den|"cell type"
 LAST|Aen|"Sebocytes"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|
 LAST|P703|
@@ -602,7 +550,6 @@ CREATE
 LAST|Len|"Trophoblast stem cell"
 LAST|Den|"cell type"
 LAST|Aen|"Trophoblast stem cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|
 LAST|P703|
@@ -612,7 +559,6 @@ CREATE
 LAST|Len|"Trophoblast progenitor cell"
 LAST|Den|"cell type"
 LAST|Aen|"Trophoblast progenitor cells"
-LAST|Aen|""
 LAST|P31|Q189118|S248|Q99936939
 LAST|P279|
 LAST|P703|

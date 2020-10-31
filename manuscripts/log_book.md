@@ -166,6 +166,11 @@ What we did, tried, and accomplished during each day of the project.
 
 ### 30/10
 
-* Checked cell type matches considered false and noted down in RMarkdown.
+* Checked cell type matches considered false and noted down in Markdown.
 * Started to manually check the cell types that were not reconciled to Wikidata.
 * Finished manual check, still left to add the cell types to Wikidata.
+
+### 31/10
+
+* Created spreadsheet + quickstatements commands to add new cell types to Wikidata. 
+* Added new cell types to Wikidata and checked dict for reconciliation to Wikidata, and saved it in improvemens/results/cell_type_reference_from_panglao_to_wikidata_31_10_2020.csv.
