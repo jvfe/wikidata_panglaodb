@@ -174,3 +174,8 @@ What we did, tried, and accomplished during each day of the project.
 
 * Created spreadsheet + quickstatements commands to add new cell types to Wikidata. 
 * Added new cell types to Wikidata and checked dict for reconciliation to Wikidata, and saved it in improvemens/results/cell_type_reference_from_panglao_to_wikidata_31_10_2020.csv.
+
+
+### 02/11
+
+* Started looking at updating and reconciling human genes.
