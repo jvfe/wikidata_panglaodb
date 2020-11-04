@@ -179,3 +179,7 @@ What we did, tried, and accomplished during each day of the project.
 ### 02/11
 
 * Started looking at updating and reconciling human genes.
+
+### 04/11
+
+* I had a git problem (Tiago) and lost the 2 of november notebook. 

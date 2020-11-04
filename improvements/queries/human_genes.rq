@@ -1,0 +1,9 @@
+# Genes (https://w.wiki/k7Y)
+SELECT ?item ?itemLabel ?hgnc
+WHERE 
+{
+  ?item wdt:P31 wd:Q7187.
+  ?item wdt:P703 wd:Q15978631.
+  ?item wdt:P353 ?hgnc.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
