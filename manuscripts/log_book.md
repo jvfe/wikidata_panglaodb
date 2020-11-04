@@ -183,3 +183,4 @@ What we did, tried, and accomplished during each day of the project.
 ### 04/11
 
 * I had a git problem (Tiago) and lost the 2 of november notebook. 
+* Remade november 2 notebook and reconciled the human genes.

@@ -1,0 +1,12 @@
+# Genes and pseudogenes (https://w.wiki/k7k)
+SELECT ?item ?itemLabel ?hgnc
+WHERE 
+{
+  {?item wdt:P31 wd:Q277338.}
+  UNION
+  {?item wdt:P31 wd:Q7187.}
+  
+  ?item wdt:P703 wd:Q15978631.
+  ?item wdt:P353 ?hgnc.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
