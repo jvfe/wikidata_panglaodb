@@ -4,5 +4,4 @@ WHERE
 {
   ?item wdt:P279* wd:Q7868.
   OPTIONAL{?item wdt:P31 ?kind.}
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
 }

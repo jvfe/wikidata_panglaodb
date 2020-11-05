@@ -184,3 +184,9 @@ What we did, tried, and accomplished during each day of the project.
 
 * I had a git problem (Tiago) and lost the 2 of november notebook. 
 * Remade november 2 notebook and reconciled the human genes.
+
+### 05/11
+
+* I had a saving problem (Tiago) and lost the end of 5 of november notebook. Notebooks on vscode are tricky, they are stored on cache even when you close the IDE, so they are saved and not saved at the same time. The main info and the reconciliation results were saved.
+* Manually fixed Paneth cells in csv (missing wikidata link)
+* Added archetypes to cell types wikibase: https://celltypes.wiki.opencura.com/ but failed to access the SPARQL endpoint via python.

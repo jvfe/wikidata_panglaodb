@@ -1,0 +1,9 @@
+PREFIX ct: <http://celltypes.wiki.opencura.com/entity/>
+PREFIX ctp: <http://celltypes.wiki.opencura.com/prop/direct/>
+
+select ?item  ?itemLabel
+where {
+  ?item ctp:P1 ct:Q2.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+
+  }
