@@ -1,0 +1,189 @@
+Unnamed: 0,Len,Aen,Den,Dpt,P361,P703,P31
+0,human basal cell,human basal cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062513,Q15978631,Q18911
+1,human trigeminal neuron,human trigeminal neurons,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062590,Q15978631,Q18911
+2,human juxtaglomerular cell,human juxtaglomerular cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q2596226,Q15978631,Q18911
+3,human pancreatic stellate cell,human pancreatic stellate cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1164962,Q15978631,Q18911
+4,human fibroblast,human fibroblasts,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q463418,Q15978631,Q18911
+5,human motor neuron,human motor neurons,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1133903,Q15978631,Q18911
+6,human mammary epithelial cell,human mammary epithelial cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062572,Q15978631,Q18911
+7,human parietal cell,human parietal cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1640093,Q15978631,Q18911
+8,human peri-islet schwann cell,human peri-islet schwann cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062584,Q15978631,Q18911
+9,human chromaffin cell,human chromaffin cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q919689,Q15978631,Q18911
+10,human dendritic cell,human dendritic cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q506253,Q15978631,Q18911
+11,human tuft cell,human tuft cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q25325383,Q15978631,Q18911
+12,human trophoblast progenitor cell,human trophoblast progenitor cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062703,Q15978631,Q18911
+13,human megakaryocyte,human megakaryocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q821701,Q15978631,Q18911
+14,human t follicular helper cell,human t follicular helper cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q5464650,Q15978631,Q18911
+15,human t helper cell,human t helper cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q632518,Q15978631,Q18911
+16,human epiblast cell,human epiblast cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101003525,Q15978631,Q18911
+17,human photoreceptor cell,human photoreceptor cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q748049,Q15978631,Q18911
+18,human decidual cell,human decidual cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q5249153,Q15978631,Q18911
+19,human platelet,human platelets,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101026,Q15978631,Q18911
+20,human urothelial cell,human urothelial cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062509,Q15978631,Q18911
+21,human transient cell,human transient cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,EXCLUDE,Q15978631,Q18911
+22,human proximal tubule cell,human proximal tubule cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062469,Q15978631,Q18911
+23,human luminal epithelial cell,human luminal epithelial cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062619,Q15978631,Q18911
+24,human purkinje fiber cell,human purkinje fiber cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062559,Q15978631,Q18911
+25,human microglia,human microglia,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1622829,Q15978631,Q18911
+26,human delta cell,human delta cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q2621407,Q15978631,Q18911
+27,human pinealocyte,human pinealocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q3241787,Q15978631,Q18911
+28,human his bundle cell,human his bundle cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101003168,Q15978631,Q18911
+29,human schwann cell,human schwann cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q465621,Q15978631,Q18911
+30,human melanocyte,human melanocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q247101,Q15978631,Q18911
+31,human natural killer t cell,human natural killer t cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q224930,Q15978631,Q18911
+32,human choroid plexus cell,human choroid plexus cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q98603523,Q15978631,Q18911
+33,human radial glia cell,human radial glia cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q4387286,Q15978631,Q18911
+34,human oligodendrocyte,human oligodendrocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q916698,Q15978631,Q18911
+35,human nk cell,human nk cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q332181,Q15978631,Q18911
+36,human smooth muscle cell,human smooth muscle cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q66508979,Q15978631,Q18911
+37,human spermatocyte,human spermatocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q3486515,Q15978631,Q18911
+38,human myocyte,human myocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q428914,Q15978631,Q18911
+39,human osteocyte,human osteocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q913236,Q15978631,Q18911
+40,human serotonergic neuron,human serotonergic neurons,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q70220966,Q15978631,Q18911
+41,human enteric neuron,human enteric neurons,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062626,Q15978631,Q18911
+42,human endothelial cell,human endothelial cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q11394395,Q15978631,Q18911
+43,human sertoli cell,human sertoli cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q195614,Q15978631,Q18911
+44,human hepatoblast,human hepatoblasts,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062568,Q15978631,Q18911
+45,human principal cell,human principal cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062526,Q15978631,Q18911
+46,human retinal progenitor cell,human retinal progenitor cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062580,Q15978631,Q18911
+47,human purkinje neuron,human purkinje neurons,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1570272,Q15978631,Q18911
+48,human alpha cell,human alpha cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q2995031,Q15978631,Q18911
+49,human intercalated cell,human intercalated cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q66592471,Q15978631,Q18911
+50,human gastric chief cell,human gastric chief cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q2595765,Q15978631,Q18911
+51,human oligodendrocyte progenitor cell,human oligodendrocyte progenitor cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q7086819,Q15978631,Q18911
+52,human glutaminergic neuron,human glutaminergic neurons,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062495,Q15978631,Q18911
+53,human bergmann glia,human bergmann glia,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062516,Q15978631,Q18911
+54,human granulosa cell,human granulosa cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q70203021,Q15978631,Q18911
+55,human epsilon cell,human epsilon cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q4532277,Q15978631,Q18911
+56,human mast cell,human mast cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q191989,Q15978631,Q18911
+57,human myoepithelial cell,human myoepithelial cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1476681,Q15978631,Q18911
+58,human oxyphil cell,human oxyphil cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q7116107,Q15978631,Q18911
+59,human endothelial cell (aorta),human endothelial cells (aorta),cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062623,Q15978631,Q18911
+60,human salivary mucous cell,human salivary mucous cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062659,Q15978631,Q18911
+61,human trophoblast cell,human trophoblast cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q66589800,Q15978631,Q18911
+62,human osteoclast,human osteoclasts,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q828410,Q15978631,Q18911
+63,human pyramidal cell,human pyramidal cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q2116409,Q15978631,Q18911
+64,human germ cell,human germ cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q281579,Q15978631,Q18911
+65,human merkel cell,human merkel cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1570264,Q15978631,Q18911
+66,human noradrenergic neuron,human noradrenergic neurons,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062687,Q15978631,Q18911
+67,human microfold cell,human microfold cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1815955,Q15978631,Q18911
+68,human enteroendocrine cell,human enteroendocrine cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q5380231,Q15978631,Q18911
+69,human red pulp macrophages,human red pulp macrophages,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062629,Q15978631,Q18911
+70,human vascular smooth muscle cell,human vascular smooth muscle cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062544,Q15978631,Q18911
+71,human gabaergic neuron,human gabaergic neurons,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q66591221,Q15978631,Q18911
+72,human myoblast,human myoblasts,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1956694,Q15978631,Q18911
+73,human stromal cell,human stromal cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q4381253,Q15978631,Q18911
+74,human adipocyte progenitor cell,human adipocyte progenitor cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062531,Q15978631,Q18911
+75,human myeloid-derived suppressor cell,human myeloid-derived suppressor cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q15220362,Q15978631,Q18911
+76,human hemangioblast,human hemangioblasts,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1642030,Q15978631,Q18911
+77,human hepatic stellate cell,human hepatic stellate cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1997459,Q15978631,Q18911
+78,human ionocyte,human ionocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062667,Q15978631,Q18911
+79,human epithelial cell,human epithelial cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q15176415,Q15978631,Q18911
+80,human myofibroblast,human myofibroblasts,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1467330,Q15978631,Q18911
+81,human pulmonary alveolar type ii cell,human pulmonary alveolar type ii cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q3272858,Q15978631,Q18911
+82,human satellite glial cell,human satellite glial cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q63710,Q15978631,Q18911
+83,human satellite cell,human satellite cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101001061,Q15978631,Q18911
+84,human luteal cell,human luteal cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q70204009,Q15978631,Q18911
+85,human ductal cell,human ductal cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q5311600,Q15978631,Q18911
+86,human pulmonary vascular smooth muscle cell,human pulmonary vascular smooth muscle cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062553,Q15978631,Q18911
+87,human erythroid-like and erythroid precursor cell,human erythroid-like and erythroid precursor cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062502,Q15978631,Q18911
+88,human adrenergic neuron,human adrenergic neurons,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q71262051,Q15978631,Q18911
+89,human neuroblast,human neuroblasts,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q2927095,Q15978631,Q18911
+90,human anterior pituitary gland cell,human anterior pituitary gland cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101003254,Q15978631,Q18911
+91,human plasmacytoid dendritic cell,human plasmacytoid dendritic cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062485,Q15978631,Q18911
+92,human nuocyte,human nuocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q7069936,Q15978631,Q18911
+93,human thymocyte,human thymocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q7799635,Q15978631,Q18911
+94,human paneth cell,human paneth cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q2004084,Q15978631,Q18911
+95,human interneuron,human interneurons,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1500732,Q15978631,Q18911
+96,human monocyte,human monocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q107244,Q15978631,Q18911
+97,human podocyte,human podocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q138912,Q15978631,Q18911
+98,human neural stem/precursor cell,human neural stem/precursor cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q2944097,Q15978631,Q18911
+99,human cholangiocyte,human cholangiocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q5104283,Q15978631,Q18911
+100,human crypt cell,human crypt cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062678,Q15978631,Q18911
+101,human osteoblast,human osteoblasts,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q917177,Q15978631,Q18911
+102,human pericyte,human pericytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q500446,Q15978631,Q18911
+103,human erythroblast,human erythroblasts,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q66590166,Q15978631,Q18911
+104,human olfactory epithelial cell,human olfactory epithelial cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q66563539,Q15978631,Q18911
+105,human eosinophil,human eosinophils,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q107238,Q15978631,Q18911
+106,human keratinocyte,human keratinocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1473931,Q15978631,Q18911
+107,human taste receptor cell,human taste receptor cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q66563575,Q15978631,Q18911
+108,human cholinergic neuron,human cholinergic neurons,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q12167532,Q15978631,Q18911
+109,human hematopoietic stem cell,human hematopoietic stem cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q514525,Q15978631,Q18911
+110,human spermatozoa,human spermatozoa,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q74560,Q15978631,Q18911
+111,human goblet cell,human goblet cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q813622,Q15978631,Q18911
+112,human pluripotent stem cell,human pluripotent stem cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q15952110,Q15978631,Q18911
+113,human foveolar cell,human foveolar cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q66592466,Q15978631,Q18911
+114,human gamma (pp) cell,human gamma (pp) cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1968774,Q15978631,Q18911
+115,human peritubular myoid cell,human peritubular myoid cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q48997538,Q15978631,Q18911
+116,human b cell memory,human b cells memory,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1195394,Q15978631,Q18911
+117,human pulmonary alveolar type i cell,human pulmonary alveolar type i cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q3296912,Q15978631,Q18911
+118,human endothelial cell (blood brain barrier),human endothelial cells (blood brain barrier),cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062538,Q15978631,Q18911
+119,human pancreatic progenitor cell,human pancreatic progenitor cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q25325366,Q15978631,Q18911
+121,human alveolar macrophages,human alveolar macrophages,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q448687,Q15978631,Q18911
+122,human airway epithelial cell,human airway epithelial cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062683,Q15978631,Q18911
+123,human ciliated cell,human ciliated cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062671,Q15978631,Q18911
+124,human immature neuron,human immature neurons,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101003994,Q15978631,Q18911
+125,human kupffer cell,human kupffer cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q513486,Q15978631,Q18911
+126,human sebocyte,human sebocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062695,Q15978631,Q18911
+127,human osteoclast precursor cell,human osteoclast precursor cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062534,Q15978631,Q18911
+128,human t memory cell,human t memory cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q2304808,Q15978631,Q18911
+129,human enterocyte,human enterocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1340349,Q15978631,Q18911
+130,human tanycyte,human tanycytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1419042,Q15978631,Q18911
+131,human t cell,human t cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q193529,Q15978631,Q18911
+132,human cardiac stem and precursor cell,human cardiac stem and precursor cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q5376332,Q15978631,Q18911
+133,human cardiomyocyte,human cardiomyocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1047227,Q15978631,Q18911
+134,human ependymal cell,human ependymal cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q28646122,Q15978631,Q18911
+135,human adipocyte,human adipocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q357519,Q15978631,Q18911
+136,human langerhans cell,human langerhans cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1623344,Q15978631,Q18911
+137,human macrophages,human macrophages,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q184204,Q15978631,Q18911
+138,human meningeal cell,human meningeal cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062499,Q15978631,Q18911
+139,human t regulatory cell,human t regulatory cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1550619,Q15978631,Q18911
+140,human b cell naive,human b cells naive,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q3269473,Q15978631,Q18911
+141,human b cell,human b cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q188930,Q15978631,Q18911
+142,human beta cell,human beta cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1767180,Q15978631,Q18911
+143,human distal tubule cell,human distal tubule cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q66568836,Q15978631,Q18911
+144,human basophil,human basophils,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q107988,Q15978631,Q18911
+145,human airway goblet cell,human airway goblet cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062600,Q15978631,Q18911
+146,human cajal-retzius cell,human cajal-retzius cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q2299284,Q15978631,Q18911
+147,human gamma delta t cell,human gamma delta t cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q3077796,Q15978631,Q18911
+148,human chondrocyte,human chondrocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q775480,Q15978631,Q18911
+149,human trichocyte,human trichocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q7840744,Q15978631,Q18911
+150,human glycinergic neuron,human glycinergic neurons,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062691,Q15978631,Q18911
+151,human müller cell,human müller cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q735343,Q15978631,Q18911
+152,human dopaminergic neuron,human dopaminergic neurons,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q5297290,Q15978631,Q18911
+153,human mesothelial cell,human mesothelial cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q66562849,Q15978631,Q18911
+154,human hepatocyte,human hepatocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q827450,Q15978631,Q18911
+155,human neutrophil,human neutrophils,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q188417,Q15978631,Q18911
+156,human neuron,human neurons,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q43054,Q15978631,Q18911
+157,human astrocyte,human astrocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q502961,Q15978631,Q18911
+158,human trophoblast stem cell,human trophoblast stem cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062701,Q15978631,Q18911
+159,human parathyroid chief cell,human parathyroid chief cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q3272785,Q15978631,Q18911
+160,human acinar cell,human acinar cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q66590269,Q15978631,Q18911
+161,human loop of henle cell,human loop of henle cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062522,Q15978631,Q18911
+162,human clara cell,human clara cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q645712,Q15978631,Q18911
+163,human follicular cell,human follicular cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q5464650,Q15978631,Q18911
+164,human airway smooth muscle cell,human airway smooth muscle cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062548,Q15978631,Q18911
+165,human embryonic stem cell,human embryonic stem cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1151519,Q15978631,Q18911
+166,human t cytotoxic cell,human t cytotoxic cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q376266,Q15978631,Q18911
+167,human t cell naive,human t cells naive,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q6959842,Q15978631,Q18911
+168,human glomus cell,human glomus cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q4778753,Q15978631,Q18911
+169,human leydig cell,human leydig cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q636846,Q15978631,Q18911
+170,human retinal ganglion cell,human retinal ganglion cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q927337,Q15978631,Q18911
+171,human enteric glia cell,human enteric glia cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062673,Q15978631,Q18911
+172,human kidney progenitor cell,human kidney progenitor cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101062528,Q15978631,Q18911
+173,human mesangial cell,human mesangial cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q3331086,Q15978631,Q18911
+174,human reticulocyte,human reticulocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q1404923,Q15978631,Q18911
+175,human plasma cell,human plasma cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q66568528,Q15978631,Q18911
+176,human enterochromaffin cell,human enterochromaffin cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q568290,Q15978631,Q18911
+177,human neuroendocrine cell,human neuroendocrine cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q10599959,Q15978631,Q18911
+178,human astrocyte progenitor cell,human astrocyte progenitor cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101001053,Q15978631,Q18911
+179,human multinuclear myocyte,human multinuclear myocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101003165,Q15978631,Q18911
+180,human spermatocyte and spermatozoa,human spermatocyte and spermatozoa,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101003191,Q15978631,Q18911
+181,human granulocyte,human granulocytes,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q223143,Q15978631,Q18911
+182,human theca cell,human theca cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101003314,Q15978631,Q18911
+183,human immature neuron ,human immature neurons ,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101003994,Q15978631,Q18911
+184,human cortical interneuron,human cortical interneurons,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q101004030,Q15978631,Q18911
+185,human t cell naive,human t cell naive,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q6959842,Q15978631,Q18911
+186,human peripheral blood mononuclear cell,human peripheral blood mononuclear cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q736033,Q15978631,Q18911
+187,human paneth cell,human paneth cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q2004084,Q15978631,Q18911
+188,human retinal epithelial cell,human retinal epithelial cells,cell type of Homo sapiens,tipo de célula de Homo sapiens,Q66572893,Q15978631,Q18911
