@@ -3,7 +3,7 @@ LAST|Len|"human basal cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human basal cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062513
 
@@ -12,7 +12,7 @@ LAST|Len|"human trigeminal neuron"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human trigeminal neurons"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062590
 
@@ -21,7 +21,7 @@ LAST|Len|"human juxtaglomerular cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human juxtaglomerular cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q2596226
 
@@ -30,7 +30,7 @@ LAST|Len|"human pancreatic stellate cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human pancreatic stellate cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1164962
 
@@ -39,7 +39,7 @@ LAST|Len|"human fibroblast"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human fibroblasts"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q463418
 
@@ -48,7 +48,7 @@ LAST|Len|"human motor neuron"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human motor neurons"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1133903
 
@@ -57,7 +57,7 @@ LAST|Len|"human mammary epithelial cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human mammary epithelial cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062572
 
@@ -66,7 +66,7 @@ LAST|Len|"human parietal cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human parietal cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1640093
 
@@ -75,7 +75,7 @@ LAST|Len|"human peri-islet schwann cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human peri-islet schwann cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062584
 
@@ -84,7 +84,7 @@ LAST|Len|"human chromaffin cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human chromaffin cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q919689
 
@@ -93,7 +93,7 @@ LAST|Len|"human dendritic cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human dendritic cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q506253
 
@@ -102,7 +102,7 @@ LAST|Len|"human tuft cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human tuft cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q25325383
 
@@ -111,7 +111,7 @@ LAST|Len|"human trophoblast progenitor cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human trophoblast progenitor cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062703
 
@@ -120,7 +120,7 @@ LAST|Len|"human megakaryocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human megakaryocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q821701
 
@@ -129,7 +129,7 @@ LAST|Len|"human t follicular helper cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human t follicular helper cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q5464650
 
@@ -138,7 +138,7 @@ LAST|Len|"human t helper cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human t helper cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q632518
 
@@ -147,7 +147,7 @@ LAST|Len|"human epiblast cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human epiblast cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101003525
 
@@ -156,7 +156,7 @@ LAST|Len|"human photoreceptor cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human photoreceptor cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q748049
 
@@ -165,7 +165,7 @@ LAST|Len|"human decidual cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human decidual cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q5249153
 
@@ -174,7 +174,7 @@ LAST|Len|"human platelet"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human platelets"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101026
 
@@ -183,7 +183,7 @@ LAST|Len|"human urothelial cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human urothelial cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062509
 
@@ -192,7 +192,7 @@ LAST|Len|"human transient cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human transient cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|EXCLUDE
 
@@ -201,7 +201,7 @@ LAST|Len|"human proximal tubule cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human proximal tubule cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062469
 
@@ -210,7 +210,7 @@ LAST|Len|"human luminal epithelial cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human luminal epithelial cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062619
 
@@ -219,7 +219,7 @@ LAST|Len|"human purkinje fiber cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human purkinje fiber cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062559
 
@@ -228,7 +228,7 @@ LAST|Len|"human microglia"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human microglia"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1622829
 
@@ -237,7 +237,7 @@ LAST|Len|"human delta cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human delta cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q2621407
 
@@ -246,7 +246,7 @@ LAST|Len|"human pinealocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human pinealocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q3241787
 
@@ -255,7 +255,7 @@ LAST|Len|"human his bundle cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human his bundle cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101003168
 
@@ -264,7 +264,7 @@ LAST|Len|"human schwann cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human schwann cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q465621
 
@@ -273,7 +273,7 @@ LAST|Len|"human melanocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human melanocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q247101
 
@@ -282,7 +282,7 @@ LAST|Len|"human natural killer t cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human natural killer t cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q224930
 
@@ -291,7 +291,7 @@ LAST|Len|"human choroid plexus cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human choroid plexus cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q98603523
 
@@ -300,7 +300,7 @@ LAST|Len|"human radial glia cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human radial glia cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q4387286
 
@@ -309,7 +309,7 @@ LAST|Len|"human oligodendrocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human oligodendrocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q916698
 
@@ -318,7 +318,7 @@ LAST|Len|"human nk cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human nk cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q332181
 
@@ -327,7 +327,7 @@ LAST|Len|"human smooth muscle cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human smooth muscle cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q66508979
 
@@ -336,7 +336,7 @@ LAST|Len|"human spermatocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human spermatocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q3486515
 
@@ -345,7 +345,7 @@ LAST|Len|"human myocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human myocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q428914
 
@@ -354,7 +354,7 @@ LAST|Len|"human osteocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human osteocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q913236
 
@@ -363,7 +363,7 @@ LAST|Len|"human serotonergic neuron"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human serotonergic neurons"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q70220966
 
@@ -372,7 +372,7 @@ LAST|Len|"human enteric neuron"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human enteric neurons"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062626
 
@@ -381,7 +381,7 @@ LAST|Len|"human endothelial cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human endothelial cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q11394395
 
@@ -390,7 +390,7 @@ LAST|Len|"human sertoli cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human sertoli cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q195614
 
@@ -399,7 +399,7 @@ LAST|Len|"human hepatoblast"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human hepatoblasts"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062568
 
@@ -408,7 +408,7 @@ LAST|Len|"human principal cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human principal cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062526
 
@@ -417,7 +417,7 @@ LAST|Len|"human retinal progenitor cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human retinal progenitor cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062580
 
@@ -426,7 +426,7 @@ LAST|Len|"human purkinje neuron"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human purkinje neurons"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1570272
 
@@ -435,7 +435,7 @@ LAST|Len|"human alpha cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human alpha cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q2995031
 
@@ -444,7 +444,7 @@ LAST|Len|"human intercalated cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human intercalated cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q66592471
 
@@ -453,7 +453,7 @@ LAST|Len|"human gastric chief cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human gastric chief cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q2595765
 
@@ -462,7 +462,7 @@ LAST|Len|"human oligodendrocyte progenitor cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human oligodendrocyte progenitor cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q7086819
 
@@ -471,7 +471,7 @@ LAST|Len|"human glutaminergic neuron"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human glutaminergic neurons"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062495
 
@@ -480,7 +480,7 @@ LAST|Len|"human bergmann glia"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human bergmann glia"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062516
 
@@ -489,7 +489,7 @@ LAST|Len|"human granulosa cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human granulosa cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q70203021
 
@@ -498,7 +498,7 @@ LAST|Len|"human epsilon cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human epsilon cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q4532277
 
@@ -507,7 +507,7 @@ LAST|Len|"human mast cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human mast cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q191989
 
@@ -516,7 +516,7 @@ LAST|Len|"human myoepithelial cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human myoepithelial cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1476681
 
@@ -525,7 +525,7 @@ LAST|Len|"human oxyphil cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human oxyphil cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q7116107
 
@@ -534,7 +534,7 @@ LAST|Len|"human endothelial cell (aorta)"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human endothelial cells (aorta)"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062623
 
@@ -543,7 +543,7 @@ LAST|Len|"human salivary mucous cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human salivary mucous cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062659
 
@@ -552,7 +552,7 @@ LAST|Len|"human trophoblast cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human trophoblast cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q66589800
 
@@ -561,7 +561,7 @@ LAST|Len|"human osteoclast"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human osteoclasts"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q828410
 
@@ -570,7 +570,7 @@ LAST|Len|"human pyramidal cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human pyramidal cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q2116409
 
@@ -579,7 +579,7 @@ LAST|Len|"human germ cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human germ cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q281579
 
@@ -588,7 +588,7 @@ LAST|Len|"human merkel cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human merkel cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1570264
 
@@ -597,7 +597,7 @@ LAST|Len|"human noradrenergic neuron"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human noradrenergic neurons"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062687
 
@@ -606,7 +606,7 @@ LAST|Len|"human microfold cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human microfold cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1815955
 
@@ -615,7 +615,7 @@ LAST|Len|"human enteroendocrine cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human enteroendocrine cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q5380231
 
@@ -624,7 +624,7 @@ LAST|Len|"human red pulp macrophages"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human red pulp macrophages"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062629
 
@@ -633,7 +633,7 @@ LAST|Len|"human vascular smooth muscle cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human vascular smooth muscle cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062544
 
@@ -642,7 +642,7 @@ LAST|Len|"human gabaergic neuron"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human gabaergic neurons"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q66591221
 
@@ -651,7 +651,7 @@ LAST|Len|"human myoblast"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human myoblasts"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1956694
 
@@ -660,7 +660,7 @@ LAST|Len|"human stromal cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human stromal cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q4381253
 
@@ -669,7 +669,7 @@ LAST|Len|"human adipocyte progenitor cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human adipocyte progenitor cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062531
 
@@ -678,7 +678,7 @@ LAST|Len|"human myeloid-derived suppressor cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human myeloid-derived suppressor cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q15220362
 
@@ -687,7 +687,7 @@ LAST|Len|"human hemangioblast"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human hemangioblasts"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1642030
 
@@ -696,7 +696,7 @@ LAST|Len|"human hepatic stellate cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human hepatic stellate cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1997459
 
@@ -705,7 +705,7 @@ LAST|Len|"human ionocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human ionocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062667
 
@@ -714,7 +714,7 @@ LAST|Len|"human epithelial cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human epithelial cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q15176415
 
@@ -723,7 +723,7 @@ LAST|Len|"human myofibroblast"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human myofibroblasts"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1467330
 
@@ -732,7 +732,7 @@ LAST|Len|"human pulmonary alveolar type ii cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human pulmonary alveolar type ii cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q3272858
 
@@ -741,7 +741,7 @@ LAST|Len|"human satellite glial cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human satellite glial cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q63710
 
@@ -750,7 +750,7 @@ LAST|Len|"human satellite cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human satellite cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101001061
 
@@ -759,7 +759,7 @@ LAST|Len|"human luteal cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human luteal cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q70204009
 
@@ -768,7 +768,7 @@ LAST|Len|"human ductal cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human ductal cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q5311600
 
@@ -777,7 +777,7 @@ LAST|Len|"human pulmonary vascular smooth muscle cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human pulmonary vascular smooth muscle cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062553
 
@@ -786,7 +786,7 @@ LAST|Len|"human erythroid-like and erythroid precursor cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human erythroid-like and erythroid precursor cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062502
 
@@ -795,7 +795,7 @@ LAST|Len|"human adrenergic neuron"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human adrenergic neurons"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q71262051
 
@@ -804,7 +804,7 @@ LAST|Len|"human neuroblast"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human neuroblasts"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q2927095
 
@@ -813,7 +813,7 @@ LAST|Len|"human anterior pituitary gland cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human anterior pituitary gland cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101003254
 
@@ -822,7 +822,7 @@ LAST|Len|"human plasmacytoid dendritic cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human plasmacytoid dendritic cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062485
 
@@ -831,7 +831,7 @@ LAST|Len|"human nuocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human nuocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q7069936
 
@@ -840,7 +840,7 @@ LAST|Len|"human thymocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human thymocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q7799635
 
@@ -849,7 +849,7 @@ LAST|Len|"human paneth cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human paneth cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q2004084
 
@@ -858,7 +858,7 @@ LAST|Len|"human interneuron"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human interneurons"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1500732
 
@@ -867,7 +867,7 @@ LAST|Len|"human monocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human monocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q107244
 
@@ -876,7 +876,7 @@ LAST|Len|"human podocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human podocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q138912
 
@@ -885,7 +885,7 @@ LAST|Len|"human neural stem/precursor cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human neural stem/precursor cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q2944097
 
@@ -894,7 +894,7 @@ LAST|Len|"human cholangiocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human cholangiocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q5104283
 
@@ -903,7 +903,7 @@ LAST|Len|"human crypt cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human crypt cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062678
 
@@ -912,7 +912,7 @@ LAST|Len|"human osteoblast"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human osteoblasts"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q917177
 
@@ -921,7 +921,7 @@ LAST|Len|"human pericyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human pericytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q500446
 
@@ -930,7 +930,7 @@ LAST|Len|"human erythroblast"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human erythroblasts"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q66590166
 
@@ -939,7 +939,7 @@ LAST|Len|"human olfactory epithelial cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human olfactory epithelial cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q66563539
 
@@ -948,7 +948,7 @@ LAST|Len|"human eosinophil"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human eosinophils"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q107238
 
@@ -957,7 +957,7 @@ LAST|Len|"human keratinocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human keratinocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1473931
 
@@ -966,7 +966,7 @@ LAST|Len|"human taste receptor cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human taste receptor cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q66563575
 
@@ -975,7 +975,7 @@ LAST|Len|"human cholinergic neuron"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human cholinergic neurons"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q12167532
 
@@ -984,7 +984,7 @@ LAST|Len|"human hematopoietic stem cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human hematopoietic stem cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q514525
 
@@ -993,7 +993,7 @@ LAST|Len|"human spermatozoa"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human spermatozoa"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q74560
 
@@ -1002,7 +1002,7 @@ LAST|Len|"human goblet cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human goblet cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q813622
 
@@ -1011,7 +1011,7 @@ LAST|Len|"human pluripotent stem cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human pluripotent stem cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q15952110
 
@@ -1020,7 +1020,7 @@ LAST|Len|"human foveolar cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human foveolar cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q66592466
 
@@ -1029,7 +1029,7 @@ LAST|Len|"human gamma (pp) cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human gamma (pp) cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1968774
 
@@ -1038,7 +1038,7 @@ LAST|Len|"human peritubular myoid cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human peritubular myoid cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q48997538
 
@@ -1047,7 +1047,7 @@ LAST|Len|"human b cell memory"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human b cells memory"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1195394
 
@@ -1056,7 +1056,7 @@ LAST|Len|"human pulmonary alveolar type i cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human pulmonary alveolar type i cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q3296912
 
@@ -1065,7 +1065,7 @@ LAST|Len|"human endothelial cell (blood brain barrier)"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human endothelial cells (blood brain barrier)"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062538
 
@@ -1074,7 +1074,7 @@ LAST|Len|"human pancreatic progenitor cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human pancreatic progenitor cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q25325366
 
@@ -1083,7 +1083,7 @@ LAST|Len|"human alveolar macrophages"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human alveolar macrophages"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q448687
 
@@ -1092,7 +1092,7 @@ LAST|Len|"human airway epithelial cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human airway epithelial cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062683
 
@@ -1101,7 +1101,7 @@ LAST|Len|"human ciliated cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human ciliated cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062671
 
@@ -1110,7 +1110,7 @@ LAST|Len|"human immature neuron"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human immature neurons"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101003994
 
@@ -1119,7 +1119,7 @@ LAST|Len|"human kupffer cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human kupffer cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q513486
 
@@ -1128,7 +1128,7 @@ LAST|Len|"human sebocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human sebocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062695
 
@@ -1137,7 +1137,7 @@ LAST|Len|"human osteoclast precursor cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human osteoclast precursor cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062534
 
@@ -1146,7 +1146,7 @@ LAST|Len|"human t memory cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human t memory cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q2304808
 
@@ -1155,7 +1155,7 @@ LAST|Len|"human enterocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human enterocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1340349
 
@@ -1164,7 +1164,7 @@ LAST|Len|"human tanycyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human tanycytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1419042
 
@@ -1173,7 +1173,7 @@ LAST|Len|"human t cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human t cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q193529
 
@@ -1182,7 +1182,7 @@ LAST|Len|"human cardiac stem and precursor cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human cardiac stem and precursor cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q5376332
 
@@ -1191,7 +1191,7 @@ LAST|Len|"human cardiomyocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human cardiomyocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1047227
 
@@ -1200,7 +1200,7 @@ LAST|Len|"human ependymal cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human ependymal cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q28646122
 
@@ -1209,7 +1209,7 @@ LAST|Len|"human adipocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human adipocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q357519
 
@@ -1218,7 +1218,7 @@ LAST|Len|"human langerhans cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human langerhans cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1623344
 
@@ -1227,7 +1227,7 @@ LAST|Len|"human macrophages"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human macrophages"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q184204
 
@@ -1236,7 +1236,7 @@ LAST|Len|"human meningeal cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human meningeal cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062499
 
@@ -1245,7 +1245,7 @@ LAST|Len|"human t regulatory cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human t regulatory cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1550619
 
@@ -1254,7 +1254,7 @@ LAST|Len|"human b cell naive"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human b cells naive"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q3269473
 
@@ -1263,7 +1263,7 @@ LAST|Len|"human b cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human b cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q188930
 
@@ -1272,7 +1272,7 @@ LAST|Len|"human beta cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human beta cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1767180
 
@@ -1281,7 +1281,7 @@ LAST|Len|"human distal tubule cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human distal tubule cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q66568836
 
@@ -1290,7 +1290,7 @@ LAST|Len|"human basophil"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human basophils"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q107988
 
@@ -1299,7 +1299,7 @@ LAST|Len|"human airway goblet cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human airway goblet cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062600
 
@@ -1308,7 +1308,7 @@ LAST|Len|"human cajal-retzius cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human cajal-retzius cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q2299284
 
@@ -1317,7 +1317,7 @@ LAST|Len|"human gamma delta t cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human gamma delta t cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q3077796
 
@@ -1326,7 +1326,7 @@ LAST|Len|"human chondrocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human chondrocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q775480
 
@@ -1335,7 +1335,7 @@ LAST|Len|"human trichocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human trichocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q7840744
 
@@ -1344,7 +1344,7 @@ LAST|Len|"human glycinergic neuron"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human glycinergic neurons"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062691
 
@@ -1353,7 +1353,7 @@ LAST|Len|"human müller cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human müller cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q735343
 
@@ -1362,7 +1362,7 @@ LAST|Len|"human dopaminergic neuron"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human dopaminergic neurons"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q5297290
 
@@ -1371,7 +1371,7 @@ LAST|Len|"human mesothelial cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human mesothelial cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q66562849
 
@@ -1380,7 +1380,7 @@ LAST|Len|"human hepatocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human hepatocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q827450
 
@@ -1389,7 +1389,7 @@ LAST|Len|"human neutrophil"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human neutrophils"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q188417
 
@@ -1398,7 +1398,7 @@ LAST|Len|"human neuron"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human neurons"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q43054
 
@@ -1407,7 +1407,7 @@ LAST|Len|"human astrocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human astrocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q502961
 
@@ -1416,7 +1416,7 @@ LAST|Len|"human trophoblast stem cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human trophoblast stem cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062701
 
@@ -1425,7 +1425,7 @@ LAST|Len|"human parathyroid chief cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human parathyroid chief cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q3272785
 
@@ -1434,7 +1434,7 @@ LAST|Len|"human acinar cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human acinar cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q66590269
 
@@ -1443,7 +1443,7 @@ LAST|Len|"human loop of henle cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human loop of henle cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062522
 
@@ -1452,7 +1452,7 @@ LAST|Len|"human clara cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human clara cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q645712
 
@@ -1461,7 +1461,7 @@ LAST|Len|"human follicular cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human follicular cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q5464650
 
@@ -1470,7 +1470,7 @@ LAST|Len|"human airway smooth muscle cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human airway smooth muscle cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062548
 
@@ -1479,7 +1479,7 @@ LAST|Len|"human embryonic stem cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human embryonic stem cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1151519
 
@@ -1488,7 +1488,7 @@ LAST|Len|"human t cytotoxic cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human t cytotoxic cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q376266
 
@@ -1497,7 +1497,7 @@ LAST|Len|"human t cell naive"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human t cells naive"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q6959842
 
@@ -1506,7 +1506,7 @@ LAST|Len|"human glomus cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human glomus cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q4778753
 
@@ -1515,7 +1515,7 @@ LAST|Len|"human leydig cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human leydig cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q636846
 
@@ -1524,7 +1524,7 @@ LAST|Len|"human retinal ganglion cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human retinal ganglion cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q927337
 
@@ -1533,7 +1533,7 @@ LAST|Len|"human enteric glia cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human enteric glia cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062673
 
@@ -1542,7 +1542,7 @@ LAST|Len|"human kidney progenitor cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human kidney progenitor cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101062528
 
@@ -1551,7 +1551,7 @@ LAST|Len|"human mesangial cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human mesangial cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q3331086
 
@@ -1560,7 +1560,7 @@ LAST|Len|"human reticulocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human reticulocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q1404923
 
@@ -1569,7 +1569,7 @@ LAST|Len|"human plasma cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human plasma cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q66568528
 
@@ -1578,7 +1578,7 @@ LAST|Len|"human enterochromaffin cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human enterochromaffin cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q568290
 
@@ -1587,7 +1587,7 @@ LAST|Len|"human neuroendocrine cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human neuroendocrine cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q10599959
 
@@ -1596,7 +1596,7 @@ LAST|Len|"human astrocyte progenitor cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human astrocyte progenitor cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101001053
 
@@ -1605,7 +1605,7 @@ LAST|Len|"human multinuclear myocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human multinuclear myocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101003165
 
@@ -1614,7 +1614,7 @@ LAST|Len|"human spermatocyte and spermatozoa"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human spermatocyte and spermatozoa"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101003191
 
@@ -1623,7 +1623,7 @@ LAST|Len|"human granulocyte"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human granulocytes"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q223143
 
@@ -1632,7 +1632,7 @@ LAST|Len|"human theca cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human theca cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101003314
 
@@ -1641,7 +1641,7 @@ LAST|Len|"human immature neuron "
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human immature neurons "
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101003994
 
@@ -1650,7 +1650,7 @@ LAST|Len|"human cortical interneuron"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human cortical interneurons"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q101004030
 
@@ -1659,7 +1659,7 @@ LAST|Len|"human t cell naive"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human t cell naive"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q6959842
 
@@ -1668,7 +1668,7 @@ LAST|Len|"human peripheral blood mononuclear cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human peripheral blood mononuclear cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q736033
 
@@ -1677,7 +1677,7 @@ LAST|Len|"human paneth cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human paneth cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q2004084
 
@@ -1686,7 +1686,7 @@ LAST|Len|"human retinal epithelial cell"
 LAST|Den|"cell type of Homo sapiens"
 LAST|Dpt|"tipo de célula de Homo sapiens"
 LAST|Aen|"human retinal epithelial cells"
-LAST|P31|Q18911|S248|Q99936939
+LAST|P31|Q189118|S248|Q99936939
 LAST|P703|Q15978631
 LAST|P361|Q66572893
 
