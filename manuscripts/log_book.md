@@ -198,3 +198,6 @@ What we did, tried, and accomplished during each day of the project.
 ### 13/11
 
 * I made a local RDF file that links cell types to genes on Wikidata using a property on the Open Cura wikibase: https://celltypes.wiki.opencura.com/wiki/Property:P9
+  
+* Next step: Make a query that given a Gene Ontology ID, it brings the related cell types. 
+* Path: GO ID --> Wikidata ID of GO term -->  Wikidata ID of Protein --> Wikidata ID of gene that encodes that protein --> Cell Type 
