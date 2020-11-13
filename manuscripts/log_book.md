@@ -194,3 +194,7 @@ What we did, tried, and accomplished during each day of the project.
 ### 08/11
 
 * I added species-specific cell types to Wikidata
+
+### 13/11
+
+* I made a local RDF file that links cell types to genes on Wikidata using a property on the Open Cura wikibase: https://celltypes.wiki.opencura.com/wiki/Property:P9
