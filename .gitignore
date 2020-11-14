@@ -200,3 +200,5 @@ vignettes/*.pdf
 # Other
 
 improvements/passwords/*
+
+improvements/go2cell/*.csvimprovements/improvements.Rproj

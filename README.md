@@ -19,8 +19,10 @@ Research-related directories:
 
 * **manuscripts**: Manuscripts for this research project, each manuscript is a submodule of a GitHub repository that uses 
     [Manubot](https://github.com/manubot/manubot).
+    
 
-* **improvements**: One-use code, creating Wikidata items from PanglaoDB's metadata and improving existing items.
+* **improvements**: One-use code, creating Wikidata items from PanglaoDB's metadata and improving existing items. Subdiretories:
+    * **go2cell**: Prototype of a shiny app to match go terms to cell types. As of 14 november 2020, it is running [here](https://lubianat.shinyapps.io/go2cell/).
 
 Software-related directories, they are structured similarly to a Python package:
 
@@ -28,6 +30,7 @@ Software-related directories, they are structured similarly to a Python package:
 * **tests**: These are the unit tests for the wikidata_panglaodb "package" functions.
 * **docs**: This is a directory containing documentation for the wikidata_panglaodb functions, it is served as
     a [live website](http://jvfe.github.io/wikidata_panglaodb) in our github pages branch.
+
 
 ## Reproducing and developing
 

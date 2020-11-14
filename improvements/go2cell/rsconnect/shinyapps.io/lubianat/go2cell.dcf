@@ -1,0 +1,12 @@
+name: go2cell
+title: go2cell
+username:
+account: lubianat
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3234037
+bundleId: 3861347
+url: https://lubianat.shinyapps.io/go2cell/
+when: 1605395451.96474
+asMultiple: FALSE
+asStatic: FALSE
