@@ -15,7 +15,7 @@ library(rdflib)
 # https://w.wiki/mYb
 geneontology_df <- read_csv2("go_df.csv")
 
-markers_ttl <- rdf_parse("human_cell_type_markers_13_11_2020.ttl")
+markers_ttl <- rdf_parse("human_cell_type_markers_21_11_2020.ttl")
 query_markers <- 'SELECT  ?cell_type ?gene WHERE {
  ?cell_type ?p ?gene
 }'
