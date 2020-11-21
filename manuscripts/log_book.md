@@ -201,3 +201,23 @@ What we did, tried, and accomplished during each day of the project.
   
 * Next step: Make a query that given a Gene Ontology ID, it brings the related cell types. 
 * Path: GO ID --> Wikidata ID of GO term -->  Wikidata ID of Protein --> Wikidata ID of gene that encodes that protein --> Cell Type 
+
+### 21/11
+* The local RDF file was incomplete, I fixed it, and now it contains all cell_type-marker relations.
+
+* The Wikidata query for human cell types is not capturing these types as superclasses: 
+
+-	Parietal cells	Q1640093
+-	Serotonergic neurons	Q70220966
+-	Bergmann glia	Q101062516
+-	Satellite glial cells	Q637104
+-	Foveolar cells	Q66592466
+-	Acinar cells	Q66590269
+-	Clara cells	Q645712
+-	Glomus cells	Q4778753
+
+I suspect issues with the update timing of the SPARQL endpoint, or some hidden cache.
+
+These types are __absent__ in the current .ttl and should be added later.
+
+

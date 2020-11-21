@@ -1,0 +1,189 @@
+,Unnamed: 0,panglao,wikidata,superclass,itemLabel,item
+0,0,Basal cells,Q101062513,Q101062513,human basal cell,Q101404853
+1,1,Trigeminal neurons,Q101062590,Q101062590,human trigeminal neuron,Q101404857
+2,2,Juxtaglomerular cells,Q2596226,Q2596226,human juxtaglomerular cell,Q101404858
+3,3,Pancreatic stellate cells,Q1164962,Q1164962,human pancreatic stellate cell,Q101404859
+4,4,Fibroblasts,Q463418,Q463418,human fibroblast,Q101404861
+5,5,Motor neurons,Q1133903,Q1133903,human motor neuron,Q101404862
+6,6,Mammary epithelial cells,Q101062572,Q101062572,human mammary epithelial cell,Q101404863
+7,8,Peri-islet Schwann cells,Q101062584,Q101062584,human peri-islet schwann cell,Q101404867
+8,9,Chromaffin cells,Q919689,Q919689,human chromaffin cell,Q101404868
+9,10,Dendritic cells,Q506253,Q506253,human dendritic cell,Q101404869
+10,11,Tuft cells,Q25325383,Q25325383,human tuft cell,Q101404870
+11,12,Trophoblast progenitor cells,Q101062703,Q101062703,human trophoblast progenitor cell,Q101404873
+12,13,Megakaryocytes,Q821701,Q821701,human megakaryocyte,Q101404874
+13,14,T follicular helper cells,Q5464650,Q5464650,human follicular cell,Q101405110
+14,14,T follicular helper cells,Q5464650,Q5464650,human t follicular helper cell,Q101404875
+15,163,Follicular cells,Q5464650,Q5464650,human follicular cell,Q101405110
+16,163,Follicular cells,Q5464650,Q5464650,human t follicular helper cell,Q101404875
+17,15,T helper cells,Q632518,Q632518,human helper T cell,Q101423298
+18,15,T helper cells,Q632518,Q632518,human t helper cell,Q101404876
+19,16,Epiblast cells,Q101003525,Q101003525,human epiblast cell,Q101404877
+20,17,Photoreceptor cells,Q748049,Q748049,human photoreceptor cell,Q101404878
+21,17,Photoreceptor cells,Q748049,Q748049,human photoreceptor cell,Q101404879
+22,18,Decidual cells,Q5249153,Q5249153,human decidual cell,Q101404881
+23,19,Platelets,Q101026,Q101026,human platelet,Q101404882
+24,20,Urothelial cells,Q101062509,Q101062509,human urothelial cell,Q101404883
+25,22,Proximal tubule cells,Q101062469,Q101062469,human proximal tubule cell,Q101404885
+26,23,Luminal epithelial cells,Q101062619,Q101062619,human luminal epithelial cell,Q101404886
+27,24,Purkinje fiber cells,Q101062559,Q101062559,human purkinje fiber cell,Q101404887
+28,25,Microglia,Q1622829,Q1622829,human microglia,Q101404888
+29,26,Delta cells,Q2621407,Q2621407,human delta cell,Q101404889
+30,27,Pinealocytes,Q3241787,Q3241787,human pinealocyte,Q101404890
+31,28,His bundle cells,Q101003168,Q101003168,human his bundle cell,Q101404892
+32,29,Schwann cells,Q465621,Q465621,human schwann cell,Q101404893
+33,30,Melanocytes,Q247101,Q247101,human melanocyte,Q101404894
+34,31,Natural killer T cells,Q224930,Q224930,human natural killer t cell,Q101404895
+35,32,Choroid plexus cells,Q98603523,Q98603523,human choroid plexus cell,Q101404896
+36,33,Radial glia cells,Q4387286,Q4387286,human radial glia cell,Q101404897
+37,34,Oligodendrocytes,Q916698,Q916698,human oligodendrocyte,Q101404898
+38,35,NK cells,Q332181,Q332181,human nk cell,Q101404899
+39,36,Smooth muscle cells,Q66508979,Q66508979,human smooth muscle cell,Q101404901
+40,37,Spermatocytes,Q3486515,Q3486515,human spermatocyte,Q101404900
+41,38,Myocytes,Q428914,Q428914,human myocyte,Q101404903
+42,39,Osteocytes,Q913236,Q913236,human osteocyte,Q101404904
+43,41,Enteric neurons,Q101062626,Q101062626,human enteric neuron,Q101404906
+44,42,Endothelial cells,Q11394395,Q11394395,human endothelial cell,Q101404908
+45,43,Sertoli cells,Q195614,Q195614,human sertoli cell,Q101404909
+46,44,Hepatoblasts,Q101062568,Q101062568,human hepatoblast,Q101404910
+47,45,Principal cells,Q101062526,Q101062526,human principal cell,Q101404911
+48,46,Retinal progenitor cells,Q101062580,Q101062580,human retinal progenitor cell,Q101404912
+49,47,Purkinje neurons,Q1570272,Q1570272,human purkinje neuron,Q101404913
+50,48,Alpha cells,Q2995031,Q2995031,human alpha cell,Q101404914
+51,49,Intercalated cells,Q66592471,Q66592471,human intercalated cell,Q101404915
+52,50,Gastric chief cells,Q2595765,Q2595765,human gastric chief cell,Q101404916
+53,51,Oligodendrocyte progenitor cells,Q7086819,Q7086819,human oligodendrocyte progenitor cell,Q101404917
+54,52,Glutaminergic neurons,Q101062495,Q101062495,human glutaminergic neuron,Q101404918
+55,54,Granulosa cells,Q70203021,Q70203021,human granulosa cell,Q101404921
+56,55,Epsilon cells,Q4532277,Q4532277,human epsilon cell,Q101404922
+57,56,Mast cells,Q191989,Q191989,human mast cell,Q101404923
+58,57,Myoepithelial cells,Q1476681,Q1476681,human myoepithelial cell,Q101404924
+59,58,Oxyphil cells,Q7116107,Q7116107,human oxyphil cell,Q101404925
+60,59,Endothelial cells (aorta),Q101062623,Q101062623,human endothelial cell (aorta),Q101404926
+61,60,Salivary mucous cells,Q101062659,Q101062659,human salivary mucous cell,Q101404929
+62,61,Trophoblast cells,Q66589800,Q66589800,human trophoblast cell,Q101404927
+63,62,Osteoclasts,Q828410,Q828410,human osteoclast,Q101404928
+64,63,Pyramidal cells,Q2116409,Q2116409,human pyramidal cell,Q101404930
+65,64,Germ cells,Q281579,Q281579,human germ cell,Q101404931
+66,65,Merkel cells,Q1570264,Q1570264,human merkel cell,Q101404933
+67,66,Noradrenergic neurons,Q101062687,Q101062687,human noradrenergic neuron,Q101404932
+68,67,Microfold cells,Q1815955,Q1815955,human microfold cell,Q101404934
+69,68,Enteroendocrine cells,Q5380231,Q5380231,human enteroendocrine cell,Q101404935
+70,69,Red pulp macrophages,Q101062629,Q101062629,human red pulp macrophages,Q101404936
+71,70,Vascular smooth muscle cells,Q101062544,Q101062544,human vascular smooth muscle cell,Q101404937
+72,71,GABAergic neurons,Q66591221,Q66591221,human gabaergic neuron,Q101404939
+73,72,Myoblasts,Q1956694,Q1956694,human myoblast,Q101404940
+74,73,Stromal cells,Q4381253,Q4381253,human stromal cell,Q101404941
+75,74,Adipocyte progenitor cells,Q101062531,Q101062531,human adipocyte progenitor cell,Q101404942
+76,74,Adipocyte progenitor cells,Q101062531,Q101062531,human adipocyte progenitor cell,Q101404943
+77,75,Myeloid-derived suppressor cells,Q15220362,Q15220362,Human myeloid-derived suppressor cell,Q101062473
+78,75,Myeloid-derived suppressor cells,Q15220362,Q15220362,human myeloid-derived suppressor cell,Q101404944
+79,76,Hemangioblasts,Q1642030,Q1642030,human hemangioblast,Q101404945
+80,77,Hepatic stellate cells,Q1997459,Q1997459,human hepatic stellate cell,Q101404946
+81,78,Ionocytes,Q101062667,Q101062667,human ionocyte,Q101404947
+82,79,Epithelial cells,Q15176415,Q15176415,human epithelial cell,Q101404948
+83,80,Myofibroblasts,Q1467330,Q1467330,human myofibroblast,Q101404949
+84,81,Pulmonary alveolar type II cells,Q3272858,Q3272858,human pulmonary alveolar type ii cell,Q101404950
+85,83,Satellite cells,Q101001061,Q101001061,human satellite cell,Q101404953
+86,84,Luteal cells,Q70204009,Q70204009,human luteal cell,Q101404954
+87,85,Ductal cells,Q5311600,Q5311600,human ductal cell,Q101404956
+88,86,Pulmonary vascular smooth muscle cells,Q101062553,Q101062553,human pulmonary vascular smooth muscle cell,Q101404955
+89,87,Erythroid-like and erythroid precursor cells,Q101062502,Q101062502,human erythroid-like and erythroid precursor cell,Q101404957
+90,88,Adrenergic neurons,Q71262051,Q71262051,human adrenergic neuron,Q101405030
+91,89,Neuroblasts,Q2927095,Q2927095,human neuroblast,Q101405031
+92,90,Anterior pituitary gland cells,Q101003254,Q101003254,human anterior pituitary gland cell,Q101405034
+93,91,Plasmacytoid dendritic cells,Q101062485,Q101062485,human plasmacytoid dendritic cell,Q101405033
+94,92,Nuocytes,Q7069936,Q7069936,human nuocyte,Q101405037
+95,93,Thymocytes,Q7799635,Q7799635,human thymocyte,Q101405038
+96,94,Paneth cells,Q2004084,Q2004084,human paneth cell,Q101405040
+97,187,Paneth Cells,Q2004084,Q2004084,human paneth cell,Q101405040
+98,95,Interneurons,Q1500732,Q1500732,human interneuron,Q101405035
+99,96,Monocytes,Q107244,Q107244,human monocyte,Q101405036
+100,97,Podocytes,Q138912,Q138912,human podocyte,Q101405039
+101,98,Neural stem/precursor cells,Q2944097,Q2944097,human neural stem/precursor cell,Q101405041
+102,99,Cholangiocytes,Q5104283,Q5104283,human cholangiocyte,Q101405042
+103,100,Crypt cells,Q101062678,Q101062678,human crypt cell,Q101405043
+104,101,Osteoblasts,Q917177,Q917177,human osteoblast,Q101405044
+105,102,Pericytes,Q500446,Q500446,human pericyte,Q101405045
+106,103,Erythroblasts,Q66590166,Q66590166,human erythroblast,Q101405046
+107,104,Olfactory epithelial cells,Q66563539,Q66563539,human olfactory epithelial cell,Q101405047
+108,105,Eosinophils,Q107238,Q107238,human eosinophil,Q101405048
+109,106,Keratinocytes,Q1473931,Q1473931,human keratinocyte,Q101405049
+110,107,Taste receptor cells,Q66563575,Q66563575,human taste receptor cell,Q101405050
+111,108,Cholinergic neurons,Q12167532,Q12167532,human cholinergic neuron,Q101405051
+112,109,Hematopoietic stem cells,Q514525,Q514525,human hematopoietic stem cell,Q101405052
+113,110,Spermatozoa,Q74560,Q74560,human spermatozoa,Q101405053
+114,111,Goblet cells,Q813622,Q813622,human goblet cell,Q101405054
+115,112,Pluripotent stem cells,Q15952110,Q15952110,human pluripotent stem cell,Q101405055
+116,114,Gamma (PP) cells,Q1968774,Q1968774,human gamma (pp) cell,Q101405057
+117,115,Peritubular myoid cells,Q48997538,Q48997538,human peritubular myoid cell,Q101405058
+118,116,B cells memory,Q1195394,Q1195394,human b cell memory,Q101405059
+119,117,Pulmonary alveolar type I cells,Q3296912,Q3296912,human pulmonary alveolar type i cell,Q101405061
+120,118,Endothelial cells (blood brain barrier),Q101062538,Q101062538,human endothelial cell (blood brain barrier),Q101405062
+121,119,Pancreatic progenitor cells,Q25325366,Q25325366,human pancreatic progenitor cell,Q101405063
+122,121,Alveolar macrophages,Q448687,Q448687,human alveolar macrophages,Q101405064
+123,122,Airway epithelial cells,Q101062683,Q101062683,human airway epithelial cell,Q101405065
+124,123,Ciliated cells,Q101062671,Q101062671,human ciliated cell,Q101405066
+125,124,Immature neurons,Q101003994,Q101003994,human immature neuron,Q101405067
+126,183,Immature neurons ,Q101003994,Q101003994,human immature neuron,Q101405067
+127,125,Kupffer cells,Q513486,Q513486,human kupffer cell,Q101405068
+128,126,Sebocytes,Q101062695,Q101062695,human sebocyte,Q101405069
+129,127,Osteoclast precursor cells,Q101062534,Q101062534,human osteoclast precursor cell,Q101405070
+130,128,T memory cells,Q2304808,Q2304808,human t memory cell,Q101405071
+131,129,Enterocytes,Q1340349,Q1340349,human enterocyte,Q101405073
+132,130,Tanycytes,Q1419042,Q1419042,human tanycyte,Q101405074
+133,131,T cells,Q193529,Q193529,human t cell,Q101405075
+134,132,Cardiac stem and precursor cells,Q5376332,Q5376332,human cardiac stem and precursor cell,Q101405076
+135,133,Cardiomyocytes,Q1047227,Q1047227,human cardiomyocyte,Q101405077
+136,134,Ependymal cells,Q28646122,Q28646122,human ependymal cell,Q101405078
+137,135,Adipocytes,Q357519,Q357519,human adipocyte,Q101405079
+138,136,Langerhans cells,Q1623344,Q1623344,human langerhans cell,Q101405080
+139,137,Macrophages,Q184204,Q184204,human macrophages,Q101405081
+140,138,Meningeal cells,Q101062499,Q101062499,human meningeal cell,Q101405083
+141,139,T regulatory cells,Q1550619,Q1550619,human t regulatory cell,Q101405084
+142,140,B cells naive,Q3269473,Q3269473,human b cell naive,Q101405085
+143,141,B cells,Q188930,Q188930,human b cell,Q101405086
+144,142,Beta cells,Q1767180,Q1767180,human beta cell,Q101405087
+145,143,Distal tubule cells,Q66568836,Q66568836,human distal tubule cell,Q101405088
+146,144,Basophils,Q107988,Q107988,human basophil,Q101405089
+147,145,Airway goblet cells,Q101062600,Q101062600,human airway goblet cell,Q101405090
+148,146,Cajal-Retzius cells,Q2299284,Q2299284,human cajal-retzius cell,Q101405091
+149,147,Gamma delta T cells,Q3077796,Q3077796,human gamma delta t cell,Q101405093
+150,148,Chondrocytes,Q775480,Q775480,human chondrocyte,Q101405092
+151,149,Trichocytes,Q7840744,Q7840744,human trichocyte,Q101405094
+152,150,Glycinergic neurons,Q101062691,Q101062691,human glycinergic neuron,Q101405095
+153,151,Müller cells,Q735343,Q735343,human müller cell,Q101405096
+154,151,Müller cells,Q735343,Q735343,human müller cell,Q101405097
+155,152,Dopaminergic neurons,Q5297290,Q5297290,human dopaminergic neuron,Q101405098
+156,153,Mesothelial cells,Q66562849,Q66562849,human mesothelial cell,Q101405100
+157,154,Hepatocytes,Q827450,Q827450,human hepatocyte,Q101405101
+158,155,Neutrophils,Q188417,Q188417,human neutrophil,Q101405102
+159,156,Neurons,Q43054,Q43054,human neuron,Q101405104
+160,157,Astrocytes,Q502961,Q502961,human astrocyte,Q67801129
+161,157,Astrocytes,Q502961,Q502961,human astrocyte,Q101405103
+162,158,Trophoblast stem cells,Q101062701,Q101062701,human trophoblast stem cell,Q101405105
+163,159,Parathyroid chief cells,Q3272785,Q3272785,human parathyroid chief cell,Q101405106
+164,161,Loop of Henle cells,Q101062522,Q101062522,human loop of henle cell,Q101405109
+165,164,Airway smooth muscle cells,Q101062548,Q101062548,human airway smooth muscle cell,Q101405111
+166,165,Embryonic stem cells,Q1151519,Q1151519,human embryonic stem cell,Q101405112
+167,166,T cytotoxic cells,Q376266,Q376266,human t cytotoxic cell,Q101405113
+168,166,T cytotoxic cells,Q376266,Q376266,human cytotoxic t cell,Q101423166
+169,167,T cells naive,Q6959842,Q6959842,human t cell naive,Q101405114
+170,185,T cell naive,Q6959842,Q6959842,human t cell naive,Q101405114
+171,169,Leydig cells,Q636846,Q636846,human leydig cell,Q101405116
+172,170,Retinal ganglion cells,Q927337,Q927337,human retinal ganglion cell,Q101405117
+173,171,Enteric glia cells,Q101062673,Q101062673,human enteric glia cell,Q101405119
+174,172,Kidney progenitor cells,Q101062528,Q101062528,human kidney progenitor cell,Q101405120
+175,173,Mesangial cells,Q3331086,Q3331086,human mesangial cell,Q101405121
+176,174,Reticulocytes,Q1404923,Q1404923,human reticulocyte,Q101405122
+177,175,Plasma cells,Q66568528,Q66568528,human plasma cell,Q101405123
+178,176,Enterochromaffin cells,Q568290,Q568290,human enterochromaffin cell,Q101405125
+179,177,Neuroendocrine cells,Q10599959,Q10599959,human neuroendocrine cell,Q101405206
+180,178,Astrocyte progenitor cells,Q101001053,Q101001053,human astrocyte progenitor cell,Q101405126
+181,179,Multinuclear myocytes,Q101003165,Q101003165,human multinuclear myocyte,Q101405208
+182,180,Spermatocyte and Spermatozoa,Q101003191,Q101003191,human spermatocyte and spermatozoa,Q101405207
+183,181,Granulocytes,Q223143,Q223143,human granulocyte,Q101405212
+184,182,Theca cells,Q101003314,Q101003314,human theca cell,Q101405210
+185,184,Cortical interneurons,Q101004030,Q101004030,human cortical interneuron,Q101405214
+186,186,Peripheral blood mononuclear cells,Q736033,Q736033,human peripheral blood mononuclear cell,Q101405209
+187,188,Retinal epithelial cells,Q66572893,Q66572893,human retinal epithelial cell,Q101405213
