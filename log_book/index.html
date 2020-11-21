@@ -16,7 +16,7 @@
         <meta name="author" content="jvfe">
       
       <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.4">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.5">
     
     
       
@@ -24,10 +24,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.358818c7.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.21aed14c.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.f0267088.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.196e0c26.min.css">
         
       
     
@@ -108,7 +108,7 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
       <label class="md-search__icon md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
@@ -206,8 +206,7 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
-    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
     <label class="md-nav__link" for="nav-2">
       Reference
       <span class="md-nav__icon md-icon"></span>
@@ -526,6 +525,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#2111" class="md-nav__link">
+    21/11
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -759,6 +765,13 @@
         <li class="md-nav__item">
   <a href="#1311" class="md-nav__link">
     13/11
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2111" class="md-nav__link">
+    21/11
   </a>
   
 </li>
@@ -1017,6 +1030,27 @@
 </li>
 <li>Path: GO ID --&gt; Wikidata ID of GO term --&gt;  Wikidata ID of Protein --&gt; Wikidata ID of gene that encodes that protein --&gt; Cell Type </li>
 </ul>
+<h3 id="2111">21/11</h3>
+<ul>
+<li>
+<p>The local RDF file was incomplete, I fixed it, and now it contains all cell_type-marker relations.</p>
+</li>
+<li>
+<p>The Wikidata query for human cell types is not capturing these types as superclasses: </p>
+</li>
+<li>
+<p>Parietal cells  Q1640093</p>
+</li>
+<li>Serotonergic neurons    Q70220966</li>
+<li>Bergmann glia   Q101062516</li>
+<li>Satellite glial cells   Q637104</li>
+<li>Foveolar cells  Q66592466</li>
+<li>Acinar cells    Q66590269</li>
+<li>Clara cells Q645712</li>
+<li>Glomus cells    Q4778753</li>
+</ul>
+<p>I suspect issues with the update timing of the SPARQL endpoint, or some hidden cache.</p>
+<p>These types are <strong>absent</strong> in the current .ttl and should be added later.</p>
                 
               
               
