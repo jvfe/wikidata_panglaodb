@@ -221,3 +221,7 @@ I suspect issues with the update timing of the SPARQL endpoint, or some hidden c
 These types are __absent__ in the current .ttl and should be added later.
 
 
+### 27/11
+
+* The [has_positive_marker](https://www.wikidata.org/wiki/Wikidata:Property_proposal/has_positive_marker) has been approved on Wikidata! 
+* The PanglaoDB markers for human cell types have been uploaded to Wikidata.
