@@ -225,3 +225,8 @@ These types are __absent__ in the current .ttl and should be added later.
 
 * The [has_positive_marker](https://www.wikidata.org/wiki/Wikidata:Property_proposal/has_positive_marker) has been approved on Wikidata! 
 * The PanglaoDB markers for human cell types have been uploaded to Wikidata.
+
+
+### 22/12
+
+* I added mouse-specific cell types to Wikidata ([Batch #46771 "mouse cell types"](https://quickstatements.toolforge.org/#/batch/46771)))
