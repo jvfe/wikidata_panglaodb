@@ -1,0 +1,12 @@
+# Genes and pseudogenes (https://w.wiki/re5)
+SELECT ?item ?itemLabel ?mgi_symbol
+WHERE 
+{
+  {?item wdt:P31 wd:Q277338.}
+  UNION
+  {?item wdt:P31 wd:Q7187.}
+  
+  ?item wdt:P703 wd:Q83310.
+  ?item wdt:P2394 ?mgi_symbol.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}

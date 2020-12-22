@@ -230,3 +230,4 @@ These types are __absent__ in the current .ttl and should be added later.
 ### 22/12
 
 * I added mouse-specific cell types to Wikidata ([Batch #46771 "mouse cell types"](https://quickstatements.toolforge.org/#/batch/46771)))
+* I started reconciling the mouse genes to Wikidata.
