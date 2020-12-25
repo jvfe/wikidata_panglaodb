@@ -7,9 +7,9 @@ Depicted in Table 1 are also matches for gene data, which were acquired using ma
 
 |         |   # of unique matches  |   # of matched items |   % of total items that were matched |   % of matches that were perfect |   % of matches that don‘t have P31 | Totals |
 |:----------|-------------------:|-----------------:|---------------:|---------------------------:|------------------:|---------:|
-| Cells     |                 81 |               85 |        37.6744 |                    38.8235 |           55.2941 |      215 |
-| Tissues   |                 85 |               86 |        34.5528 |                    67.4418 |           39.5348 |      246 |
-| Organs    |                 22 |               30 |        75.8621 |                    60      |           40      |       29 |
+| Cells     |                 173 |               180 |        80.4651 |                    85.5555 |           2.2222 |      215 |
+| Tissues   |                 63 |               64 |        25.6097 |                    81.2500 |           23.4375 |      246 |
+| Organs    |                 18 |               24 |        62.0689 |                    58.3333      |           41.6666      |       29 |
 | Human Genes |              35423 |            35427 |        60.8475 |                   nan      |          nan      |    58216 |
 | Mouse Genes |              25124 |            25127 |        46.705  |                   nan      |          nan      |    53793 |
 
