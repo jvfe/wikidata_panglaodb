@@ -1,132 +1,182 @@
-id,match,name,score,type,input_value,type_id
-Q916698,True,oligodendrocyte,100.0,cell type,Oligodendrocytes,Q189118
-Q1622829,True,microglia,100.0,cell type,Microglia,Q189118
-Q502961,True,astrocyte,100.0,cell type,Astrocytes,Q189118
-Q43054,True,neuron,100.0,cell type,Neurons,Q189118
-Q12167532,True,cholinergic neurons,50.0,[],Cholinergic neurons,
-Q107988,True,basophils,100.0,cell type,Basophils,Q189118
-Q188930,True,B-cells,100.0,cell type,B cells,Q189118
-Q1151519,True,embryonic stem cell,48.5,[],Embryonic stem cells,
-Q107238,True,eosinophils,100.0,cell type,Eosinophils,Q189118
-Q514525,True,hematopoietic stem cells,50.0,[],Hematopoietic stem cells,
-Q11394395,True,endothelial cells,50.0,[],Endothelial cells,
-Q463418,True,fibroblast,100.0,cell type,Fibroblasts,Q189118
-Q184204,True,macrophage,100.0,cell type,Macrophages,Q189118
-Q191989,True,mast cells,100.0,cell type,Mast cells,Q189118
-Q821701,True,megakaryocyte,50.0,[],Megakaryocytes,
-Q1922379,True,mesenchymal stem cells,100.0,cell type,Mesenchymal stem cells,Q189118
-Q188417,True,neutrophil,100.0,cell type,Neutrophils,Q189118
-Q2116409,True,pyramidal cell,100.0,cell type,Pyramidal cells,Q189118
-Q506253,True,dendritic cell,100.0,cell type,Dendritic cells,Q189118
-Q70220966,True,serotonergic neurons,50.0,[],Serotonergic neurons,
-Q513486,True,Kupffer cell,50.0,[],Kupffer cells,
-Q107244,True,Monocyte,100.0,cell type,Monocytes,Q189118
-Q1815955,True,microfold cell,100.0,cell type,Microfold cells,Q189118
-Q775480,True,chondrocyte,50.0,[],Chondrocytes,
-Q66508979,True,smooth muscle cell,50.0,[],Smooth muscle cells,
-Q1473931,True,keratinocyte,100.0,cell type,Keratinocytes,Q189118
-Q827450,True,hepatocyte,100.0,cell type,Hepatocytes,Q189118
-Q1956694,True,myoblast,94.0,cell type,Myoblasts,Q189118
-Q138912,True,podocyte,100.0,cell type,Podocytes,Q189118
-Q2995031,True,alpha cell,47.5,[],Alpha cells,
-Q247101,True,melanocyte,100.0,cell type,Melanocytes,Q189118
-Q735343,True,Müller glia,100.0,glia,Müller cells,Q177105
-Q428914,True,myocyte,96.0,cell type,Muscle cells,Q189118
-Q2621407,True,delta cell,47.5,[],Delta cells,
-Q1997459,True,hepatic stellate cells,50.0,[],Hepatic stellate cells,
-Q1340349,True,Enterocyte,50.0,[],Enterocytes,
-Q5476344,True,Foveolar cell,48.0,[],Foveolar cells,
-Q1513812,True,Pneumocyte,47.5,[],Pneumocytes,
-Q281579,True,germ cell,95.0,cell type,Germ cells,Q189118
-Q195614,True,Sertoli cell,48.0,[],Sertoli cells,
-Q636846,True,Leydig cell,100.0,cell type,Leydig cells,Q189118
-Q376266,True,cytotoxic T cell,97.0,cell type,T cytotoxic cells,Q189118
-Q500446,True,pericyte,50.0,[],Pericytes,
-Q5311600,True,Ductal cells,50.0,[],Ductal cells,
-Q15176415,True,epithelial cell,100.0,cell type,Epithelial cells,Q189118
-Q813622,True,goblet cell,48.0,[],Goblet cells,
-Q1500732,True,interneuron,100.0,cell type,Interneurons,Q189118
-Q1623344,True,Langerhans cell,100.0,cell type,Langerhans cells,Q189118
-Q1570264,True,Merkel cell,50.0,[],Merkel cells,
-Q1467330,True,myofibroblast,100.0,cell type,Myofibroblasts,Q189118
-Q3486515,True,spermatocyte,50.0,[],Spermatocytes,
-Q448687,True,alveolar macrophage,50.0,[],Alveolar macrophages,
-Q70219504,True,acinar cells,50.0,[],Acinar cells,
-Q2595765,True,gastric chief cell,50.0,[],Gastric chief cells,
-Q66563539,True,olfactory epithelial cell,49.0,[],Olfactory epithelial cells,
-Q48997538,True,Peritubular myoid cell,49.0,[],Peritubular myoid cells,
-Q5249153,True,Decidual cells,50.0,[],Decidual cells,
-Q15220362,True,myeloid-derived suppressor cells,50.0,[],Myeloid-derived suppressor cells,
-Q1164962,True,pancreatic stellate cells,50.0,[],Pancreatic stellate cells,
-Q66590166,True,erythroblasts,50.0,[],Erythroblasts,
-Q4532277,True,Epsilon cell,48.0,[],Epsilon cells,
-Q7069936,True,Nuocyte,46.5,[],Nuocytes,
-Q224930,True,natural killer T cell,50.0,[],Natural killer T cells,
-Q828410,True,osteoclast,100.0,cell type,Osteoclasts,Q189118
-Q917177,True,osteoblast,100.0,cell type,Osteoblasts,Q189118
-Q913236,True,osteocyte,50.0,[],Osteocytes,
-Q1195394,True,memory B cell,96.0,cell type,B cells memory,Q189118
-Q66568528,True,plasma cell,50.0,[],Plasma cells,
-Q250694,True,plasma cell,48.0,[],Plasma cells,
-Q71262051,True,adrenergic neurons,50.0,[],Adrenergic neurons,
-Q568290,True,enterochromaffin cell,50.0,[],Enterochromaffin cells,
-Q7840744,True,Trichocyte,47.5,[],Trichocytes,
-Q7840748,True,Trichocyte,47.5,[],Trichocytes,
-Q3272785,True,Parathyroid chief cell,49.0,[],Parathyroid chief cells,
-Q7116107,True,oxyphil cells,50.0,[],Oxyphil cells,
-Q3326185,True,Oxyphil cell,48.0,[],Oxyphil cells,
-Q66592566,True,Oxyphil cell,48.0,[],Oxyphil cells,
-Q70204009,True,luteal cells,50.0,[],Luteal cells,
-Q12167532,True,cholinergic neurons,50.0,[],Cholinergic neurons,
-Q1151519,True,embryonic stem cell,48.5,[],Embryonic stem cells,
-Q514525,True,hematopoietic stem cells,50.0,[],Hematopoietic stem cells,
-Q11394395,True,endothelial cells,50.0,[],Endothelial cells,
-Q821701,True,megakaryocyte,50.0,[],Megakaryocytes,
-Q6959842,True,Naive T cell,100.0,T-lymphocytes,T cell naive,Q193529
-Q101026,True,platelets,100.0,cell,Platelets,Q7868
-Q632518,True,T helper cell,100.0,cell,T helper cells,Q7868
-Q927337,True,retinal ganglion cell,100.0,neuron,Retinal ganglion cells,Q43054
-Q2116409,True,pyramidal cell,100.0,cell type,Pyramidal cells,Q189118
-Q70220966,True,serotonergic neurons,50.0,[],Serotonergic neurons,
-Q513486,True,Kupffer cell,50.0,[],Kupffer cells,
-Q66559361,True,microfold cell,48.5,[],Microfold cells,
-Q775480,True,chondrocyte,50.0,[],Chondrocytes,
-Q66508979,True,smooth muscle cell,50.0,[],Smooth muscle cells,
-Q735343,True,Müller glia,100.0,glia,Müller cells,Q177105
-Q2621407,True,delta cell,47.5,[],Delta cells,
-Q1997459,True,hepatic stellate cells,50.0,[],Hepatic stellate cells,
-Q1340349,True,Enterocyte,50.0,[],Enterocytes,
-Q5380231,True,enteroendocrine cell,100.0,cell,Enteroendocrine cells,Q7868
-Q5476344,True,Foveolar cell,48.0,[],Foveolar cells,
-Q1513812,True,Pneumocyte,47.5,[],Pneumocytes,
-Q4381253,True,stromal cells,50.0,[],Stromal cells,
-Q500446,True,pericyte,50.0,[],Pericytes,
-Q5311600,True,Ductal cells,50.0,[],Ductal cells,
-Q813622,True,goblet cell,48.0,[],Goblet cells,
-Q1570264,True,Merkel cell,50.0,[],Merkel cells,
-Q3486515,True,spermatocyte,50.0,[],Spermatocytes,
-Q748049,True,photoreceptor cell,50.0,[],Photoreceptor cells,
-Q448687,True,alveolar macrophage,50.0,[],Alveolar macrophages,
-Q70219504,True,acinar cells,50.0,[],Acinar cells,
-Q2595765,True,gastric chief cell,50.0,[],Gastric chief cells,
-Q66563539,True,olfactory epithelial cell,49.0,[],Olfactory epithelial cells,
-Q48997538,True,Peritubular myoid cell,49.0,[],Peritubular myoid cells,
-Q5249153,True,Decidual cells,50.0,[],Decidual cells,
-Q15220362,True,myeloid-derived suppressor cells,50.0,[],Myeloid-derived suppressor cells,
-Q1164962,True,pancreatic stellate cells,50.0,[],Pancreatic stellate cells,
-Q66590166,True,erythroblasts,50.0,[],Erythroblasts,
-Q4532277,True,Epsilon cell,48.0,[],Epsilon cells,
-Q7069936,True,Nuocyte,46.5,[],Nuocytes,
-Q224930,True,natural killer T cell,50.0,[],Natural killer T cells,
-Q913236,True,osteocyte,50.0,[],Osteocytes,
-Q66568528,True,plasma cell,50.0,[],Plasma cells,
-Q250694,True,plasma cell,48.0,[],Plasma cells,
-Q71262051,True,adrenergic neurons,50.0,[],Adrenergic neurons,
-Q568290,True,enterochromaffin cell,50.0,[],Enterochromaffin cells,
-Q7840744,True,Trichocyte,47.5,[],Trichocytes,
-Q7840748,True,Trichocyte,47.5,[],Trichocytes,
-Q3272785,True,Parathyroid chief cell,49.0,[],Parathyroid chief cells,
-Q7116107,True,oxyphil cells,50.0,[],Oxyphil cells,
-Q3326185,True,Oxyphil cell,48.0,[],Oxyphil cells,
-Q66592566,True,Oxyphil cell,48.0,[],Oxyphil cells,
-Q70204009,True,luteal cells,50.0,[],Luteal cells,
+id,match,name,score,type,type_id,input_value
+Q1570272,True,Purkinje cell,100.0,cell type,Q189118,Purkinje neurons
+Q465621,True,Schwann cell,100.0,cell type,Q189118,Schwann cells
+Q916698,True,oligodendrocyte,100.0,cell type,Q189118,Oligodendrocytes
+Q1622829,True,microglia,100.0,cell type,Q189118,Microglia
+Q502961,True,astrocyte,100.0,cell type,Q189118,Astrocytes
+Q177105,True,glia,100.0,cell type,Q189118,Glia cells
+Q43054,True,neuron,100.0,cell type,Q189118,Neurons
+Q12167532,True,cholinergic neurons,100.0,cell type,Q189118,Cholinergic neurons
+Q101003994,True,Immature neuron,100.0,cell type,Q189118,Immature neurons
+Q101004030,True,Cortical interneurons,100.0,cell type,Q189118,Cortical interneurons
+Q101001053,True,Astrocyte progenitor cell,100.0,cell type,Q189118,Astrocyte progenitor cells
+Q7086819,True,Oligodendrocyte progenitor,100.0,cell type,Q189118,Oligodendrocyte progenitor cells
+Q107988,True,Basophil,100.0,cell type,Q189118,Basophils
+Q188930,True,B-cells,100.0,cell type,Q189118,B cells
+Q1151519,True,embryonic stem cell,97.0,cell type,Q189118,Embryonic stem cells
+Q107238,True,eosinophils,100.0,cell type,Q189118,Eosinophils
+Q514525,True,hematopoietic stem cells,100.0,cell type,Q189118,Hematopoietic stem cells
+Q101062469,True,Proximal tubule cell,100.0,cell type,Q189118,Proximal tubule cells
+Q11394395,True,endothelial cells,100.0,cell type,Q189118,Endothelial cells
+Q463418,True,fibroblast,100.0,cell type,Q189118,Fibroblasts
+Q184204,True,macrophage,100.0,cell type,Q189118,Macrophages
+Q191989,True,mast cells,100.0,cell type,Q189118,Mast cells
+Q101062473,True,Human myeloid-derived suppressor cell,100.0,cell type,Q189118,Human myeloid-derived suppressor cells
+Q101404944,True,human myeloid-derived suppressor cell,100.0,cell type,Q189118,Human myeloid-derived suppressor cells
+Q101062478,True,Mouse myeloid-derived suppressor cell,100.0,cell type,Q189118,Mouse myeloid-derived suppressor cells
+Q104416211,True,mouse myeloid-derived suppressor cell,100.0,cell type,Q189118,Mouse myeloid-derived suppressor cells
+Q821701,True,megakaryocyte,100.0,cell type,Q189118,Megakaryocytes
+Q1922379,True,mesenchymal stem cells,100.0,cell type,Q189118,Mesenchymal stem cells
+Q101062481,True,Myeloid dendritic cell,100.0,cell type,Q189118,Myeloid dendritic cells
+Q6959842,True,Naive T cell,100.0,cell type,Q189118,T cell naive
+Q188417,True,neutrophil,100.0,cell type,Q189118,Neutrophils
+Q101062485,True,Plasmacytoid dendritic cell,100.0,cell type,Q189118,Plasmacytoid dendritic cells
+Q101026,True,platelets,100.0,cell type,Q189118,Platelets
+Q5464650,True,Follicular B Helper T cells,100.0,cell type,Q189118,T follicular helper cells
+Q632518,True,T helper cell,100.0,cell type,Q189118,T helper cells
+Q1550619,True,regulatory T cell,100.0,cell type,Q189118,T regulatory cells
+Q927337,True,retinal ganglion cell,100.0,cell type,Q189118,Retinal ganglion cells
+Q2116409,True,pyramidal cell,100.0,cell type,Q189118,Pyramidal cells
+Q506253,True,dendritic cell,100.0,cell type,Q189118,Dendritic cells
+Q101062489,True,Osteoclasts and osteoblast,100.0,cell type,Q189118,Osteoclasts and osteoblasts
+Q70220966,True,serotonergic neurons,100.0,cell type,Q189118,Serotonergic neurons
+Q66591221,True,GABAergic neuron,100.0,cell type,Q189118,GABAergic neurons
+Q101062495,True,Glutaminergic neuron,100.0,cell type,Q189118,Glutaminergic neurons
+Q513486,True,Kupffer cell,100.0,cell type,Q189118,Kupffer cells
+Q101062499,True,Meningeal cell,100.0,cell type,Q189118,Meningeal cells
+Q101062502,True,Erythroid-like and erythroid precursor cell,100.0,cell type,Q189118,Erythroid-like and erythroid precursor cells
+Q101405087,True,human beta cell,100.0,cell type,Q189118,Beta cells
+Q107244,True,Monocyte,100.0,cell type,Q189118,Monocytes
+Q1815955,True,microfold cell,100.0,cell type,Q189118,Microfold cells
+Q66559361,True,microfold cell,97.0,cell type,Q189118,Microfold cells
+Q101001061,True,Satellite cell (muscle),100.0,cell type,Q189118,Satellite cells
+Q775480,True,chondrocyte,100.0,cell type,Q189118,Chondrocytes
+Q66508979,True,smooth muscle cell,100.0,cell type,Q189118,Smooth muscle cells
+Q101062506,True,Crypt base columnar cell,100.0,cell type,Q189118,Crypt base columnar cells
+Q1473931,True,keratinocyte,100.0,cell type,Q189118,Keratinocytes
+Q2304808,True,memory T cell,100.0,cell type,Q189118,T memory cells
+Q827450,True,hepatocyte,100.0,cell type,Q189118,Hepatocytes
+Q1956694,True,myoblast,94.0,cell type,Q189118,Myoblasts
+Q138912,True,podocyte,100.0,cell type,Q189118,Podocytes
+Q2995031,True,alpha cell,95.0,cell type,Q189118,Alpha cells
+Q247101,True,melanocyte,100.0,cell type,Q189118,Melanocytes
+Q735343,True,Müller glia,100.0,cell type,Q189118,Müller cells
+Q193529,True,T-lymphocytes,100.0,cell type,Q189118,T cells
+Q2596226,True,juxtaglomerular cell,100.0,cell type,Q189118,Juxtaglomerular cells
+Q428914,True,myocyte,96.0,cell type,Q189118,Muscle cells
+Q101062509,True,Urothelial cell,100.0,cell type,Q189118,Urothelial cells
+Q2621407,True,delta cell,95.0,cell type,Q189118,Delta cells
+Q1997459,True,hepatic stellate cells,100.0,cell type,Q189118,Hepatic stellate cells
+Q1340349,True,enterocyte,100.0,cell type,Q189118,Enterocytes
+Q2004084,True,Paneth cell,100.0,gland,Q9647,Paneth cells
+Q5380231,True,enteroendocrine cell,100.0,cell type,Q189118,Enteroendocrine cells
+Q66592466,True,Foveolar cell of stomach,100.0,cell type,Q189118,Foveolar cells
+Q1513812,True,Pneumocyte,95.0,cell type,Q189118,Pneumocytes
+Q101062519,True,Oval cell,100.0,cell type,Q189118,Oval cells
+Q101062522,True,Loop of Henle cell,100.0,cell type,Q189118,Loop of Henle cells
+Q66592471,True,Intercalated cell of collecting duct of renal tubule,100.0,cell type,Q189118,Intercalated cells
+Q3331086,True,mesangial cell,100.0,cell type,Q189118,Mesangial cells
+Q101062526,True,Principal cell,100.0,cell type,Q189118,Principal cells
+Q101062528,True,Kidney progenitor cell,100.0,cell type,Q189118,Kidney progenitor cells
+Q281579,True,germ cell,100.0,cell type,Q189118,Germ cells
+Q195614,True,Sertoli cell,96.0,cell type,Q189118,Sertoli cells
+Q70203021,True,cumulus cells,100.0,cell type,Q189118,Granulosa cells
+Q636846,True,Leydig cell,100.0,cell type,Q189118,Leydig cells
+Q4381253,True,stromal cells,100.0,cell type,Q189118,Stromal cells
+Q357519,True,adipocyte,100.0,cell type,Q189118,Adipocytes
+Q101062531,True,Adipocyte progenitor cell,100.0,cell type,Q189118,Adipocyte progenitor cells
+Q101062534,True,Osteoclast precursor cell,100.0,cell type,Q189118,Osteoclast precursor cells
+Q3269473,True,Naive B cell,96.0,cell type,Q189118,B cells naive
+Q376266,True,cytotoxic T cell,97.0,cell type,Q189118,T cytotoxic cells
+Q500446,True,pericytes,100.0,cell type,Q189118,Pericytes
+Q5311600,True,Ductal cells,100.0,cell type,Q189118,Ductal cells
+Q5104283,True,Cholangiocyte,100.0,cell type,Q189118,Cholangiocytes
+Q15176415,True,epithelial cell,100.0,cell type,Q189118,Epithelial cells
+Q101003165,True,Multinuclear myocyte,98.0,cell type,Q189118,Multinuclear myocytes
+Q101062540,True,Mononuclear myocyte,100.0,cell type,Q189118,Mononuclear myocytes
+Q101062544,True,Vascular smooth muscle cell,100.0,cell type,Q189118,Vascular smooth muscle cells
+Q101062548,True,Airway smooth muscle cell,100.0,cell type,Q189118,Airway smooth muscle cells
+Q101062553,True,Pulmonary vascular smooth muscle cell,100.0,cell type,Q189118,Pulmonary vascular smooth muscle cells
+Q101062559,True,Purkinje fiber cell,100.0,cell type,Q189118,Purkinje fiber cells
+Q101003168,True,His bundle cell,97.0,cell type,Q189118,His bundle cells
+Q101062563,True,Bone marrow stromal cell,100.0,cell type,Q189118,Bone marrow stromal cells
+Q813622,True,goblet cell,96.0,cell type,Q189118,Goblet cells
+Q101062568,True,Hepatoblast,100.0,cell type,Q189118,Hepatoblasts
+Q1500732,True,interneuron,100.0,cell type,Q189118,Interneurons
+Q1623344,True,Langerhans cell,100.0,cell type,Q189118,Langerhans cells
+Q1570264,True,Merkel cell,100.0,cell type,Q189118,Merkel cells
+Q1467330,True,myofibroblast,100.0,cell type,Q189118,Myofibroblasts
+Q74560,True,spermatozoon,100.0,cell type,Q189118,Spermatozoa
+Q101062572,True,Mammary epithelial cell,100.0,cell type,Q189118,Mammary epithelial cells
+Q101003191,True,spermatocyte and spermatozoa,100.0,cell type,Q189118,Spermatocyte and Spermatozoa
+Q3486515,True,spermatocyte,100.0,cell type,Q189118,Spermatocytes
+Q223143,True,granulocyte,100.0,cell type,Q189118,Granulocytes
+Q101062576,True,Endothelial cells (brain),100.0,cell type,Q189118,Endothelial cells (brain)
+Q66572893,True,retinal pigment epithelial cell,100.0,cell type,Q189118,Retinal epithelial cells
+Q101062580,True,Retinal progenitor cell,100.0,cell type,Q189118,Retinal progenitor cells
+Q748049,True,photoreceptor cell,100.0,cell type,Q189118,Photoreceptor cells
+Q101062584,True,Peri-islet Schwann cell,100.0,cell type,Q189118,Peri-islet Schwann cells
+Q101003254,True,Anterior pituitary gland cell,98.0,cell type,Q189118,Anterior pituitary gland cells
+Q101062590,True,Trigeminal neuron,100.0,cell type,Q189118,Trigeminal neurons
+Q101003314,True,theca cell,100.0,cell type,Q189118,Theca cells
+Q101062592,True,Endothelial cell (lungs),100.0,cell type,Q189118,Endothelial cells (lungs)
+Q101062595,True,Fibroblast (lungs),100.0,cell type,Q189118,Fibroblasts (lungs)
+Q448687,True,alveolar macrophage,100.0,cell type,Q189118,Alveolar macrophages
+Q101062600,True,Airway goblet cell,100.0,cell type,Q189118,Airway goblet cells
+Q101062602,True,Fibroblast (pancreas),100.0,cell type,Q189118,Fibroblasts (pancreas)
+Q70219504,True,acinar cells,100.0,cell type,Q189118,Acinar cells
+Q101062605,True,Endothelial cell (mammary),100.0,cell type,Q189118,Endothelial cells (mammary)
+Q101062608,True,Immature neuronal cell,100.0,cell type,Q189118,Immature neuronal cells
+Q101062611,True,Fibroblast (Uterus),100.0,cell type,Q189118,Fibroblasts (Uterus)
+Q101062615,True,Endothelial cell (heart),100.0,cell type,Q189118,Endothelial cells (heart)
+Q101062619,True,Luminal epithelial cell,100.0,cell type,Q189118,Luminal epithelial cells
+Q101062623,True,Endothelial cell (aorta),100.0,cell type,Q189118,Endothelial cells (aorta)
+Q101062626,True,Enteric neuron,100.0,cell type,Q189118,Enteric neurons
+Q2595765,True,gastric chief cell,100.0,cell type,Q189118,Gastric chief cells
+Q101003525,True,Epiblast cell,100.0,cell type,Q189118,Epiblast cells
+Q101062629,True,Red pulp macrophage,100.0,cell type,Q189118,Red pulp macrophages
+Q101062633,True,Fibroblast (spinal cord),100.0,cell type,Q189118,Fibroblasts (spinal cord)
+Q101062635,True,Fibroblast (brain),100.0,cell type,Q189118,Fibroblasts (brain)
+Q101062641,True,Fibroblast (bone),100.0,cell type,Q189118,Fibroblasts (bone)
+Q101062644,True,Fibroblast (kidney),100.0,cell type,Q189118,Fibroblasts (kidney)
+Q101062650,True,Small luteal cell,100.0,cell type,Q189118,Small luteal cells
+Q101062654,True,Fibroblast (lymph nodes),100.0,cell type,Q189118,Fibroblasts (lymph nodes)
+Q101062656,True,Fibroblast (colon),100.0,cell type,Q189118,Fibroblasts (colon)
+Q66563539,True,olfactory epithelial cell,98.0,cell type,Q189118,Olfactory epithelial cells
+Q48997538,True,Peritubular myoid cell,98.0,cell type,Q189118,Peritubular myoid cells
+Q101062659,True,Salivary mucous cell,100.0,cell type,Q189118,Salivary mucous cells
+Q5249153,True,Decidual cells,100.0,cell type,Q189118,Decidual cells
+Q101062667,True,Ionocyte,100.0,cell type,Q189118,Ionocytes
+Q101062671,True,Ciliated cell,100.0,cell type,Q189118,Ciliated cells
+Q15220362,True,myeloid-derived suppressor cells,100.0,cell type,Q189118,Myeloid-derived suppressor cells
+Q101062673,True,Enteric glia cell,100.0,cell type,Q189118,Enteric glia cells
+Q1164962,True,pancreatic stellate cells,100.0,cell type,Q189118,Pancreatic stellate cells
+Q66590166,True,erythroblasts,100.0,cell type,Q189118,Erythroblasts
+Q101062678,True,Crypt cell,100.0,cell type,Q189118,Crypt cells
+Q101062683,True,Airway epithelial cell,100.0,cell type,Q189118,Airway epithelial cells
+Q4532277,True,Epsilon cell,96.0,cell type,Q189118,Epsilon cells
+Q7069936,True,Nuocyte,93.0,cell type,Q189118,Nuocytes
+Q224930,True,natural killer T cell,100.0,cell type,Q189118,Natural killer T cells
+Q828410,True,osteoclast,100.0,cell type,Q189118,Osteoclasts
+Q917177,True,osteoblast,100.0,cell type,Q189118,Osteoblasts
+Q913236,True,osteocyte,100.0,cell type,Q189118,Osteocytes
+Q1195394,True,memory B cell,96.0,cell type,Q189118,B cells memory
+Q66568528,True,plasma cell,100.0,cell type,Q189118,Plasma cells
+Q250694,True,plasma cell,96.0,cell type,Q189118,Plasma cells
+Q101062687,True,Noradrenergic neuron,100.0,cell type,Q189118,Noradrenergic neurons
+Q71262051,True,adrenergic neurons,100.0,cell type,Q189118,Adrenergic neurons
+Q101062691,True,Glycinergic neuron,100.0,cell type,Q189118,Glycinergic neurons
+Q568290,True,enterochromaffin cell,100.0,cell type,Q189118,Enterochromaffin cells
+Q3077796,True,Gamma delta T cell,100.0,cell type,Q189118,Gamma delta T cells
+Q7840744,True,Trichocyte,95.0,cell type,Q189118,Trichocytes
+Q101062695,True,Sebocyte,100.0,cell type,Q189118,Sebocytes
+Q3272785,True,Parathyroid chief cell,98.0,cell type,Q189118,Parathyroid chief cells
+Q7116107,True,oxyphil cells,100.0,cell type,Q189118,Oxyphil cells
+Q919689,True,medullary chromaffin cell,97.0,cell type,Q189118,Chromaffin cells
+Q101062701,True,Trophoblast stem cell,100.0,cell type,Q189118,Trophoblast stem cells
+Q101062703,True,Trophoblast progenitor cell,100.0,cell type,Q189118,Trophoblast progenitor cells
+Q70204009,True,luteal cells,100.0,cell type,Q189118,Luteal cells
+Q5476344,True,Foveolar cell,48.0,[],,Foveolar cells
+Q7840748,True,Trichocyte,47.5,[],,Trichocytes
+Q3326185,True,Oxyphil cell,48.0,[],,Oxyphil cells
+Q66592566,True,Oxyphil cell,48.0,[],,Oxyphil cells
