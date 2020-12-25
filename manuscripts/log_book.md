@@ -231,3 +231,10 @@ These types are __absent__ in the current .ttl and should be added later.
 
 * I added mouse-specific cell types to Wikidata ([Batch #46771 "mouse cell types"](https://quickstatements.toolforge.org/#/batch/46771)))
 * I reconciled the mouse genes to Wikidata.
+
+### 25/12
+
+* Re-running initial reconciliation after most improvements have been made.
+    * New graphs and data tables were generated.
+    * These were made in a new branch, as to avoid overwriting original data 
+    and not having to rely travelling back in history to see the original dataset.
