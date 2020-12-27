@@ -22,7 +22,7 @@ Research-related directories:
     
 
 * **improvements**: One-use code, creating Wikidata items from PanglaoDB's metadata and improving existing items. Subdiretories:
-    * **go2cell**: Prototype of a shiny app to match go terms to cell types. As of 14 november 2020, it is running [here](https://lubianat.shinyapps.io/go2cell/).
+    * **go2cell**: Prototype of a shiny app to match go terms to cell types. As of 27 of December, 2020, it is running [here](https://jvcavv.shinyapps.io/go2cell).
 
 Software-related directories, they are structured similarly to a Python package:
 
