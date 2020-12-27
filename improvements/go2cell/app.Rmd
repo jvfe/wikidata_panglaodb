@@ -1,0 +1,124 @@
+---
+title: "Link Gene Ontologies to Cell Types"
+runtime: shiny
+output: 
+  flexdashboard::flex_dashboard:
+    theme: yeti
+    social: menu
+    source_code: embed
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(shiny)
+library(WikidataQueryServiceR)
+library(readr)
+library(stringr)
+library(dplyr)
+library(go2cell)
+library(DT)
+
+# https://w.wiki/mYb
+geneontology_df <- read_csv2("go_df.csv")
+
+cell_type_df <- query_wikidata("SELECT ?cell_type ?cell_typeLabel WHERE {
+  ?cell_type wdt:P31 wd:Q189118.
+  ?cell_type wdt:P703 wd:Q15978631.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". }
+}")
+
+
+processes <- unique(geneontology_df$processLabel)
+celltype_choices <- unique(cell_type_df$cell_typeLabel)
+```
+
+go2cell
+===================================== 
+
+Column {.sidebar}
+-----------------------------------------------------------------------
+
+##### Gene Ontology -> Cell types
+
+```{r}
+selectizeInput("goterm",
+  "GO Term",
+  selected = NULL,
+  choices = processes
+)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+```{r}
+go2cell_df <- eventReactive(
+  {
+    input$goterm
+  },
+  {
+    go_id <- geneontology_df %>%
+      filter(processLabel == input$goterm) %>%
+      select(goterm)
+
+    go2cell_df <- go2cell(go_id)
+    return(go2cell_df)
+  }
+)
+
+renderDataTable(datatable(go2cell_df(),
+  extensions = "Buttons",
+  options = list(
+    searchHighlight = TRUE,
+    dom = "Bfrtip",
+    buttons = c("copy", "csv")
+  ),
+  filter = "bottom"
+))
+```
+
+cell2go
+===================================== 
+
+Column {.sidebar}
+-----------------------------------------------------------------------
+##### Cell Type -> Gene Ontologies
+```{r}
+selectizeInput("celltype",
+  "Cell Type",
+  selected = NULL,
+  choices = celltype_choices
+  )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+```{r}
+cell2go_df <- eventReactive(
+  {
+    input$celltype
+  },
+  {
+    ctp_id <- cell_type_df %>%
+      filter(cell_typeLabel == input$celltype) %>%
+      pull(cell_type) %>%
+      str_remove_all("http://www.wikidata.org/entity/")
+
+    cell2go_df <- cell2go(ctp_id)
+    return(cell2go_df)
+  }
+)
+
+renderDataTable(datatable(cell2go_df(),
+  extensions = "Buttons",
+  options = list(
+    searchHighlight = TRUE,
+    dom = "Bfrtip",
+    buttons = c("copy", "csv")
+  ),
+  filter = "bottom"
+))
+```
