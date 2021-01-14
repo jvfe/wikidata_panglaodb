@@ -2,6 +2,7 @@
 [![license](https://img.shields.io/badge/license-BSD%202--Clause-green)](https://github.com/jvfe/wikidata_panglaodb/blob/master/LICENSE)
 [![pytest status](https://github.com/jvfe/wikidata_panglaodb/workflows/tests/badge.svg)](https://github.com/jvfe/wikidata_panglaodb/actions)
 [![docs](https://github.com/jvfe/wikidata_panglaodb/workflows/docs/badge.svg)](https://jvfe.github.io/wikidata_panglaodb/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4438615.svg)](https://doi.org/10.5281/zenodo.4438615)
 <!-- badges end -->
 
 # Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB
