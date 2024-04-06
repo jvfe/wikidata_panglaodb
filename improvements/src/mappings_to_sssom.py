@@ -2,7 +2,7 @@ from pathlib import Path
 
 HERE = Path(__file__).parent.resolve()
 DATA = HERE.parent.joinpath("data").resolve()
-RESULTS = HERE.parent / "improvements" / "results"
+RESULTS = HERE.parent / "results"
 
 mappings = RESULTS.joinpath(
     "cell_type_reference_from_panglao_to_wikidata_31_10_2020.csv"
@@ -101,12 +101,28 @@ print(df.head())
 sssom = RESULTS / "cell_type_reference_from_panglao_to_wikidata_31_10_2020.sssom.tsv"
 
 sssom_df = pd.DataFrame()
-sssom_df["subject_id"] = df["panglao"]
+
+
+# Encode as URLs with prefix https://panglaodb.se/markers.html?cell_type=:" the panglao column
+# In the end, links should look like https://panglaodb.se/markers.html?cell_type=%27Hematopoietic%20stem%20cells%27
+import urllib.parse
+
+sssom_df["subject_id"] = (
+    "https://panglaodb.se/markers.html?cell_type=%27"
+    + df["panglao"].map(urllib.parse.quote)
+    + "%27"
+)
+
+
 sssom_df["subject_label"] = df["panglao"]
 sssom_df["predicate_id"] = "skos:exactMatch"
 sssom_df["object_id"] = [
     "wikidata:" + str(a) if not pd.isna(a) else None for a in df["wikidata"]
 ]
+
+
+# drop rows where the wikidata value is "EXCLUDE"
+sssom_df = sssom_df[sssom_df["object_id"] != "wikidata:EXCLUDE"]
 
 # Now I'll retrieve the labels from Wikidata
 from wdcuration import lookup_labels
@@ -125,6 +141,7 @@ sssom_df["mapping_date"] = "2020-10-31"
 # Add the source URLs, I don't think PanglaoDB has an URI
 sssom_df["subject_source"] = "https://panglaodb.se/"
 sssom_df["object_source"] = "https://www.wikidata.org"
+
 
 sssom_df.to_csv(sssom, sep="\t", index=False)
 print(sssom_df.head())
