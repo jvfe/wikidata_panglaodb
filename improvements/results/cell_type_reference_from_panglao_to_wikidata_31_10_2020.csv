@@ -119,7 +119,7 @@
 117,Pulmonary alveolar type I cells,Q3296912
 118,Endothelial cells (blood brain barrier),Q101062538
 119,Pancreatic progenitor cells,Q25325366
-120,Undefined placental cells,
+120,Undefined placental cells,EXCLUDE
 121,Alveolar macrophages,Q448687
 122,Airway epithelial cells,Q101062683
 123,Ciliated cells,Q101062671
