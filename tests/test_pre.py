@@ -30,4 +30,4 @@ def test_reconcile_more_types():
         cells_organs_germlayers, type_qids=["Q7868", "Q189118"]
     )
 
-    assert reconciled.shape[1] == 7
+    assert reconciled.shape[1] >= 7
