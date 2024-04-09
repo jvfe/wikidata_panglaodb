@@ -17,6 +17,7 @@ library(WikidataQueryServiceR)
 library(readr)
 library(stringr)
 library(dplyr)
+remotes::install_github("jvfe/go2cell")
 library(go2cell)
 library(DT)
 
@@ -71,9 +72,13 @@ go2cell_df <- eventReactive(
 renderDataTable(datatable(go2cell_df(),
   extensions = "Buttons",
   options = list(
+    lengthMenu = c(5, 10, 25, 50, 100),
     searchHighlight = TRUE,
     dom = "Bfrtip",
-    buttons = c("copy", "csv")
+    buttons = c("copy", "csv"),
+    pageLength = 10,
+    scrollY = 300,
+    scroller = TRUE
   ),
   filter = "bottom"
 ))
@@ -115,9 +120,13 @@ cell2go_df <- eventReactive(
 renderDataTable(datatable(cell2go_df(),
   extensions = "Buttons",
   options = list(
+    lengthMenu = c(5, 10, 25, 50, 100),
     searchHighlight = TRUE,
     dom = "Bfrtip",
-    buttons = c("copy", "csv")
+    buttons = c("copy", "csv"),
+    pageLength = 10,
+    scrollY = 300,
+    scroller = TRUE
   ),
   filter = "bottom"
 ))

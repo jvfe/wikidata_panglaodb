@@ -1,0 +1,10 @@
+name: go2cell
+title:
+username: jvcavv
+account: jvcavv
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11707099
+bundleId:
+url: https://jvcavv.shinyapps.io/go2cell/
+version: 1
